@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Stick&display=swap');
 
 /* General Styles */
+body {
+    margin: 0%;
+}
+
 h1 {
     text-align: center;
     font-family: Alegreya Sans, sans-serif;
+    color: azure;
 }
 
 #navbar li {
@@ -12,3 +17,9 @@ h1 {
 }
 
 /* Index Page */
+#hero {
+    position: absolute;
+    background: url("../images/three-beekeepers.jpg") no-repeat center center/cover;
+    width: 100%;
+    min-height: 33vh;
+}
