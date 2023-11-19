@@ -1,0 +1,14 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Stick&display=swap');
+
+/* General Styles */
+h1 {
+    text-align: center;
+    font-family: Alegreya Sans, sans-serif;
+}
+
+#navbar li {
+    list-style-type: none;
+}
+
+/* Index Page */

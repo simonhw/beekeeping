@@ -37,3 +37,8 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+
+Image Credits:
+Beehive in a garden - https://www.pexels.com/photo/a-beehive-in-the-garden-18014793/ - Roman Biernacki
+Three beekeepers - https://www.pexels.com/photo/three-people-in-white-suit-2260935/ - Arthur Brognoli
