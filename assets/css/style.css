@@ -28,6 +28,10 @@ header a, i {
     text-transform: uppercase;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 h1, h2 {
     text-align: center;
     margin: 0;
@@ -73,12 +77,18 @@ hr {
 
 .invite {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .invitation-images {
-    width:50%;
+    width:75%;
     border-radius: 2%;
 
+}
+
+span {  
+    text-emphasis: strong;
 }
 
 .paragraph-images{
