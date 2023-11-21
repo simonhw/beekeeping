@@ -71,6 +71,11 @@ main section {
     margin: 1rem;
 }
 
+.about-images {
+    border-radius: 2%;
+    width: 100%;
+}
+
 hr {
     width: 90%;
 }
@@ -114,3 +119,8 @@ footer i {
 }
 
 /* Media query for tablets and larger: >= 768px */
+@media screen and (min-width: 768px) {
+    .about-images {
+        width: 50%;
+    }
+}
