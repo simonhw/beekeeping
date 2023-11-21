@@ -7,19 +7,25 @@ body {
     font-family: Alegreya Sans, sans-serif;
 }
 
-i {
+header a, i {
     text-decoration: none;
 }
 
-#hero div {
+#header-dark {
     /* Push h1 content down */
-    padding: 20px 0 20px 0;
+    padding: 20px 0 0 0;
     /* Make h1 and nav bar readable against bkg image */
     background: rgba(0, 0, 0, 0.6);
+
 }
 
-#hero nav {
-    display: none;
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    /* Solves issue of nav bar being off-centre */
+    padding: 0px 0px 16px 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
 }
 
 h1, h2 {
@@ -27,7 +33,7 @@ h1, h2 {
     margin: 0;
 }
 
-h1 {
+header h1, header a {
     color: azure;
 }
 
@@ -42,11 +48,6 @@ p {
 
 header {
     position: fixed;
-}
-
-nav {
-    display: flex;
-    flex-direction: column;
 }
 
 li {
@@ -86,3 +87,5 @@ footer > ul {
 footer i {
     color: azure;
 }
+
+/* Media query for tablets and larger: >= 768px */
