@@ -67,8 +67,23 @@ main section {
     margin: 1rem;
 }
 
+hr {
+    width: 90%;
+}
+
+.invite {
+    display: flex;
+}
+
+.invitation-images {
+    width:50%;
+    border-radius: 2%;
+
+}
+
 .paragraph-images{
     border-radius: 2%;
+    width: 100%;
 }
 
 /* Footer Style */
