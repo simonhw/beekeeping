@@ -92,10 +92,6 @@ hr {
 
 }
 
-span {  
-    text-emphasis: strong;
-}
-
 .paragraph-images{
     border-radius: 2%;
     width: 100%;
@@ -124,7 +120,7 @@ footer i {
         width: 50%;
     }
 
-    #about-us {
+    #about-us div{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -145,9 +141,36 @@ footer i {
     }
 
     .invitation-images {
-        width: 75%;
+        width: 80%;
         padding: 15px;
         border-radius: 10%;
     }
 
+}
+
+/* Media query for Laptops and larger: >= 1200px */
+@media screen and (min-width: 1200px) {
+    main section {
+        margin: 1rem 2rem;
+    }
+
+    #about-us div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    #about-us p {
+        flex-grow: 2;
+    }
+
+    #about-us img {
+        width: 40%;
+        margin: 1rem;
+    }
+
+    .mobile {
+        display: none;
+    }
 }
