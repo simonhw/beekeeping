@@ -123,4 +123,31 @@ footer i {
     .about-images {
         width: 50%;
     }
+
+    #about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #short-descriptions {
+        display: flex;
+    }
+
+    .invite {
+        align-items: center;
+        width: 50vw;
+        margin: 0px 15px;
+    }
+
+    .invite > a {
+        text-align: center;
+    }
+
+    .invitation-images {
+        width: 75%;
+        padding: 15px;
+        border-radius: 10%;
+    }
+
 }
