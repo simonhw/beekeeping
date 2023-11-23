@@ -1,6 +1,12 @@
 /* Import Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Stick&display=swap');
 
+/* Wildcard styles */
+* {
+    margin: 0;
+}
+
+
 /* General Styles */
 body {
     margin: 0%;
@@ -15,7 +21,8 @@ header a, i {
     /* Push h1 content down */
     padding: 20px 0 0 0;
     /* Make h1 and nav bar readable against bkg image */
-    background: rgba(0, 0, 0, 0.6);
+     background: linear-gradient(180deg, black, transparent);
+     max-height: 25vh;
 
 }
 
@@ -23,16 +30,24 @@ header a, i {
     display: flex;
     justify-content: space-evenly;
     /* Solves issue of nav bar being off-centre */
-    padding: 0px 0px 16px 0px;
-    margin-bottom: 0px;
+    padding: 20px;
+    margin: 0px 0px 10px 0px;
     text-transform: uppercase;
+    font-size: 18px;
 }
 
 .active {
     text-decoration: underline;
 }
 
-h1, h2 {
+h1 {
+    text-align: center;
+    margin: 25px 0px;
+    padding: 25px 0px;
+    text-shadow: -6px 5px 4px black;
+}
+
+h2 {
     text-align: center;
     margin: 0;
 }
@@ -116,6 +131,10 @@ footer i {
 
 /* Media query for tablets and larger: >= 768px */
 @media screen and (min-width: 768px) {
+    #navbar {
+        font-size: 25px;
+    }
+
     .about-images {
         width: 50%;
     }
@@ -150,8 +169,13 @@ footer i {
 
 /* Media query for Laptops and larger: >= 1200px */
 @media screen and (min-width: 1200px) {
+    #hero {
+        background-position: center;
+    }
+    
+
     main section {
-        margin: 1rem 2rem;
+        margin: 1rem 10vw;
     }
 
     #about-us div{
