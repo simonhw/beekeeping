@@ -96,7 +96,7 @@ main section {
     align-items: center;
 }
 
-.about-images {
+.main-images {
     border-radius: 2%;
     width: 90%;
     margin: 10px;
@@ -131,6 +131,21 @@ hr {
 /*Courses Page */
 #courses > ul {
     margin: 1rem 0;
+}
+
+.sold {
+    color: crimson;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+    
+}
+
+.available {
+    color: forestgreen;
+    text-decoration: underline;
 }
 
 /* Footer Style */
