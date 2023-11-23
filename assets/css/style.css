@@ -57,7 +57,7 @@ header h1, header a {
 }
 
 h3 {
-    margin: 5px 0px;
+    margin: 5px 1rem;
 }
 
 p {
@@ -80,6 +80,10 @@ li {
     background: url("../images/beehive-fence.jpg") no-repeat center center/cover;
     width: 100%;
     min-height: 33vh;
+}
+
+main {
+    margin-top: 10px;
 }
 
 main section {
@@ -122,6 +126,11 @@ hr {
 .paragraph-images{
     border-radius: 2%;
     width: 100%;
+}
+
+/*Courses Page */
+#courses > ul {
+    margin: 1rem 0;
 }
 
 /* Footer Style */
