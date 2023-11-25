@@ -31,17 +31,50 @@
 
     <!-- Main Content-->
     <main>
-        <form action="https://formdump.codeinstitute.net/" method="POST">
-            <label for="name">Name: </label>
-            <input type="text" name="name" name="name">
-            <label for="email">Email: </label>
-            <input type="email" name="email" name="email">
-            <label for="phone">Phone Number: </label>
-            <input type="number" name="phone" name="phone">
-            <label for="age">Date of Birth: </label>
-            <input type="date" name="age" name="age">
-            <input type="submit">
-        </form>
+        <section id="registration">
+            <h2>Register for a Beekeeping Course</h2>
+            <p>Enter your details below to register interest for an upcoming beekeeping course. You will receive an acknowledgement email when your registration is processed. 
+            Payment will be taken over the phone on the same or next working day.</p>
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <fieldset class="details-boxes">
+                    <legend>Your Details</legend>
+                    <div>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" name="name" placeholder="*Required" required>
+                    </div>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" name="email" placeholder="*Required" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number: </label>
+                        <input type="number" name="phone" name="phone" placeholder="*Required" required>
+                    </div>
+                    <div>
+                        <label for="age">Date of Birth: </label>
+                        <input type="date" name="age" name="age" required>
+                    </div>
+                </fieldset>
+                <fieldset class="details-boxes" id="course-details">
+                    <legend>Select Course Type</legend>
+                    <div>
+                        <label for="course-level">Beginner Course - 20th Jan 2024</label>
+                        <input type='radio' name="course-level" id="beginner240120" value="beginner240120">
+                    </div>
+                    <div>
+                        <label for="course-level">Beginner Course - 2nd March 2024</label>
+                        <input type='radio' name="course-level" id="beginner240032" value="beginner240302">
+                    </div>   
+                    <div>    
+                        <label for="course-level">Intermediate Course - 13th July 2024</label>
+                        <input type='radio' name="course-level" id="intermediate240713" value="intermediate240713">
+                    </div>
+                </fieldset>
+                <div>
+                    <input id="register-button" type="submit" value="Register your interest.">
+                </div>
+            </form>
+        </section>
     </main>
 
     <!-- Footer Content -->

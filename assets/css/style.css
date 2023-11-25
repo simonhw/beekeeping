@@ -209,8 +209,39 @@ li a {
 }
 
 /* Form Page */
+#registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 form {
-    
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 2rem;
+}
+
+.details-boxes {
+    margin: 10px auto;
+}
+
+#course-details div {
+
+}
+
+form div {
+    margin: auto;
+}
+
+input {
+    width: 70vw;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+#register-button {
+    margin: 20px 10px;
+    height: 40px;    
 }
 
 /* Footer Style */
