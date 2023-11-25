@@ -166,9 +166,18 @@ li a {
 }
 
 /* Shop Page */
+#shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #shop div {
+    margin: 1rem 0rem;
+}
+
+.products {
     border: 1px solid black;
-    margin: 0.5rem 1rem;
     max-width: 300px;
     border-radius: 10px;
     /* Flexbox to push images right down to the bottom of each div */
@@ -177,7 +186,7 @@ li a {
 }
 
 #shop h3 {
-    width: fit-content;
+    text-align: center;
 }
 
 #shop li {
