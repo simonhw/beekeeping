@@ -148,6 +148,22 @@ li a {
     text-decoration: underline;
 }
 
+#sign-up-button {
+    text-align: center;
+    margin: 20px;
+}
+
+#sign-up-button p {
+    text-align: center;
+    font-weight: 600;
+    background-color: rgba(225,225,0,.8);
+    border: 1px solid black;
+    width: fit-content;
+    padding: 8px 15px;
+    border-radius: 10px 10px;
+    margin: 10px auto;
+}
+
 /* Footer Style */
 footer {
     background-color: rgba(0, 0, 0, 0.8);
