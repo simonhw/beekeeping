@@ -223,10 +223,11 @@ form {
 
 .details-boxes {
     margin: 10px auto;
+    width: 70vw;
 }
 
-#course-details div {
-
+.courses-radio input {
+    width: auto;
 }
 
 form div {

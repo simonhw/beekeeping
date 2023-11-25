@@ -52,22 +52,25 @@
                     </div>
                     <div>
                         <label for="age">Date of Birth: </label>
-                        <input type="date" name="age" name="age" required>
+                        <input type="date" name="age" name="age" max="2005-12-07" required>
                     </div>
                 </fieldset>
-                <fieldset class="details-boxes" id="course-details">
-                    <legend>Select Course Type</legend>
+                <fieldset class="details-boxes courses-radio" id="course-details">
+                    <legend>Beginner Courses</legend>
                     <div>
-                        <label for="course-level">Beginner Course - 20th Jan 2024</label>
-                        <input type='radio' name="course-level" id="beginner240120" value="beginner240120">
+                        <input type='radio' name="course-level" id="beginner240120" value="beginner240120" checked>
+                        <label for="course-level">Saturday 20th Jan 2024</label>
                     </div>
                     <div>
-                        <label for="course-level">Beginner Course - 2nd March 2024</label>
                         <input type='radio' name="course-level" id="beginner240032" value="beginner240302">
-                    </div>   
+                        <label for="course-level">Saturday 2nd March 2024</label>
+                    </div>
+                </fieldset>   
+                <fieldset class="details-boxes courses-radio">
+                    <legend>Intermediate Courses</legend>
                     <div>    
-                        <label for="course-level">Intermediate Course - 13th July 2024</label>
                         <input type='radio' name="course-level" id="intermediate240713" value="intermediate240713">
+                        <label for="course-level">Saturday 13th July 2024</label>
                     </div>
                 </fieldset>
                 <div>
