@@ -146,6 +146,7 @@ li a {
 .available {
     color: forestgreen;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 #sign-up-button {
@@ -155,13 +156,46 @@ li a {
 
 #sign-up-button p {
     text-align: center;
-    font-weight: 600;
+    font-weight: bold;
     background-color: rgba(225,225,0,.8);
     border: 1px solid black;
-    width: fit-content;
+    width: fit-content; /* Shrinks the border to the width of the text regardless of font-size */
     padding: 8px 15px;
     border-radius: 10px 10px;
-    margin: 10px auto;
+    margin: 10px auto; /* Centers the p inside the div in conjunction with the div's text-align property*/
+}
+
+/* Shop Page */
+#shop div {
+    border: 1px solid black;
+    margin: 0.5rem 1rem;
+    max-width: 300px;
+    border-radius: 10px;
+    /* Flexbox to push images right down to the bottom of each div */
+    display: flex;
+    flex-direction: column;
+}
+
+#shop h3 {
+    width: fit-content;
+}
+
+#shop li {
+    list-style-type: circle;
+}
+
+.shop-img {
+    width: 100%;
+    padding-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.emphasise {
+    font-size: larger;
 }
 
 /* Footer Style */
