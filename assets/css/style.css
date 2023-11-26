@@ -4,7 +4,6 @@
 /* Wildcard styles */
 * {
     margin: 0;
-    padding: 0;
 }
 
 
@@ -231,8 +230,7 @@ li a {
 }
 
 .products ul {
-    /* Force ul to stay within the bounds of its parent div even on most narrow screens*/
-    width: 215px;
+    padding: 0 40px;
 }
 
 #shop h3 {
