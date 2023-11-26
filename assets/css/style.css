@@ -165,6 +165,7 @@ li a {
 }
 
 #sign-up-button a {
+    display: block; /*Ensure buttons displays correctly on very narrow width devices */
     text-align: center;
     text-decoration: none;
     color: black;
