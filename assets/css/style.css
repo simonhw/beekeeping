@@ -272,6 +272,7 @@ form {
 .details-boxes {
     margin: 10px auto;
     width: 70vw;
+    max-width: 330px;
 }
 
 .courses-radio input {
@@ -388,6 +389,11 @@ footer i {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    /* Form Page */
+    .details-boxes {
+        width: 50vw;
     }
 }
 
