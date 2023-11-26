@@ -227,6 +227,12 @@ li a {
     /* Flexbox to push images right down to the bottom of each div */
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.products ul {
+    /* Force ul to stay within the bounds of its parent div */
+    width: 250px;
 }
 
 #shop h3 {
