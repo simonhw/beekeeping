@@ -178,6 +178,18 @@ li a {
     font-weight: bold;
 }
 
+.why-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-images{
+    border-radius: 2%;
+    width: 90%;
+    margin: 10px;
+}
+
 #sign-up-button {
     text-align: center;
     margin: 20px;
@@ -296,9 +308,6 @@ footer i {
 
 /* Media query for tablets and larger: >= 768px */
 @media screen and (min-width: 768px) {
-    /*#hero {
-        min-height: 25vh; IS THIS CODE NESSECARY?
-    }*/
 
     #navbar {
         font-size: 20px;
@@ -309,16 +318,17 @@ footer i {
         flex-direction: row;
     }
 
-    #about-bees img {
+    .main-images {
+        width: 50%;
+     }
+
+    /*#about-bees img {*/
+    .wide-crop {
         width: -webkit-fill-available;
         height: 25vh;
         object-fit: cover;
         object-position: 0% 20%;
         border-radius: 15px 15px;
-    }
-
-    .main-images {
-        width: 50%;
     }
 
     #short-descriptions {
@@ -353,6 +363,10 @@ footer i {
 
     #courses ul {
         width: -webkit-fill-available;
+    }
+
+    #why div {
+        /*flex-direction: row;*/
     }
 
 }
