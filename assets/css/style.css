@@ -365,8 +365,15 @@ footer i {
         width: -webkit-fill-available;
     }
 
-    #why div {
-        /*flex-direction: row;*/
+    #parent-why {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .why-div {
+        /* Arrange reasons into a grid of four divs */
+        flex-basis: 350px;
+        flex-grow: 1;
     }
 
 }
