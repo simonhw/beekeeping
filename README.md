@@ -63,3 +63,8 @@ https://chat.openai.com/c/bfaa4756-e755-4300-8aa0-5cff9b9cc20b
 
 --- BUGS ---
 While creating the nav bar, there was an inexplicable left padding of 40px which pushed the nav links off center when using flex properties. The solution was to force all padding for the element to 0px in the CSS code.
+
+The first element in the header, the div containing the navbar, had a non-zero value for margin-top. This pushed the entire header down leaving a white space in height equal to the previous
+margin-top value. Adding the property 'overflow:hidden' to the div resolved the problem.
+Solution found on stack overflow here: https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down
+

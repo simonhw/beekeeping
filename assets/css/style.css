@@ -4,6 +4,7 @@
 /* Wildcard styles */
 * {
     margin: 0;
+    padding: 0;
 }
 
 
@@ -23,6 +24,8 @@ header a, i {
     /* Make h1 and nav bar readable against bkg image */
      background: linear-gradient(180deg, black, transparent);
      max-height: 25vh;
+     /* Ensures no white space appears at top due to first element's margin */
+     overflow: hidden;
 
 }
 
@@ -30,8 +33,8 @@ header a, i {
     display: flex;
     justify-content: space-evenly;
     /* Solves issue of nav bar being off-centre */
-    padding: 0px 20px 20px;
-    margin: 0px 0px 10px 0px;
+    padding: 10px 20px;
+    margin: 5px 0px 5px 0px;
     text-transform: uppercase;
     font-size: 18px;
 }
@@ -42,8 +45,8 @@ header a, i {
 
 h1 {
     text-align: center;
-    margin: 15px;
-    padding: 10px 0px;
+    margin: 5px 15px;
+    padding: 5px 0px;
     text-shadow: -6px 5px 4px black;
 }
 
