@@ -19,11 +19,14 @@ header a, i {
 }
 
 #header-dark {
-    /* Push h1 content down */
-    padding: 20px 0 0 0;
+    /* Utilise flex grow to prioritise h1 position in header */
+    display: flex;
+    flex-direction: column;
     /* Make h1 and nav bar readable against bkg image */
      background: linear-gradient(180deg, black, transparent);
-     max-height: 25vh;
+     /* Minimim height value to ensure header displays correctly on all landscape mobiles */
+     min-height: 115px;
+     height: 33vh;
      /* Ensures no white space appears at top due to first element's margin */
      overflow: hidden;
 
@@ -57,6 +60,14 @@ h2 {
 
 header h1, header a {
     color: azure;
+}
+
+header nav {
+    flex-grow: 1;
+}
+
+header h1 {
+    flex-grow: 2;
 }
 
 h3 {
