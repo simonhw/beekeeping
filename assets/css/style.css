@@ -217,7 +217,7 @@ li a {
 }
 
 #shop div {
-    margin: 1rem 0rem;
+    margin: 1rem 1cqi
 }
 
 .products {
@@ -231,8 +231,8 @@ li a {
 }
 
 .products ul {
-    /* Force ul to stay within the bounds of its parent div */
-    width: 250px;
+    /* Force ul to stay within the bounds of its parent div even on most narrow screens*/
+    width: 215px;
 }
 
 #shop h3 {
@@ -382,6 +382,14 @@ footer i {
         flex-basis: 350px;
         flex-grow: 1;
         justify-content: space-between;
+    }
+
+    /*Shop Page */
+    #products-div {
+        /* Arranges shop products into rows of maximum two divs */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
