@@ -331,6 +331,7 @@ footer i {
     .wide-crop {
         width: -webkit-fill-available;
         height: 25vh;
+        min-height: 185px;
         object-fit: cover;
         object-position: 0% 20%;
         border-radius: 15px 15px;
