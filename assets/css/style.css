@@ -107,6 +107,7 @@ main section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .main-images {
@@ -419,14 +420,23 @@ footer i {
         border-radius: 15px 15px;
     }
 
-    /*#about-us p {
-        flex-grow: 2;
-    }*/
+    hr {
+        width: 95%;
+    }
 
-    /*#about-us img {
-        width: 40%;
-        margin: 1rem;
-    }*/
+    #about-bees > div {
+        flex-wrap: wrap;
+        height: 330px; /* Maintains div height in line with the image height */
+    }
+
+    #one, #three {
+        order: 1; /* Pushes divs right of the image */
+        width: 50%; /* Divides the parent div width between the image div and the text divs */
+    }
+
+    #two {
+        width: 50%; /* Divides the parent div width between the image div and the text divs */
+    }
 
     .mobile {
         display: none;
