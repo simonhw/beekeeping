@@ -72,3 +72,7 @@ margin-top value. Adding the property 'overflow:hidden' to the div resolved the 
 Solution found on stack overflow here: https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down
 
 h1 was being pushed off header until i utilised flex grow and also setting a minimum height for the header.
+
+To-do List:
+Add hover effect to nav for mouseover, background grey colour
+add hover to bottom two images, black transparency and white text

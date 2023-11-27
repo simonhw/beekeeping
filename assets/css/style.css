@@ -330,13 +330,17 @@ footer i {
      }
 
     /*#about-bees img {*/
-    .tablet-wide-crop {
+     .tablet-wide-crop {
         width: -webkit-fill-available;
         height: 25vh;
         min-height: 185px;
         object-fit: cover;
         object-position: 0% 20%;
         border-radius: 15px 15px;
+    }
+
+    .two {
+        width: 90vw;
     }
 
     #short-descriptions {
@@ -406,37 +410,20 @@ footer i {
         margin: auto 10vw;
     }
 
-    #about-us div{
-     /*   display: flex;*/
-        flex-direction: column;
-        /*align-items: center;*/
-
+    #about-us .main-images {
+        width: 33%;
     }
 
-    .desktop-wide-crop {
-        width: -webkit-fill-available;
-        height: 50vh;
-        object-fit: cover;
-        object-position: 0% 80%;
-        border-radius: 15px 15px;
+    #about-bees .main-images {
+        width: 50%;
     }
 
     hr {
         width: 95%;
     }
-
-    #about-bees > div {
-        flex-wrap: wrap;
-        height: 350px; /* Maintains div height in line with the image height */
-    }
-
-    #one, #three {
-        order: 1; /* Pushes divs right of the image */
-        width: 50%; /* Divides the parent div width between the image div and the text divs */
-    }
-
-    #two {
-        width: 50%; /* Divides the parent div width between the image div and the text divs */
+    
+    .invitation-images {
+        width: 60%;
     }
 
     .mobile {
