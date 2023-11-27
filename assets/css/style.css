@@ -328,7 +328,7 @@ footer i {
      }
 
     /*#about-bees img {*/
-    .wide-crop {
+    .tablet-wide-crop {
         width: -webkit-fill-available;
         height: 25vh;
         min-height: 185px;
@@ -400,30 +400,33 @@ footer i {
 
 /* Media query for Laptops and larger: >= 1200px */
 @media screen and (min-width: 1200px) {
-    #hero {
-        background-position: center;
-    }
-    
-
-    main section {
-        margin: 1rem 10vw;
+    main {
+        margin: auto 10vw;
     }
 
     #about-us div{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+     /*   display: flex;*/
+        flex-direction: column;
+        /*align-items: center;*/
 
     }
 
-    #about-us p {
+    .desktop-wide-crop {
+        width: -webkit-fill-available;
+        height: 50vh;
+        object-fit: cover;
+        object-position: 0% 80%;
+        border-radius: 15px 15px;
+    }
+
+    /*#about-us p {
         flex-grow: 2;
-    }
+    }*/
 
-    #about-us img {
+    /*#about-us img {
         width: 40%;
         margin: 1rem;
-    }
+    }*/
 
     .mobile {
         display: none;
