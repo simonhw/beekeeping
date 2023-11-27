@@ -38,6 +38,9 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 Happy coding!
 
+Code Credits:
+CSS code lines 422-434 copied/inspired by the below question on stack overflow
+https://stackoverflow.com/questions/35843451/flexbox-3-divs-2-columns
 
 Image Credits:
 Beehive in a garden - https://www.pexels.com/photo/a-beehive-in-the-garden-18014793/ - Roman Biernacki
