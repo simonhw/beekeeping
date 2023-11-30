@@ -13,7 +13,8 @@ body {
     font-family: 'Alegreya Sans', sans-serif;
 }
 
-header a, i {
+header a,
+i {
     text-decoration: none;
 }
 
@@ -22,12 +23,12 @@ header a, i {
     display: flex;
     flex-direction: column;
     /* Make h1 and nav bar readable against bkg image */
-     background: linear-gradient(180deg, black, transparent);
-     /* Minimim height value to ensure header displays correctly on all landscape mobiles */
-     min-height: 115px;
-     height: 33vh;
-     /* Ensures no white space appears at top due to first element's margin */
-     overflow: hidden;
+    background: linear-gradient(180deg, black, transparent);
+    /* Minimim height value to ensure header displays correctly on all landscape mobiles */
+    min-height: 115px;
+    height: 33vh;
+    /* Ensures no white space appears at top due to first element's margin */
+    overflow: hidden;
 
 }
 
@@ -57,7 +58,8 @@ h2 {
     margin: 20px 20px 10px;
 }
 
-header h1, header a {
+header h1,
+header a {
     color: azure;
 }
 
@@ -104,7 +106,9 @@ main section {
     margin: 0.5rem 1rem;
 }
 
-#about-us div, #about-bees div, .invite{
+#about-us div,
+#about-bees div,
+.invite {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,7 +135,7 @@ hr {
 }
 
 .invitation-images {
-    width:75%;
+    width: 75%;
     border-radius: 2%;
 }
 
@@ -139,13 +143,14 @@ hr {
     width: 75%;
 }
 
-.paragraph-images{
+.paragraph-images {
     border-radius: 2%;
     width: 100%;
 }
 
 /*Courses Page */
-.structure, .course-boxes {
+.structure,
+.course-boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,7 +175,7 @@ hr {
 
 li a {
     text-decoration: none;
-    
+
 }
 
 .available {
@@ -185,7 +190,7 @@ li a {
     align-items: center;
 }
 
-.why-images{
+.why-images {
     border-radius: 2%;
     width: 90%;
     margin: 10px;
@@ -197,17 +202,20 @@ li a {
 }
 
 #sign-up-button a {
-    display: block; /*Ensure buttons displays correctly on very narrow width devices */
+    display: block;
+    /*Ensure buttons displays correctly on very narrow width devices */
     text-align: center;
     text-decoration: none;
     color: black;
     font-weight: bold;
-    background-color: rgba(225,225,0,.8);
+    background-color: rgba(225, 225, 0, .8);
     border: 1px solid black;
-    width: fit-content; /* Shrinks the border to the width of the text regardless of font-size */
+    width: fit-content;
+    /* Shrinks the border to the width of the text regardless of font-size */
     padding: 8px 15px;
     border-radius: 10px 10px;
-    margin: 10px auto; /* Centers the p inside the div in conjunction with the div's text-align property*/
+    margin: 10px auto;
+    /* Centers the p inside the div in conjunction with the div's text-align property*/
 }
 
 /* Shop Page */
@@ -293,7 +301,7 @@ input {
 
 #register-button {
     margin: 20px 10px;
-    height: 40px;    
+    height: 40px;
 }
 
 /* Footer Style */
@@ -301,7 +309,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-footer > ul {    
+footer>ul {
     font-size: 150%;
     display: flex;
     justify-content: space-evenly;
@@ -327,10 +335,10 @@ footer i {
 
     .main-images {
         width: 50%;
-     }
+    }
 
     /*#about-bees img {*/
-     .tablet-wide-crop {
+    .tablet-wide-crop {
         width: -webkit-fill-available;
         height: 25vh;
         min-height: 185px;
@@ -353,7 +361,7 @@ footer i {
         margin: 0px 15px;
     }
 
-    .invite > a {
+    .invite>a {
         text-align: center;
     }
 
@@ -368,7 +376,7 @@ footer i {
     }
 
     /* Courses Page */
-    #courses > div {
+    #courses>div {
         display: flex;
         justify-content: space-between;
         margin: auto 3rem;
@@ -421,7 +429,7 @@ footer i {
     hr {
         width: 95%;
     }
-    
+
     .invitation-images {
         width: 60%;
     }
@@ -430,7 +438,7 @@ footer i {
         display: none;
     }
 
-    footer > ul {
+    footer>ul {
         padding: 1rem 10vw;
     }
 }
