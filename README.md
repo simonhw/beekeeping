@@ -2,7 +2,7 @@
 
 This website is designed to be responsive for users visiting on different-sized devices. It enables users to learn about bees and beekeeping and encourages visitors to register for beekeeping courses.
 
-![Amiresponsive Screenshot](placholder/directory/image.png)
+![Amiresponsive Screenshot](placeholder/directory/image.png)
 
 Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/beekeeping/index)
 
@@ -41,34 +41,38 @@ West Cork Beekeeping is a site that promotes interest in beekeeping in the West 
 #### Frequent Visitor Goals
 * To be able to purchase honey when I need to.
 
-## Features
+## Design
+## Colour Scheme
+The website uses a palette of simple colours inkeeping with its minimalist design, loosely inspired by the colours found on the body of the honey bee.
+![Coolors Palette](assets/images/readme/wbc-coolors-palette.png)
 
+### Features
 The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via the call to action button at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they complete the form itself. The sixth and final page is a 404 page.
 
 All pages on the website have:
 - A navigation bar at the top allowing the user to move between the three main pages. As there are only three pages, the same format is used for the navigation bar on mobile screens. It was decided that the use of a dropdown menu by clicking a burger icon detracted from the aesthetic look of the header with its background image and centred heading.
 - A footer at the bottom of the page containing three icon links to a phone number, email, and Google Maps location. This was determined to be more beneficial to the user than social media links and tied in well with the goals of the website to encourage users to get in touch and register for beekeeping courses.
 
-The Home page has:
-- A heading welcoming the user to the site followed by a summary of the motivation and intentions of the website owners. This immediately gives the user an idea of what to expect from the rest of the website. A picture of three beekeepers posing in their suits underneath this paragraph conveys a sense of fun and camaraderie to the user.
-- A section briefly describing the role honey bees play in the environment and the challenges currently faced by them. This section ends with a call-to-action of sorts and places at the front of the user's mind the idea that becoming a beekeeper is a noble and worthwhile pursuit. A closeup image of a bee collecting nectar from a flower is nestled between the two paragraphs of this section. Its bright colours and focus on the bee itself should evoke thoughts about the beauty and importance of the honey bee in nature while also making the user think about its fragility as a small creature worthy of our care.
-- A third and final section consisting of two sets of short descriptive sentences and associated images and headings. These two sections invite the user to either navigate to the Courses page to learn more about the beekeeping courses, or to visit the Shop page to purchase honey. The images are the links, and when viewed on mobiles and tablets, the final sentence says "*Tap the image to learn more*", while on desktops it says "*Click the image the learn more*". This was achieved with the use of spans.
-- At the bottom of this page and the two other main pages, a call to action link that takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there.
+The Home page
+- A heading welcomes the user to the site followed by a summary of the motivation and intentions of the website owners. This immediately gives the user an idea of what to expect from the rest of the website. A picture of three beekeepers posing in their suits underneath this paragraph conveys a sense of fun and camaraderie to the user.
+- A section briefly describes the role honey bees play in the environment and the challenges currently faced by them. This section ends with a call-to-action of sorts and places at the front of the user's mind the idea that becoming a beekeeper is a noble and worthwhile pursuit. A closeup image of a bee collecting nectar from a flower is nestled between the two paragraphs of this section. Its bright colours and focus on the bee itself should evoke thoughts about the beauty and importance of the honey bee in nature while also making the user think about its fragility as a small creature worthy of our care.
+- A third and final section consists of two sets of short descriptive sentences and associated images and headings. These two sections invite the user to either navigate to the Courses page to learn more about the beekeeping courses, or to visit the Shop page to purchase honey. The images are the links, and when viewed on mobiles and tablets, the final sentence says "*Tap the image to learn more*", while on desktops it says "*Click the image the learn more*". This was achieved with the use of spans.
+- At the bottom of this page and the two other main pages, a call to action link takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there.
 
-The Courses page has:
-- A section listing the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. Courses that are sold out are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above.
-- A second section that aims to convince the undecided user that they should register their interest in an upcoming course. Four reasons to become a beekeeper are listed with accompanying imagery chosen to invoke thoughts of fun, relaxation, peacefulness, and enjoyment.
-- A final paragraph that reminds the user that becoming a beekeeper requires time and effort but reassures them that it is a worthwhile endeavour.
+The Courses page
+- The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. Courses that are sold out are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above.
+- A second section aims to convince the undecided user that they should register their interest in an upcoming course. Four reasons to become a beekeeper are listed with accompanying imagery chosen to invoke thoughts of fun, relaxation, peacefulness, and enjoyment.
+- A final paragraph reminds the user that becoming a beekeeper requires time and effort but reassures them that it is a worthwhile endeavour.
 
-The Shop page has:
-- An introductory paragraph that informs the user of the payment process for products on this page as well as delivery terms and discounts for course graduates. A contact number and email are listed, distinct from each other, below the paragraph to offer the returning user quick access should they desire to contact the owners.
-- Boxes listing the available products and short descriptions with accompanying imagery. These boxes will be displayed in single or multiple columns based on the screen width of the user.
+The Shop page
+- An introductory paragraph informs the user of the payment process for products on this page as well as delivery terms and discounts for course graduates. A contact number and email are listed distinct from each other below the paragraph to offer the returning user quick access should they desire to contact the owners.
+- Boxes show the available products and short descriptions with accompanying imagery. These boxes will be displayed in single or multiple columns based on the screen width of the user.
 
-The Form page has:
-- A simple layout with only the minimum necessary information sought from the user. This style of layout is intended to make the user experience straightforward and quick, as very few people want to spend time filling out multiple form fields.
-- Input fields that only accept the correct type of input, including a date of birth field which does not allow a user under the age of 18 to register.
-- Radio buttons which limit the user to only registering for one available course at a time. The next available beginner course is selected by default.
-- A button underneath the fieldset which submits the user's details only if all input fields have been correctly completed.
+The Form page
+- A simple layout seeks only the minimum necessary information from the user. This style of layout is intended to make the user experience straightforward and quick, as very few people want to spend time filling out multiple form fields.
+- The input fields only accept the expected type of input; the date of birth field does not allow a user under the age of 18 to register.
+- Radio buttons limit the user to only registering for one available course at a time. The next available beginner course is selected by default.
+- A button underneath the fieldset submits the user's details when clicked; however, it will only allow the user to do so if they have completed all the input fields correctly. If any information is missing or the format is incorrect, the website will direct the user to the problem area.
 
 The Thank You page has:
 
