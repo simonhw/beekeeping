@@ -42,8 +42,9 @@ West Cork Beekeeping is a site that promotes interest in beekeeping in the West 
 * To be able to purchase honey when I need to.
 
 ## Design
-## Colour Scheme
+### Colour Scheme
 The website uses a palette of simple colours inkeeping with its minimalist design, loosely inspired by the colours found on the body of the honey bee.
+
 ![Coolors Palette](assets/images/readme/wbc-coolors-palette.png)
 
 ### Features
