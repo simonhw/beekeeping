@@ -30,6 +30,29 @@ West Cork Beekeeping is a site that promotes interest in beekeeping in the West 
 #### Frequent Visitor Goals
 * To be able to purchase honey when I need to.
 
+## Deployment
+
+Github Pages was used to deploy the live version of the website. The steps followed to do this were as follows:
+  1. Log in or sign up to Github.
+  2. Navigate to the repository for [West Cork Beekeeping](https://github.com/simonhw/beekeeping).
+  3. Click the Settings link near the top of the page.
+  4. Click on the Pages link on the left-hand side under Code and Automation.
+  5. Under Build and Deployment click the dropdown menu for Branches and select 'main'. For the Folder dropdown menu, select 'root'.
+  6. Click Save to deploy the website on Github Pages.
+
+### Local Deployment
+To deploy this project locally on your own device, follow the below steps:
+#### Forking 
+1. Log in or sign up to Github.
+2. Navigate to the repository for [West Cork Beekeeping](https://github.com/simonhw/beekeeping).
+3. Click the Fork button located in the top right part of the webpage.
+#### Cloning
+1. Log in or sign up to Github.
+2. Navigate to the repository for [West Cork Beekeeping](https://github.com/simonhw/beekeeping).
+3. Click on the green Code button and select your preferred option of HTTPS, SSH, or GitHub CLI and copy the relevant link.
+4. Open the terminal in your IDE and navigate to your directory of choice for this new clone.
+5. Type `git clone` into the terminal and paste in your copied link. Press enter.
+
 ## Credits
 
 ### Code Used
