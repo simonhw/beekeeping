@@ -9,6 +9,17 @@ Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/b
 ![Github last commit](https://img.shields.io/github/last-commit/simonhw/beekeeping) 
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fsimonhw.github.io%2Fbeekeeping%2Findex)
 
+## Contents
+- [User Experience](#User-Experience)
+    - [Initial Discussion](#Initial-Discussion)
+    - [User Stories](#User-Stories)
+- [Deployment](#Deployment)
+  - [Local Deployment](#Local-Deployment)
+    - [Forking](#Forking)
+    - [Cloning](#Cloning)
+- [Credits](#Credits)
+- [Acknowledgements](#Acknowledgements)
+
 ## User Experience
 
 ### Initial Discussion
