@@ -9,33 +9,26 @@ Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/b
 ![Github last commit](https://img.shields.io/github/last-commit/simonhw/beekeeping) 
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fsimonhw.github.io%2Fbeekeeping%2Findex)
 
-## Codeanywhere Reminders
+## User Experience
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Initial Discussion
+West Cork Beekeeping is a site that promotes interest in beekeeping in the West Cork area. The goal of the site is to generate interest in the environmental importance of the honey bee and encourage visitors to the site to register for beekeeping courses run by the owners of the website. The owners raise funding to keep promoting awareness of the honey bee by running for-profit training courses and selling a small range of relevant products. 
 
-`python3 -m http.server`
+### User Stories
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#### First-time Visitor Goals
+* To understand what the purpose of the website is.
+* To easily navigate between the pages and find what I'm looking for.
+* To be able to contact the owners of the website for more information.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+#### Returning Visitor Goals
+* To be able to easily locate information previously found.
+* To find up to date information on beekeeping courses.
+* To find out where the website owners are based.
+* To be able to purchase beekeeping equipment I need.
 
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Frequent Visitor Goals
+* To be able to purchase honey when I need to.
 
 ---
 
