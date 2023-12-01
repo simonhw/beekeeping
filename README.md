@@ -30,6 +30,12 @@ West Cork Beekeeping is a site that promotes interest in beekeeping in the West 
 #### Frequent Visitor Goals
 * To be able to purchase honey when I need to.
 
+## Credits
+
+### Code Used
+Code for the website footer was copied and adapted from the Code Institute Love Running Walkthrough Project.
+- [Code Institute - Creating the Footer](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.7-creating-the-footer)
+
 ---
 
 Happy coding!
