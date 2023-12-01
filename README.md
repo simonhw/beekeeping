@@ -88,8 +88,8 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 | # | Bug | Image | Solution |
 | --- | --- | --- | --- |
 | 1 | While creating the navbar unordered list, there was an unspecified left padding of 40px discovered which was pushing the nav links visually off center. | ![Navbar padding bug](assets/images/readme/bugs/bug001-nav-padding.PNG) | The solution was to force all padding for the element to 0px in the CSS stylesheet. |
-|2|The first element in the header, the div containing the navbar, had a non-zero value for margin-top. This pushed the entire header down leaving an empty white space equal in height to the above value. | ![Navbar margin bug](assets/images/readme/bugs/bug002-nav-margin.PNG) |Adding the property 'overflow:hidden' to the div resolved the problem. Solution found on stack overflow here: https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down |
-|3|h1 was being pushed off header on wider screen widths | |i utilised flex grow and also setting a minimum height for the header. |
+|2|The first element in the header (the div containing the navbar) has a value of 5px for margin-top. This eemed to result in pushing the entire header down leaving an empty white space equal to 5px in height. | ![Navbar margin bug](assets/images/readme/bugs/bug002-nav-margin.PNG) | Adding the property `overflow:hidden` to the div resolved the problem. Solution found on [Stack Overflow](https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down) |
+| 3 | When tilting the mobile screen or using larger width displays, the H1 element was finding itself positioned outside the limits of the header. | ![Navbar H1 position bug](assets/images/readme/bugs/bug003-nav-h1-overflow.PNG) | I set the parent div to `display: flex` to ensure it stayed positioned inside the header and also utilised `flex-grow: 2` to visually centre the H1 in the new flex layout. This also seemed to solve Bug #2 when removing the `overflow:hidden` property added above. |
 
 ## Credits
 
