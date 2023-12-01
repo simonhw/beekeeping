@@ -68,13 +68,13 @@ To deploy this project locally on your own device, follow the below steps:
 
 ### Automated Testing
 [W3C](https://validator.w3.org/) was used to validate the HTML on all website pages and the CSS stylesheet.
-- [index.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-index.png) - Passed.
-- [courses.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-courses.png) - Passed.
-- [shop.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-shop.png) - Passed.
-- [form.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-form.png) - Passed.
+- [index.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-index.PNG) - Passed.
+- [courses.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-courses.PNG) - Passed.
+- [shop.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-shop.PNG) - Passed.
+- [form.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-form.PNG) - Passed.
 - [thankyou.html]()
 - [404.html]()
-- [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.png) - Passed with no errors.
+- [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.PNG) - Passed with no errors.
 
 ### Lighthouse
 The Lighthouse feature in Chrome Developer Tools was used to test the performace, accessibility, best practices, and search engine optimisation of the website.
@@ -87,7 +87,7 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 ### Solved Bugs
 | # | Bug | Image | Solution |
 | --- | --- | --- | --- |
-| 1 | While creating the nav bar, there was an inexplicable left padding of 40px which pushed the nav links off center when using flex properties. | ![Navbar margin bug](assets/images/readme/bugs/bug001-nav-padding.png) | The solution was to force all padding for the element to 0px in the CSS code. |
+| 1 | While creating the nav bar, there was an inexplicable left padding of 40px which pushed the nav links off center when using flex properties. | ![Navbar margin bug](assets/images/readme/bugs/bug001-nav-padding.PNG) | The solution was to force all padding for the element to 0px in the CSS code. |
 |2|The first element in the header, the div containing the navbar, had a non-zero value for margin-top. This pushed the entire header down leaving a white space in height equal to the previous margin-top value. | |Adding the property 'overflow:hidden' to the div resolved the problem. Solution found on stack overflow here: https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down |
 |3|h1 was being pushed off header on wider screen widths | |i utilised flex grow and also setting a minimum height for the header. |
 
