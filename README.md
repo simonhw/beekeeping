@@ -4,6 +4,11 @@ This website is designed to be responsive for users visiting on different-sized 
 
 ![Amiresponsive Screenshot](placholder/directory/image.png)
 
+Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/beekeeping/index)
+
+![Github last commit](https://img.shields.io/github/last-commit/simonhw/beekeeping) 
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fsimonhw.github.io%2Fbeekeeping%2Findex)
+
 ## Codeanywhere Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
