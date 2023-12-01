@@ -87,8 +87,8 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 ### Solved Bugs
 | # | Bug | Image | Solution |
 | --- | --- | --- | --- |
-| 1 | While creating the nav bar, there was an inexplicable left padding of 40px which pushed the nav links off center when using flex properties. | ![Navbar margin bug](assets/images/readme/bugs/bug001-nav-padding.PNG) | The solution was to force all padding for the element to 0px in the CSS code. |
-|2|The first element in the header, the div containing the navbar, had a non-zero value for margin-top. This pushed the entire header down leaving a white space in height equal to the previous margin-top value. | |Adding the property 'overflow:hidden' to the div resolved the problem. Solution found on stack overflow here: https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down |
+| 1 | While creating the navbar unordered list, there was an unspecified left padding of 40px discovered which was pushing the nav links visually off center. | ![Navbar padding bug](assets/images/readme/bugs/bug001-nav-padding.PNG) | The solution was to force all padding for the element to 0px in the CSS stylesheet. |
+|2|The first element in the header, the div containing the navbar, had a non-zero value for margin-top. This pushed the entire header down leaving an empty white space equal in height to the above value. | ![Navbar margin bug](assets/images/readme/bugs/bug002-nav-margin.PNG) |Adding the property 'overflow:hidden' to the div resolved the problem. Solution found on stack overflow here: https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down |
 |3|h1 was being pushed off header on wider screen widths | |i utilised flex grow and also setting a minimum height for the header. |
 
 ## Credits
