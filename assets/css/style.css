@@ -378,7 +378,7 @@ footer i {
     /* Courses Page */
     #courses>div {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: auto 3rem;
     }
 
