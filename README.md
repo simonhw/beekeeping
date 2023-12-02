@@ -52,18 +52,18 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 All pages on the website have:
 - A navigation bar at the top allowing the user to move between the three main pages. As there are only three pages, the same format is used for the navigation bar on mobile screens. It was decided that the use of a dropdown menu by clicking a burger icon detracted from the aesthtic look of the header with its background image and centred heading.
-![Navigation Bar screenshot](assets/images/readme/navigation-bar.png)
+![Navigation Bar screenshot](assets/images/readme/navigation-bar.PNG)
 - A footer at the bottom of the page containing three icon link to a phone number, email, and google maps location. This was determined to be more beneficial to the user than social media links and tied in well with the goals of the website to encourage users to get in touch and register for beekeeping courses.
-![Footer screenshot](assets/images/readme/footer.png)
+![Footer screenshot](assets/images/readme/footer.PNG)
 
 The Home page has:
 - A heading welcoming the user to the site followed by a brief summary of the motivation and intentions of the website owners. This immediately give the user an idea of what to expect from the rest of the website. A picture of three beekeepers posing in their suits underneath this paragraph conveys a sense of fun and camaradery to the user.
-![About Us screenshot](assets/images/readme/section-about-us.png)
+![About Us screenshot](assets/images/readme/section-about-us.PNG)
 - A section breifly describing the role honey bees play in the environment and the challenges currently faced by them. This section ends with a call-to-action of sorts and places at the front of the user's mind the idea that becoming a beekeeper is a noble and worthwhile pursuit. An closeup image of a bee collecting nectar from a flower is nestled between the two paragraphs of this section. Its bright colours and focus on the bee itself should envoke thoughts about the beauty and importance of the honey bee in nature while also making the user think about its fragiliy as a small creature worthy of our care.
-![About Bees screenshot](assets/images/readme/section-about-bees.png)
+![About Bees screenshot](assets/images/readme/section-about-bees.PNG)
 - A third and final section consisting of two sets of short descriptive sentences and assocaited images and headings. These two sections invite the user to either navigate to the Courses page to learn more about the beekeeping courses, or to visit the Shop page to purchase honey. The images are the links, and when viewed on mobiles and tablets, tje final sentence says "*Tap the image to learn more*", while on desktops it says "*Click the image the learn more*". This was achieved with the use of spans.
 - At the bottom of this page and the two other main pages, a call to action link which takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there.
-![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.png)
+![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.PNG)
 
 The Courses page
 - The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. Courses that are sold out are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above.
