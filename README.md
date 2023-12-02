@@ -136,9 +136,43 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 ### Accessibility
 When creating this website, I kept accessibility in mind by:
+- Using semantic html elements through out the website.
 - Using colours with good contrast to the background.
 - Including clearly descriptive alt attributes for all images on the site.
 - Using aria labels to describe the actions that would be taken when interacting with links that contain no text. These can be found in the two image links at the bottom of index.html and in the footer icons link on every page.
+
+## Technologies Used
+**Languages:** HTML, CSS
+
+**Frameworks, Libraries, and Programs:** 
+
+Balsamiq - To create wireframes.
+
+Visual Studio Code - The IDE used to write my code.
+
+Chrome Developer Tools - To visualise and test changes to the code and styling.
+
+Git - For version control.
+
+Github - To save and store files online.
+
+Google Fonts - For imported fonts used on the website.
+
+[Font Awesome](https://fontawesome.com/) - For icons used in the footer.
+
+[Favicon.io](https://favicon.io/) - To source the favicon used.
+
+[Pexels.com](https://www.pexels.com/) and [Unsplash.com](https://unsplash.com/) - To source images used on the website.
+
+Adobe Photoshop 2020 - To crop and resize images.
+
+Github Pages - To host the live version of the website.
+
+[Am I Responsive?](https://ui.dev/amiresponsive) - To showcase the website on different screen sizes for this README.
+
+[Shields.io](https://shields.io/) - To add badges to this README.
+
+[Coolors](https://coolors.co/) - To showcase the colour palette of the website.
 
 ## Deployment
 
