@@ -50,7 +50,7 @@ The website uses a palette of simple colours inkeeping with its minimalist desig
 ### Features
 The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via the call to action button at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they complete the form itself. The sixth and final page is a 404 page.
 
-### All pages on the website have:
+#### All pages on the website have:
 - A navigation bar at the top allowing the user to move between the three main pages. As there are only three pages, the same format is used for the navigation bar on mobile screens. It was decided that the use of a dropdown menu by clicking a burger icon detracted from the aesthetic look of the header with its background image and centred heading.
 
 ![Navigation Bar screenshot](assets/images/readme/navigation-bar.PNG)
@@ -60,7 +60,7 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 ![Footer screenshot](assets/images/readme/footer.PNG)
 
-### The Home page
+#### The Home page
 - A heading welcomes the user to the site followed by a summary of the motivation and intentions of the website owners. This immediately gives the user an idea of what to expect from the rest of the website. A picture of three beekeepers posing in their suits underneath this paragraph conveys a sense of fun and camaraderie to the user.
 
 ![About Us screenshot](assets/images/readme/section-about-us.PNG)
@@ -74,24 +74,36 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 ![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.PNG)
 
-### The Courses page
+#### The Courses page
 - The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. Courses that are sold out are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above.
+
+![Upcoming Courses screenshot](assets/images/readme/section-courses.PNG)
+
 - A second section aims to convince the undecided user that they should register their interest in an upcoming course. Four reasons to become a beekeeper are listed with accompanying imagery chosen to invoke thoughts of fun, relaxation, peacefulness, and enjoyment.
 - A final paragraph reminds the user that becoming a beekeeper requires time and effort but reassures them that it is a worthwhile endeavour.
 
-### The Shop page
+![Why Become a Beekeeper screenshot](assets/images/readme/section-why.PNG)
+
+#### The Shop page
 - An introductory paragraph informs the user of the payment process for products on this page as well as delivery terms and discounts for course graduates. A contact number and email are listed distinct from each other below the paragraph to offer the returning user quick access should they desire to contact the owners.
+
+![Shop screenshot](assets/images/readme/section-shop.PNG)
+
 - Boxes show the available products and short descriptions with accompanying imagery. These boxes will be displayed in single or multiple columns based on the screen width of the user.
 
-### The Form page
+![Products screenshot](assets/images/readme/section-products.PNG)
+
+#### The Form page
 - A simple layout seeks only the minimum necessary information from the user. This style of layout is intended to make the user experience straightforward and quick, as very few people want to spend time filling out multiple form fields.
 - The input fields only accept the expected type of input; the date of birth field does not allow a user under the age of 18 to register.
 - Radio buttons limit the user to only registering for one available course at a time. The next available beginner course is selected by default.
 - A button underneath the fieldset submits the user's details when clicked; however, it will only allow the user to do so if they have completed all the input fields correctly. If any information is missing or the format is incorrect, the website will direct the user to the problem area.
 
-### The Thank You page
+![Form screenshot](assets/images/readme/section-registration.PNG)
 
-### The 404 page
+#### The Thank You page
+
+#### The 404 page
 
 ## Deployment
 
