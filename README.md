@@ -48,21 +48,30 @@ The website uses a palette of simple colours inkeeping with its minimalist desig
 ![Coolors Palette](assets/images/readme/wbc-coolors-palette.png)
 
 ### Features
-The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via the call to action button at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they successfully complete the form itself. The sixth and final page is a 404 page.
+The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via the call to action button at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they complete the form itself. The sixth and final page is a 404 page.
 
 All pages on the website have:
-- A navigation bar at the top allowing the user to move between the three main pages. As there are only three pages, the same format is used for the navigation bar on mobile screens. It was decided that the use of a dropdown menu by clicking a burger icon detracted from the aesthtic look of the header with its background image and centred heading.
+- A navigation bar at the top allowing the user to move between the three main pages. As there are only three pages, the same format is used for the navigation bar on mobile screens. It was decided that the use of a dropdown menu by clicking a burger icon detracted from the aesthetic look of the header with its background image and centred heading.
+
 ![Navigation Bar screenshot](assets/images/readme/navigation-bar.PNG)
-- A footer at the bottom of the page containing three icon link to a phone number, email, and google maps location. This was determined to be more beneficial to the user than social media links and tied in well with the goals of the website to encourage users to get in touch and register for beekeeping courses.
+
+- A footer at the bottom of the page containing three icon links to a phone number, email, and Google Maps location. This was determined to be more beneficial to the user than social media links and tied in well with the goals of the website to encourage users to get in touch and register for beekeeping courses.
+
+
 ![Footer screenshot](assets/images/readme/footer.PNG)
 
-The Home page has:
-- A heading welcoming the user to the site followed by a brief summary of the motivation and intentions of the website owners. This immediately give the user an idea of what to expect from the rest of the website. A picture of three beekeepers posing in their suits underneath this paragraph conveys a sense of fun and camaradery to the user.
+The Home page
+- A heading welcomes the user to the site followed by a summary of the motivation and intentions of the website owners. This immediately gives the user an idea of what to expect from the rest of the website. A picture of three beekeepers posing in their suits underneath this paragraph conveys a sense of fun and camaraderie to the user.
+
 ![About Us screenshot](assets/images/readme/section-about-us.PNG)
-- A section breifly describing the role honey bees play in the environment and the challenges currently faced by them. This section ends with a call-to-action of sorts and places at the front of the user's mind the idea that becoming a beekeeper is a noble and worthwhile pursuit. An closeup image of a bee collecting nectar from a flower is nestled between the two paragraphs of this section. Its bright colours and focus on the bee itself should envoke thoughts about the beauty and importance of the honey bee in nature while also making the user think about its fragiliy as a small creature worthy of our care.
+
+- A section briefly describes the role honey bees play in the environment and the challenges currently faced by them. This section ends with a call-to-action of sorts and places at the front of the user's mind the idea that becoming a beekeeper is a noble and worthwhile pursuit. A closeup image of a bee collecting nectar from a flower is nestled between the two paragraphs of this section. Its bright colours and focus on the bee itself should evoke thoughts about the beauty and importance of the honey bee in nature while also making the user think about its fragility as a small creature worthy of our care.
+
 ![About Bees screenshot](assets/images/readme/section-about-bees.PNG)
-- A third and final section consisting of two sets of short descriptive sentences and assocaited images and headings. These two sections invite the user to either navigate to the Courses page to learn more about the beekeeping courses, or to visit the Shop page to purchase honey. The images are the links, and when viewed on mobiles and tablets, tje final sentence says "*Tap the image to learn more*", while on desktops it says "*Click the image the learn more*". This was achieved with the use of spans.
-- At the bottom of this page and the two other main pages, a call to action link which takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there.
+
+- A third and final section consists of two sets of short descriptive sentences and associated images and headings. These two sections invite the user to either navigate to the Courses page to learn more about the beekeeping courses, or to visit the Shop page to purchase honey. The images are the links, and when viewed on mobiles and tablets, the final sentence says "*Tap the image to learn more*", while on desktops it says "*Click the image the learn more*". This was achieved with the use of spans.
+- At the bottom of this page and the two other main pages, a call to action link takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there.
+
 ![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.PNG)
 
 The Courses page
