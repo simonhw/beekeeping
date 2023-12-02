@@ -53,6 +53,7 @@ The website uses a palette of simple colours inkeeping with its minimalist desig
 
 ### Typography
 An imported Google Font, Alegreya Sans, was used for this website. Font weights of 400 and 700 were chosen for standard and bold text options. This particular font was chosen as it evoked feelings of a friendly and welcoming nature. 
+
 ![Alegreya Sands font 400 weight](assets/images/readme/alegreya-sans-400.PNG)
 ![Alegreya Sands font 700 weight](assets/images/readme/alegreya-sans-700.PNG)
 
@@ -61,6 +62,7 @@ Imagery was chosen that showed beekeepers working with the types of equipment th
 
 ### Wireframes
 Some basic wireframes were created for desktop and mobile for the the homepage. This gave a basic starting point from which the greater website then took shape. The original ideas were adapted and evolved as coding progressed thoughtout the project timeline. 
+
 ![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-1.PNG)
 ![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-2.PNG)
 ![Balsamiq Wireframe for Mobile](assets/images/readme/mobile-wireframe.PNG)
@@ -69,6 +71,10 @@ Some basic wireframes were created for desktop and mobile for the the homepage. 
 The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via the call to action button at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they complete the form itself. The sixth and final page is a 404 page.
 
 #### All pages on the website have:
+- A favicon of a honey bee.
+
+![Honey Bee Favicon](assets/images/readme/favicons.PNG)
+
 - A navigation bar at the top allowing the user to move between the three main pages. As there are only three pages, the same format is used for the navigation bar on mobile screens. It was decided that the use of a dropdown menu by clicking a burger icon detracted from the aesthetic look of the header with its background image and centred heading.
 
 ![Navigation Bar screenshot](assets/images/readme/navigation-bar.PNG)
