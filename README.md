@@ -52,7 +52,7 @@ The website uses a palette of simple colours inkeeping with its minimalist desig
 ![Coolors Palette](assets/images/readme/wbc-coolors-palette.png)
 
 ### Typography
-An imported Google Fonts, Alegreya Sans, was used for this website. Font weights of 400 and 700 were chosen for standard and bold text options. This particular font was chosen as it evoked feelings of a friendly and welcoming nature. 
+An imported Google Font, Alegreya Sans, was used for this website. Font weights of 400 and 700 were chosen for standard and bold text options. This particular font was chosen as it evoked feelings of a friendly and welcoming nature. 
 ![Alegreya Sands font 400 weight](assets/images/readme/alegreya-sans-400.PNG)
 ![Alegreya Sands font 700 weight](assets/images/readme/alegreya-sans-700.PNG)
 
@@ -79,7 +79,7 @@ The website is comprised of six pages. Three are accessible from the main naviga
 ![About Bees screenshot](assets/images/readme/section-about-bees.PNG)
 
 - A third and final section consists of two sets of short descriptive sentences and associated images and headings. These two sections invite the user to either navigate to the Courses page to learn more about the beekeeping courses, or to visit the Shop page to purchase honey. The images are the links, and when viewed on mobiles and tablets, the final sentence says "*Tap the image to learn more*", while on desktops it says "*Click the image the learn more*". This was achieved with the use of spans.
-- At the bottom of this page and the two other main pages, a call to action link takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there.
+- At the bottom of this page and the two other main pages, a call-to-action link takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there. The yellow colour was chosen to draw attention to the user that it is something distinct from other content on this page.
 
 ![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.PNG)
 
