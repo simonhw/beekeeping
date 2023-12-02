@@ -164,7 +164,7 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 ### Known Bugs
 | # | Bug | Image | Solution |
 | --- | --- | --- | --- |
-| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, at specific screen widths of 1136-1199px and 1420-1879px only the fourth div wraps onto the second row and is shown much larger than the other three divs. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) |  |
+| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, at specific screen widths of 1183-1199px and 1478px and larger, only the fourth div wraps onto the second row and is shown much larger than the other three divs. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) |  |
 
 ### Solved Bugs
 | # | Bug | Image | Solution |
