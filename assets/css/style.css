@@ -148,6 +148,10 @@ hr {
     width: 100%;
 }
 
+.desktop {
+    display: none;
+}
+
 /*Courses Page */
 .structure,
 .course-boxes {
@@ -436,6 +440,10 @@ footer i {
 
     .mobile {
         display: none;
+    }
+
+    .desktop {
+        display: inline;
     }
 
     footer>ul {
