@@ -13,6 +13,10 @@ Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/b
 - [User Experience](#User-Experience)
     - [Initial Discussion](#Initial-Discussion)
     - [User Stories](#User-Stories)
+- [Design](#Design)
+    - [Colour Scheme](#Colour-Scheme)
+    - [Typography](#Typography)
+    - [Features](#Features)
 - [Deployment](#Deployment)
   - [Local Deployment](#Local-Deployment)
     - [Forking](#Forking)
@@ -46,6 +50,11 @@ West Cork Beekeeping is a site that promotes interest in beekeeping in the West 
 The website uses a palette of simple colours inkeeping with its minimalist design, loosely inspired by the colours found on the body of the honey bee.
 
 ![Coolors Palette](assets/images/readme/wbc-coolors-palette.png)
+
+### Typography
+An imported Google Fonts, Alegreya Sans, was used for this website. Font weights of 400 and 700 were chosen for standard and bold text options. This particular font was chosen as it evoked feelings of a friendly and welcoming nature. 
+![Alegreya Sands font 400 weight](assets/images/readme/alegreya-sans-400.PNG)
+![Alegreya Sands font 700 weight](assets/images/readme/alegreya-sans-700.PNG)
 
 ### Features
 The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via the call to action button at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they complete the form itself. The sixth and final page is a 404 page.
