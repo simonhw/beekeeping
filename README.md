@@ -136,16 +136,16 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 ### Accessibility
 When creating this website, I kept accessibility in mind by:
-- Using semantic html elements through out the website.
+- Using semantic html elements throughout the website.
 - Using colours with good contrast to the background.
 - Including clearly descriptive alt attributes for all images on the site.
 - Using aria labels to describe the actions that would be taken when interacting with links that contain no text. These can be found in the two image links at the bottom of index.html and in the footer icons link on every page.
 
 ## Technologies Used
-**Languages:** HTML, CSS
+### Languages
+HTML, CSS
 
-**Frameworks, Libraries, and Programs:** 
-
+### Frameworks, Libraries, and Programs
 Balsamiq - To create wireframes.
 
 Visual Studio Code - The IDE used to write my code.
@@ -198,6 +198,21 @@ To deploy this project locally on your own device, follow the below steps:
 5. Type `git clone` into the terminal and paste in your copied link. Press enter.
 
 ## Testing
+### Manual Testing
+
+| User Stories | Achieved by: | Supporting Image |
+| --- | --- | --- |
+| **First-time Visitors** | | |
+| To understand what the purpose of the website is. | The nav bar contains links for "Courses" and "Shop" which immediately communicate to the user that the website offers services. The final section on the home page invites the user to either enrol in a course or browse the shop. | |
+| To easily navigate between the pages and find what I'm looking for. | The nav bar is presenet on each page and does not change in style. The links are succinctly named 'Home' 'Courses' and 'Shop'. | |
+| To be able to contact the owners of the website for more information. | The footer offers the user the option to ring or email the owners at the tap of a button. This footer is present on each page. The phone number and email are listed on the Shop page and these links open in a phone app of course and email app respectively when clicked. | |
+| **Returning Visitors** | | |
+| To be able to easily locate information previously found. | Each page of the website has its content clearly separated into sections with headings. | |
+| To find up to date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | |
+| To find out where the website owners are based. | The footer contains a map icon link to show the location of the beekeeping group on Google Maps. | |
+| To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeper and large images draw the attention of the user to their item of interest. | |
+| **Frequent Visitors** | | |
+| To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page there is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | |
 
 ### Automated Testing
 [W3C](https://validator.w3.org/) was used to validate the HTML on all website pages and the CSS stylesheet.
@@ -217,9 +232,9 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 
 ## Bugs
 ### Known Bugs
-| # | Bug | Image | Solution |
+| # | Bug | Image | Plan to Solve |
 | --- | --- | --- | --- |
-| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, at specific screen widths of 1183-1199px and 1478px and larger, only the fourth div wraps onto the second row and is shown much larger than the other three divs. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) |  |
+| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, in some non-standard screen sizes only the fourth div wraps onto the second row and is shown much larger than the other three divs. This bus is unlikely to be encountered by the average user visiting the website on commonly used devices. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | Revisit the problem after learning Javascript and utilise logic to force the divs into a 2x2 grid for the desired screen sizes. |
 
 ### Solved Bugs
 | # | Bug | Image | Solution |
