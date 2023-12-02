@@ -134,6 +134,12 @@ The website is comprised of six pages. Three are accessible from the main naviga
 - Upgrade the Courses page to allow direct booking of and payment for availble courses.
 - Upgrade the Shop page to allow direct ordering and payment via the website.
 
+### Accessibility
+When creating this website, I kept accessibility in mind by:
+- Using colours with good contrast to the background.
+- Including clearly descriptive alt attributes for all images on the site.
+- Using aria labels to describe the actions that would be taken when interacting with links that contain no text. These can be found in the two image links at the bottom of index.html and in the footer icons link on every page.
+
 ## Deployment
 
 Github Pages was used to deploy the live version of the website. The steps followed to do this were as follows:
