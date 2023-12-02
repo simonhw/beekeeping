@@ -56,6 +56,15 @@ An imported Google Font, Alegreya Sans, was used for this website. Font weights 
 ![Alegreya Sands font 400 weight](assets/images/readme/alegreya-sans-400.PNG)
 ![Alegreya Sands font 700 weight](assets/images/readme/alegreya-sans-700.PNG)
 
+### Imagery
+Imagery was chosen that showed beekeepers working with the types of equipment that users would expect to see if they enrol in a beekeeping course. It was difficult to find free-to-use images that showed environment reflecting the local climate of West Cork, so this was rated as a lower priority characteristic compared to finding images that showed people enjoying themselves and that were different enough from each other to not have to repeat any across the site.
+
+### Wireframes
+Some basic wireframes were created for desktop and mobile for the the homepage. This gave a basic starting point from which the greater website then took shape. The original ideas were adapted and evolved as coding progressed thoughtout the project timeline. 
+![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-1.PNG)
+![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-2.PNG)
+![Balsamiq Wireframe for Mobile](assets/images/readme/mobile-wireframe.PNG)
+
 ### Features
 The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via the call to action button at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they complete the form itself. The sixth and final page is a 404 page.
 
@@ -115,7 +124,7 @@ The website is comprised of six pages. Three are accessible from the main naviga
 #### The 404 page
 
 #### Features To Be Implemented
-- Add CSS styling to darken the two image links at the bottom of index.html and display white text saying "Learn more about courses" and "Browse our shop" when the user's mouse hovers over them.
+- Add mouse hover effect on laptop and dekstop screens: CSS styling will darken the two images at the bottom of index.html and display white text above the darkened area saying "*Learn more about courses*" and "*Browse our shop*" respectively for both images.
 - Upgrade the Courses page to allow direct booking of and payment for availble courses.
 - Upgrade the Shop page to allow direct ordering and payment via the website.
 
