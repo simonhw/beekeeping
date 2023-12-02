@@ -81,7 +81,6 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 - A footer at the bottom of the page containing three icon links to a phone number, email, and Google Maps location. This was determined to be more beneficial to the user than social media links and tied in well with the goals of the website to encourage users to get in touch and register for beekeeping courses.
 
-
 ![Footer screenshot](assets/images/readme/footer.PNG)
 
 #### The Home page
@@ -203,16 +202,16 @@ To deploy this project locally on your own device, follow the below steps:
 | User Stories | Achieved by: | Supporting Image |
 | --- | --- | --- |
 | **First-time Visitors** | | |
-| To understand what the purpose of the website is. | The nav bar contains links for "Courses" and "Shop" which immediately communicate to the user that the website offers services. The final section on the home page invites the user to either enrol in a course or browse the shop. | |
-| To easily navigate between the pages and find what I'm looking for. | The nav bar is presenet on each page and does not change in style. The links are succinctly named 'Home' 'Courses' and 'Shop'. | |
-| To be able to contact the owners of the website for more information. | The footer offers the user the option to ring or email the owners at the tap of a button. This footer is present on each page. The phone number and email are listed on the Shop page and these links open in a phone app of course and email app respectively when clicked. | |
+| To understand what the purpose of the website is. | The main heading of "West Cork Beekeeping" communicates the location and activity presented by the website without any ambiguity. The nav bar contains links for "Courses" and "Shop" which immediately communicate to the user that the website offers services. The final section on the home page invites the user to either enrol in a course or browse the shop. | [Navbar and Heading Image](assets/images/readme/navigation-bar.PNG)|
+| To easily navigate between the pages and find what I'm looking for. | The nav bar is present on each page and does not change in style. The links are succinctly named "Home", "Courses", and "Shop". | |
+| To be able to contact the owners of the website for more information. | The footer offers the user the option to ring or email the owners at the tap of a button. This footer is present on each page. The phone number and email are listed on the Shop page and these links open in a phone app and email app respectively when clicked. | ![Footer Icons Image](assets/images/readme/footer.PNG) |
 | **Returning Visitors** | | |
 | To be able to easily locate information previously found. | Each page of the website has its content clearly separated into sections with headings. | |
-| To find up to date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | |
+| To find up to date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | ![Courses Image](assets/images/readme/section-courses.PNG) |
 | To find out where the website owners are based. | The footer contains a map icon link to show the location of the beekeeping group on Google Maps. | |
-| To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeper and large images draw the attention of the user to their item of interest. | |
+| To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeper and large images draw the attention of the user to their item of interest. | ![Products Image](assets/images/readme/section-products.PNG) |
 | **Frequent Visitors** | | |
-| To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page there is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | |
+| To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page there is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | ![Honey Link Image](assets/images/readme/invite-honey.PNG) |
 
 ### Automated Testing
 [W3C](https://validator.w3.org/) was used to validate the HTML on all website pages and the CSS stylesheet.
@@ -234,7 +233,7 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 ### Known Bugs
 | # | Bug | Image | Plan to Solve |
 | --- | --- | --- | --- |
-| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, in some non-standard screen sizes only the fourth div wraps onto the second row and is shown much larger than the other three divs. This bus is unlikely to be encountered by the average user visiting the website on commonly used devices. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | Revisit the problem after learning Javascript and utilise logic to force the divs into a 2x2 grid for the desired screen sizes. |
+| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, in some non-standard screen sizes only the fourth div wraps onto the second row and is shown much larger than the other three divs. This bug is unlikely to be encountered by the average user visiting the website on commonly used devices. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | Revisit the problem after learning Javascript and utilise logic to force the divs into a 2x2 grid for the desired screen sizes. |
 
 ### Solved Bugs
 | # | Bug | Image | Solution |
@@ -266,3 +265,9 @@ All images were found on [Pexels](https://www.pexels.com/) and [Unsplash](https:
 - Index Page: [Three People in White Suit](https://www.pexels.com/photo/three-people-in-white-suit-2260935/) ~ [A bee is sitting on top of a pink flower](https://www.pexels.com/photo/a-bee-is-sitting-on-top-of-a-pink-flower-17619735/) ~ [Man harvesting honey in apiary with bees](https://www.pexels.com/photo/man-harvesting-honey-in-apiary-with-bees-5247943/) ~ [Honey in Jars on Shelves](https://www.pexels.com/photo/honey-in-jars-on-shelves-12370134/)
 - Courses Page: [Women Standing on the Grass While Holding a Bucket](https://www.pexels.com/photo/women-standing-on-the-grass-while-holding-a-bucket-2260936/) ~ [Close-up of a Honeycomb Filled with Honey](https://www.pexels.com/photo/close-up-of-a-honeycomb-filled-with-honey-11655535/) ~ [Bees on Purple Flower](https://www.pexels.com/photo/bees-on-purple-flower-164470/) ~ [Crop man harvesting honey in countryside area](https://www.pexels.com/photo/crop-man-harvesting-honey-in-countryside-area-5247947/)
 - Shop Page: [Honey on Glass Jars](https://www.pexels.com/photo/honey-on-glass-jars-13246534/) ~ [bee person planting](https://unsplash.com/photos/bee-person-planting-8_WZU5xKFKk) ~ [Beehives on a Grass Field](https://www.pexels.com/photo/beehives-on-a-grass-field-17543926/) ~ [A Man in a Beekeeper Suit Near Blue Wooden Crates](https://www.pexels.com/photo/a-man-in-a-beekeeper-suit-near-blue-wooden-crates-4505623/) ~ [Close-Up Photo of an Empty Glass Jar on a White Surface](https://www.pexels.com/photo/close-up-photo-of-an-empty-glass-jar-on-a-white-surface-7604265/)
+
+## Acknowledgements
+I would like to Acknowledge the following people for their help and support during the completion of my first portfolio project.
+- My Code Institute mentor [Graeme Taylor](https://github.com/G-Taylor) who gave great encouragement and advice throughout. 
+- [Creating Your First README - Kera Cudmore](https://github.com/kera-cudmore/readme-examples)
+- Robin Hublard for his moral support and friendship.
