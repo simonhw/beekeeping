@@ -199,19 +199,90 @@ To deploy this project locally on your own device, follow the below steps:
 ## Testing
 ### Manual Testing
 
-| User Stories | Achieved by: | Supporting Image |
+| User Stories | Achieved by: | Supporting Images |
 | --- | --- | --- |
 | **First-time Visitors** | | |
 | To understand what the purpose of the website is. | The main heading of "West Cork Beekeeping" communicates the location and activity presented by the website without any ambiguity. The nav bar contains links for "Courses" and "Shop" which immediately communicate to the user that the website offers services. The final section on the home page invites the user to either enrol in a course or browse the shop. | [Navbar and Heading Image](assets/images/readme/navigation-bar.PNG)|
 | To easily navigate between the pages and find what I'm looking for. | The nav bar is present on each page and does not change in style. The links are succinctly named "Home", "Courses", and "Shop". | |
-| To be able to contact the owners of the website for more information. | The footer offers the user the option to ring or email the owners at the tap of a button. This footer is present on each page. The phone number and email are listed on the Shop page and these links open in a phone app and email app respectively when clicked. | ![Footer Icons Image](assets/images/readme/footer.PNG) |
+| To be able to contact the owners of the website for more information. | The footer offers the user the option to ring or email the owners at the tap of a button. This footer is present on each page. The phone number and email are listed on the Shop page and these links open in a phone app and email app respectively when clicked. | [Footer Icons Image](assets/images/readme/footer.PNG) |
 | **Returning Visitors** | | |
 | To be able to easily locate information previously found. | Each page of the website has its content clearly separated into sections with headings. | |
-| To find up to date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | ![Courses Image](assets/images/readme/section-courses.PNG) |
+| To find up to date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | [Courses Image](assets/images/readme/section-courses.PNG) |
 | To find out where the website owners are based. | The footer contains a map icon link to show the location of the beekeeping group on Google Maps. | |
-| To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeper and large images draw the attention of the user to their item of interest. | ![Products Image](assets/images/readme/section-products.PNG) |
+| To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeper and large images draw the attention of the user to their item of interest. | [Products Image](assets/images/readme/section-products.PNG) |
 | **Frequent Visitors** | | |
-| To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page there is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | ![Honey Link Image](assets/images/readme/invite-honey.PNG) |
+| To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page there is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | [Honey Link Image](assets/images/readme/invite-honey.PNG) |
+
+### Full Testing
+The website was fully tested on a Windows 10 desktop with a 26" monitor and a One Plus 9 Pro. Other types of devices were tested using Chrome Developer Tools.
+
+The site was tested on Google Chrome and Edge on the desktop, and Google Chrome and DuckDuckGo on the One Plus 9 Pro.
+
+#### Index Page
+| Feature | Expected Outcome | Test Used | Result | Test Status |
+| --- | --- | --- | --- | --- |
+| Navbar home link | When clicked, the user is redirected to the home page | Link clicked | Redirected to home page | Pass |
+| Navbar courses link | When clicked, the user is redirected to the courses page | Link clicked | Redirected to courses page | Pass |
+| Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
+| Beekeeping Courses image link | When clicked, the user is redirected to the courses page | Image clicked | Redirected to courses page | Pass |
+| Local Honey image link | When clicked, the user is redirected to the shop page | Image clicked | Redirected to shop page | Pass |
+| Call-to-Action Sign Up Button link | When clicked, the user is redirected to the form page | Button link clicked | Redirected to form page | Pass |
+| Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
+
+
+#### Courses Page
+| Feature | Expected Outcome | Test Used | Result | Test Status |
+| --- | --- | --- | --- | --- |
+| Navbar home link | When clicked, the user is redirected to the home page | Link clicked | Redirected to home page | Pass |
+| Navbar courses link | When clicked, the user is redirected to the courses page | Link clicked | Redirected to courses page | Pass |
+| Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
+| Call-to-Action Sign Up Button link | When clicked, the user is redirected to the form page | Button link clicked | Redirected to form page | Pass |
+| Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
+
+#### Shop Page
+| Feature | Expected Outcome | Test Used | Result | Test Status |
+| --- | --- | --- | --- | --- |
+| Navbar home link | When clicked, the user is redirected to the home page | Link clicked | Redirected to home page | Pass |
+| Navbar courses link | When clicked, the user is redirected to the courses page | Link clicked | Redirected to courses page | Pass |
+| Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
+| Call-to-Action Sign Up Button link | When clicked, the user is redirected to the form page | Button link clicked | Redirected to form page | Pass |
+| Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
+
+#### Form Page
+| Feature | Expected Outcome | Test Used | Result | Test Status |
+| --- | --- | --- | --- | --- |
+| Navbar home link | When clicked, the user is redirected to the home page | Link clicked | Redirected to home page | Pass |
+| Navbar courses link | When clicked, the user is redirected to the courses page | Link clicked | Redirected to courses page | Pass |
+| Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
+| Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
+
+#### Thank You Page
+| Feature | Expected Outcome | Test Used | Result | Test Status |
+| --- | --- | --- | --- | --- |
+| Navbar home link | When clicked, the user is redirected to the home page | Link clicked | Redirected to home page | Pass |
+| Navbar courses link | When clicked, the user is redirected to the courses page | Link clicked | Redirected to courses page | Pass |
+| Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
+| Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
+
+#### 404 Page
+| Feature | Expected Outcome | Test Used | Result | Test Status |
+| --- | --- | --- | --- | --- |
+| Navbar home link | When clicked, the user is redirected to the home page | Link clicked | Redirected to home page | Pass |
+| Navbar courses link | When clicked, the user is redirected to the courses page | Link clicked | Redirected to courses page | Pass |
+| Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
+| Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
 
 ### Automated Testing
 [W3C](https://validator.w3.org/) was used to validate the HTML on all website pages and the CSS stylesheet.
@@ -233,7 +304,7 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 ### Known Bugs
 | # | Bug | Image | Plan to Solve |
 | --- | --- | --- | --- |
-| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, in some non-standard screen sizes only the fourth div wraps onto the second row and is shown much larger than the other three divs. This bug is unlikely to be encountered by the average user visiting the website on commonly used devices. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | Revisit the problem after learning Javascript and utilise logic to force the divs into a 2x2 grid for the desired screen sizes. |
+| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, in some non-standard screen sizes only the fourth div wraps onto the second row and is shown much larger than the other three divs. This bug was encountered on the Edge browser when in viewed on a 26" monitor. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | Revisit the problem after learning Javascript and utilise logic to force the divs into a 2x2 grid for the desired screen sizes. |
 
 ### Solved Bugs
 | # | Bug | Image | Solution |
