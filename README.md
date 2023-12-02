@@ -228,7 +228,7 @@ The site was tested on Google Chrome and Edge on the desktop, and Google Chrome 
 | Local Honey image link | When clicked, the user is redirected to the shop page | Image clicked | Redirected to shop page | Pass |
 | Call-to-Action Sign Up Button link | When clicked, the user is redirected to the form page | Button link clicked | Redirected to form page | Pass |
 | Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
-| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app with the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
 | Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
 
 
@@ -240,7 +240,7 @@ The site was tested on Google Chrome and Edge on the desktop, and Google Chrome 
 | Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
 | Call-to-Action Sign Up Button link | When clicked, the user is redirected to the form page | Button link clicked | Redirected to form page | Pass |
 | Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
-| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app with the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
 | Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
 
 #### Shop Page
@@ -251,7 +251,7 @@ The site was tested on Google Chrome and Edge on the desktop, and Google Chrome 
 | Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
 | Call-to-Action Sign Up Button link | When clicked, the user is redirected to the form page | Button link clicked | Redirected to form page | Pass |
 | Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
-| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app with the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
 | Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
 
 #### Form Page
@@ -261,7 +261,7 @@ The site was tested on Google Chrome and Edge on the desktop, and Google Chrome 
 | Navbar courses link | When clicked, the user is redirected to the courses page | Link clicked | Redirected to courses page | Pass |
 | Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
 | Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
-| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app with the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
 | Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
 
 #### Thank You Page
@@ -271,7 +271,7 @@ The site was tested on Google Chrome and Edge on the desktop, and Google Chrome 
 | Navbar courses link | When clicked, the user is redirected to the courses page | Link clicked | Redirected to courses page | Pass |
 | Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
 | Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
-| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app with the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
 | Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
 
 #### 404 Page
@@ -281,7 +281,7 @@ The site was tested on Google Chrome and Edge on the desktop, and Google Chrome 
 | Navbar courses link | When clicked, the user is redirected to the courses page | Link clicked | Redirected to courses page | Pass |
 | Navbar shop link | When clicked, the user is redirected to the shop page | Link clicked | Redirected to shop page | Pass |
 | Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
-| Footer Email icon | When clicked, the user is redirected to an email app the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
+| Footer Email icon | When clicked, the user is redirected to an email app with the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
 | Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
 
 ### Automated Testing
