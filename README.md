@@ -61,7 +61,7 @@ The website is comprised of six pages. Three are accessible from the main naviga
 ![Footer screenshot](assets/images/readme/footer.PNG)
 
 #### The Home page
-- A heading welcomes the user to the site followed by a summary of the motivation and intentions of the website owners. This immediately gives the user an idea of what to expect from the rest of the website. A picture of three beekeepers posing in their suits underneath this paragraph conveys a sense of fun and camaraderie to the user.
+- A heading welcomes the user to the site followed by a summary of the motivation and intentions of the website owners. This immediately gives the user an idea of what to expect from the rest of the website. A picture of three beekeepers posing in their suits conveys a sense of fun and camaraderie to the user.
 
 ![About Us screenshot](assets/images/readme/section-about-us.PNG)
 
@@ -75,7 +75,7 @@ The website is comprised of six pages. Three are accessible from the main naviga
 ![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.PNG)
 
 #### The Courses page
-- The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. Courses that are sold out are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above.
+- The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. The most recent sold out courses at each level are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above. These sections will be updated as time goes on to keep user up to date with availibility.
 
 ![Upcoming Courses screenshot](assets/images/readme/section-courses.PNG)
 
@@ -104,6 +104,11 @@ The website is comprised of six pages. Three are accessible from the main naviga
 #### The Thank You page
 
 #### The 404 page
+
+#### Features To Be Implemented
+- Add CSS styling to darken the two image links at the bottom of index.html and display white text saying "Learn more about courses" and "Browse our shop" when the user's mouse hovers over them.
+- Upgrade the Courses page to allow direct booking of and payment for availble courses.
+- Upgrade the Shop page to allow direct ordering and payment via the website.
 
 ## Deployment
 
@@ -148,6 +153,10 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 
 ## Bugs
 ### Known Bugs
+| # | Bug | Image | Solution |
+| --- | --- | --- | --- |
+| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, at specific screen widths of 1136-1199px and 1420-1879px only the fourth div wraps onto the second row and is shown much larger than the other three divs. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) |  |
+
 ### Solved Bugs
 | # | Bug | Image | Solution |
 | --- | --- | --- | --- |
@@ -160,6 +169,9 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 ### Code Used
 Code for the website footer was copied and adapted from the Code Institute Love Running Walkthrough Project.
 - [Code Institute - Creating the Footer](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.7-creating-the-footer)
+
+CSS code in the Why Become a Beekeeper section that makes the four divs arrange into a grid on smaller screen sizes was inspired by the Meetup Times section in the Code Institute Love Running Walkthrough Project.
+- [Code Institute ]
 
 ### Content
 All code content was written by Simon Henleywillis unless otherwise specified above.
