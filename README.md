@@ -2,7 +2,7 @@
 
 This website is designed to be responsive for users visiting on different-sized devices. It enables users to learn about bees and beekeeping and encourages visitors to register for beekeeping courses.
 
-![Amiresponsive Screenshot](placeholder/directory/image.png)
+![Amiresponsive Screenshot](assets/images/readme/wcb-amiresponsive.PNG)
 
 Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/beekeeping/index)
 
@@ -140,7 +140,7 @@ The website is comprised of six pages. Three are accessible from the main naviga
 ![Form screenshot](assets/images/readme/section-registration.PNG)
 
 #### The Thank You page
-- The Thank You page is intended to confirm to the user that their information has been recieved and informs them of an acknowledgement email they will receive. This page will automatically redirect to the homepage after 10 seconds and the user is informed of this. Should this redirect fail for any reason, the user is instructed to use the nav bar links to get back to the main website.
+- The Thank You page is intended to confirm to the user that their information has been received and informs them of an acknowledgement email they will receive. This page will automatically redirect to the homepage after 10 seconds and the user is informed of this. Should this redirect fail for any reason, the user is instructed to use the nav bar links to get back to the main website.
 
 ![Thank You page screenshot](assets/images/readme/thank-you-page.PNG)
 
@@ -184,7 +184,7 @@ Google Fonts - For imported fonts used on the website.
 
 [Pexels.com](https://www.pexels.com/), [Unsplash.com](https://unsplash.com/), and [Flaticon](https://www.flaticon.com/) - To source images used on the website.
 
-Adobe Photoshop 2020 - To crop images.
+Adobe Photoshop 2020 - To crop and resize images.
 
 [TinyPNG](https://tinypng.com/) - To compress images.
 
