@@ -340,25 +340,29 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 ### Lighthouse
 The Lighthouse feature in Chrome Developer Tools was used to test the performace, accessibility, best practices, and search engine optimisation of the website.
 
-#### Index.html
+#### Index page
+![Lighthouse Test - Desktop index.hmtl](assets/images/readme/testing/lighthouse-index-desktop.PNG)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.PNG)
 
-[Lighthouse Test - Desktop index.hmtl](assets/images/readme/testing/lighthouse-index-desktop.PNG)
-[Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.PNG)
+#### Courses page
+![Lighthouse Test - Desktop courses.hmtl](assets/images/readme/testing/lighthouse-courses-desktop.PNG)
+![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile.PNG)
 
-[Lighthouse Test - Desktop courses.hmtl](assets/images/readme/testing/lighthouse-courses-desktop.PNG)
-[Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile.PNG)
+#### Shop page
+![Lighthouse Test - Desktop shop.hmtl](assets/images/readme/testing/lighthouse-shop-desktop.PNG)
+![Lighthouse Test - Mobile shop.hmtl](assets/images/readme/testing/lighthouse-shop-mobile.PNG)
 
-[Lighthouse Test - Desktop shop.hmtl](assets/images/readme/testing/lighthouse-shop-desktop.PNG)
-[Lighthouse Test - Mobile shop.hmtl](assets/images/readme/testing/lighthouse-shop-mobile.PNG)
+#### Form page
+![Lighthouse Test - Desktop form.hmtl](assets/images/readme/testing/lighthouse-index-desktop.PNG)
+![Lighthouse Test - Mobile form.hmtl](assets/images/readme/testing/lighthouse-form-mobile.PNG)
 
-[Lighthouse Test - Desktop form.hmtl](assets/images/readme/testing/lighthouse-index-desktop.PNG)
-[Lighthouse Test - Mobile form.hmtl](assets/images/readme/testing/lighthouse-form-mobile.PNG)
+#### Thank You page
+![Lighthouse Test - Desktop thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-desktop.PNG)
+![Lighthouse Test - Mobile thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-mobile.PNG)
 
-[Lighthouse Test - Desktop thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-desktop.PNG)
-[Lighthouse Test - Mobile thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-mobile.PNG)
-
-[Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.PNG)
-[Lighthouse Test - Mobile 404.hmtl](assets/images/readme/testing/lighthouse-404-mobile.PNG)
+#### 404 page
+![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.PNG)
+![Lighthouse Test - Mobile 404.hmtl](assets/images/readme/testing/lighthouse-404-mobile.PNG)
 
 
 ## Bugs
