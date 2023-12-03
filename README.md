@@ -329,12 +329,12 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 
 ### Automated Testing
 [W3C](https://validator.w3.org/) was used to validate the HTML on all website pages and the CSS stylesheet.
-- [index.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-index.PNG) - Passed.
-- [courses.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-courses.PNG) - Passed.
-- [shop.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-shop.PNG) - Passed.
+- [index.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-index.PNG) - Passed with no errors. The trailing slash in the self-closing <img/> element is flagged as having no effect.
+- [courses.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-courses.PNG) - Passed with no errors. The trailing slash in the self-closing <img/> element is flagged as having no effect.
+- [shop.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-shop.PNG) - Passed with no errors. The trailing slash in the self-closing <img/> element is flagged as having no effect.
 - [form.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-form.PNG) - Passed.
-- [thankyou.html]()
-- [404.html]()
+- [thankyou.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-thank-you.PNG)
+- [404.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-404.PNG)
 - [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.PNG) - Passed with no errors.
 
 ### Lighthouse
