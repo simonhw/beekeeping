@@ -314,6 +314,10 @@ input {
     text-align: center;
 }
 
+.small-page-body h2 {
+    font-size: xx-large;
+}
+
 .small-page-body h3 {
     text-align: center;
 }
