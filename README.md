@@ -274,9 +274,10 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 | Email Input Field | If the user attempts to submit the form with this text in this field that is missing a @ symbol, the user is prompted to add an @ to the text before continuing. | Submit button clicked with text not including the @ symbol in the input field. | Form does not submit and an alert reminds the user to add a @ symbol to the text in the input field. | Pass |
 | Email Input Field | If the user attempts to submit the form with no text after the @ symbol, the user is prompted to add text after the @ symbol before continuing. | Submit button clicked with no text present after the @ symbol in the input field. | Form does not submit and an alert reminds the user to add text after the @ symbol in the input field. | Pass |
 | Email Input Field | If the user attempts to submit the form with no text before the @ symbol, the user is prompted to add text before the @ symbol before continuing. | Submit button clicked with no text present before the @ symbol in the input field. | Form does not submit and an alert reminds the user to add text *after* the @ symbol in the input field. | Soft Pass |
-
-
-
+| Date of Birth Input Field | When no date is entered by the user, the form will not submit and a reminder to fill in the field will display. | No date entered by user and submit button clicked. | Form does not submit and reminder message displays | Pass |
+| Date of Birth Input Field | When an invalid date is entered by the user, the form will not submit and a reminder to enter a date earlier than 07/12/2005 will display. | A date later than 07/12/2005 was entered by user and submit button clicked. | Form does not submit and reminder message displays. | Pass |
+| Courses Radio Buttons | When a given course is selected, the previously selected course in unselected | The user clicked each of the radio buttons in turn. | Only one course button was able to selected at any one time. | Pass |
+| Submit Button | When clicked, the user is redirected to the Thank You page. | Button clicked | Redirected to Thank You page | Pass |
 | Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
 | Footer Email icon | When clicked, the user is redirected to an email app with the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
 | Footer Map icon | When clicked, the user is redirected to a Google Maps location in a new tab or app | Icon clicked | Google Maps open in a new tab or app | Pass |
@@ -337,11 +338,11 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 ## Credits
 
 ### Code Used
-Code for the website footer was copied and adapted from the Code Institute Love Running Walkthrough Project.
+Code for the website footer was taken and adapted from the Code Institute Love Running Walkthrough Project.
 - [Code Institute - Creating the Footer](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.7-creating-the-footer)
 
 CSS code in the Why Become a Beekeeper section that makes the four divs arrange into a grid on smaller screen sizes was inspired by the Meetup Times section in the Code Institute Love Running Walkthrough Project.
-- [Code Institute ]
+- [Code Institute - Meetup Times](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/5.3-meetup-times)
 
 ### Content
 All code content was written by Simon Henleywillis unless otherwise specified above.
