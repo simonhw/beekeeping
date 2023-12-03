@@ -365,6 +365,9 @@ CSS code in the Why Become a Beekeeper section that makes the four divs arrange 
 
 Code in the Form page on line 11 was provided by CI Mentor Graeme Taylor during the second mentor meeting.
 
+Code used to push the footer to the bottom of the Thank You page was found on the website 30 Second of Code.
+- [30secondsofcode.org - Footer at the Bottom](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/)
+
 ### Content
 All code content was written by Simon Henleywillis unless otherwise specified above.
 
