@@ -89,6 +89,10 @@ ul li {
 
 }
 
+.larger-img {
+    display: none;
+}
+
 /* Index Page */
 #hero {
     position: relative;
@@ -364,6 +368,14 @@ footer i {
 
     #about-us div {
         flex-direction: row;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .larger-img {
+        display: unset;
     }
 
     .main-images {

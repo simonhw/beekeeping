@@ -340,48 +340,47 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 ### Lighthouse
 The Lighthouse feature in Chrome Developer Tools was used to test the performace, accessibility, best practices, and search engine optimisation of the website.
 
-#### Index page
-Desktop:
-- ![Lighthouse Test - Desktop index.hmtl](assets/images/readme/testing/lighthouse-index-desktop.PNG)
+#### Desktop Tests
+All tests in desktop mode were satisfactory with scores between 92 and 100.
 
-Mobile:
-- ![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.PNG)
+Index page:
+![Lighthouse Test - Desktop index.hmtl](assets/images/readme/testing/lighthouse-index-desktop.PNG)
 
-#### Courses page
-Desktop:
-- ![Lighthouse Test - Desktop courses.hmtl](assets/images/readme/testing/lighthouse-courses-desktop.PNG)
+Courses page:
+![Lighthouse Test - Desktop courses.hmtl](assets/images/readme/testing/lighthouse-courses-desktop.PNG)
 
-Mobile:
-- ![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile.PNG)
+Shop page:
+![Lighthouse Test - Desktop shop.hmtl](assets/images/readme/testing/lighthouse-shop-desktop.PNG)
 
-#### Shop page
-Desktop:
-- ![Lighthouse Test - Desktop shop.hmtl](assets/images/readme/testing/lighthouse-shop-desktop.PNG)
+Form page:
+![Lighthouse Test - Desktop form.hmtl](assets/images/readme/testing/lighthouse-form-desktop.PNG)
 
-Mobile:
-- ![Lighthouse Test - Mobile shop.hmtl](assets/images/readme/testing/lighthouse-shop-mobile.PNG)
+Thank You page:
+![Lighthouse Test - Desktop thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-desktop.PNG)
 
-#### Form page
-Desktop:
-- ![Lighthouse Test - Desktop form.hmtl](assets/images/readme/testing/lighthouse-index-desktop.PNG)
+404 page:
+![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.PNG)
 
-Mobile:
-- ![Lighthouse Test - Mobile form.hmtl](assets/images/readme/testing/lighthouse-form-mobile.PNG)
+#### Mobile Tests
+Mobile test were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  
 
-#### Thank You page
-Desktop:
-- ![Lighthouse Test - Desktop thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-desktop.PNG)
+Index page:
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.PNG)
 
-Mobile:
-- ![Lighthouse Test - Mobile thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-mobile.PNG)
+Courses page:
+![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile.PNG)
 
-#### 404 page
-Desktop:
-- ![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.PNG)
+Shop page:
+![Lighthouse Test - Mobile shop.hmtl](assets/images/readme/testing/lighthouse-shop-mobile.PNG)
 
-Mobile:
-- ![Lighthouse Test - Mobile 404.hmtl](assets/images/readme/testing/lighthouse-404-mobile.PNG)
+Form page:
+![Lighthouse Test - Mobile form.hmtl](assets/images/readme/testing/lighthouse-form-mobile.PNG)
 
+Thank You page:
+![Lighthouse Test - Mobile thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-mobile.PNG)
+
+404 page:
+![Lighthouse Test - Mobile 404.hmtl](assets/images/readme/testing/lighthouse-404-mobile.PNG)
 
 ## Bugs
 ### Known Bugs
