@@ -326,6 +326,17 @@ input {
     margin-top: auto;
 }
 
+/* 404 Page */
+#div-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-404 img {
+height: 35vh;
+}
+
 /* Footer Style */
 footer {
     background-color: rgba(0, 0, 0, 0.8);
