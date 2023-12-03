@@ -344,42 +344,54 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 All tests in desktop mode were satisfactory with scores between 92 and 100.
 
 Index page:
+
 ![Lighthouse Test - Desktop index.hmtl](assets/images/readme/testing/lighthouse-index-desktop.PNG)
 
 Courses page:
+
 ![Lighthouse Test - Desktop courses.hmtl](assets/images/readme/testing/lighthouse-courses-desktop.PNG)
 
 Shop page:
+
 ![Lighthouse Test - Desktop shop.hmtl](assets/images/readme/testing/lighthouse-shop-desktop.PNG)
 
 Form page:
+
 ![Lighthouse Test - Desktop form.hmtl](assets/images/readme/testing/lighthouse-form-desktop.PNG)
 
 Thank You page:
+
 ![Lighthouse Test - Desktop thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-desktop.PNG)
 
 404 page:
+
 ![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.PNG)
 
 #### Mobile Tests
-Mobile test were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  
+Mobile test were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance scores improved to between 
 
 Index page:
+
 ![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.PNG)
 
 Courses page:
+
 ![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile.PNG)
 
 Shop page:
+
 ![Lighthouse Test - Mobile shop.hmtl](assets/images/readme/testing/lighthouse-shop-mobile.PNG)
 
 Form page:
+
 ![Lighthouse Test - Mobile form.hmtl](assets/images/readme/testing/lighthouse-form-mobile.PNG)
 
 Thank You page:
+
 ![Lighthouse Test - Mobile thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-mobile.PNG)
 
 404 page:
+
 ![Lighthouse Test - Mobile 404.hmtl](assets/images/readme/testing/lighthouse-404-mobile.PNG)
 
 ## Bugs
