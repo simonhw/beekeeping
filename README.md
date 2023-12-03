@@ -368,15 +368,35 @@ Thank You page:
 ![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.PNG)
 
 #### Mobile Tests
-Mobile test were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance scores improved to between 
+Mobile test were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images on the index and courses pages to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance score for index.html only improved by 3 points, and the score for courses.html actually dropped by 6 points. It was deemed that improvements to achieve scores of 90 and higher were outside the scope of this project at this time.
 
 Index page:
 
+<details><summary>Initial Lighthouse Scores</summary>
+
 ![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.PNG)
+
+</details>
+
+<details><summary>Lighthouse Scores after resizing images</summary>
+
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-2.PNG)
+
+</details>
 
 Courses page:
 
+<details><summary>Initial Lighthouse Scores</summary>
+
 ![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile.PNG)
+
+</details>
+
+<details><summary>Lighthouse Scores after resizing images</summary>
+
+![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile-2.PNG)
+
+</details>
 
 Shop page:
 
