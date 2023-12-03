@@ -332,12 +332,15 @@ footer i {
     }
 
     .main-images {
-        width: 50%;
+        /* Min-width used to here to ensure desired size achieved on all browsers tested. */
+        min-width: 50%;
     }
 
     /*#about-bees img {*/
     .tablet-wide-crop {
+        /* Two width attributes that ensure the correct image width for chrome-based browers and firefox */
         width: -webkit-fill-available;
+        width: -moz-available;
         height: 25vh;
         min-height: 185px;
         object-fit: cover;
@@ -417,7 +420,8 @@ footer i {
     }
 
     #about-us .main-images {
-        width: 33%;
+        /* Min-width used to here to ensure desired size achieved on all browsers tested. */
+        min-width: 33%;
     }
 
     #about-bees .main-images {
