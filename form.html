@@ -54,7 +54,8 @@
                     </div>
                     <div>
                         <label for="phone">Phone Number: </label>
-                        <input type="tel" name="phone" id="phone" autocomplete='on' placeholder="00000000" pattern="[0-9]{8}" required>
+                        <!-- Add phone number pattern of 8, 9, or 10 digits to account for different types of Irish phone number formats. --> 
+                        <input type="tel" name="phone" id="phone" autocomplete='on' placeholder="00000000" pattern="[0-9]{8}|[0-9]{9}|[0-9]{10}" required>
                     </div>
                     <div>
                         <label for="age">Date of Birth: </label>
@@ -102,7 +103,7 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.google.ie/maps/place/Moneygaff+West,+Cappeen,+Co.+Cork/@51.7949445,-9.0121492,14z/data=!4m6!3m5!1s0x4844fc7a04e15e1d:0x8e32734ebb7915f3!8m2!3d51.7949203!4d-8.9915497!16s%2Fg%2F119vn12c_?entry=ttu"
+                <a href="https://tinyurl.com/wcb-location"
                     aria-label="Go to our location on Google Maps (opens in a new tab)" target="_blank">
                     <i class="fa-solid fa-map-location-dot"></i>
                 </a>
