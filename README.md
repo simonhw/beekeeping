@@ -363,6 +363,8 @@ Code for the website footer was taken and adapted from the Code Institute Love R
 CSS code in the Why Become a Beekeeper section that makes the four divs arrange into a grid on smaller screen sizes was inspired by the Meetup Times section in the Code Institute Love Running Walkthrough Project.
 - [Code Institute - Meetup Times](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/5.3-meetup-times)
 
+Code in the Form page on line 11 was provided by CI Mentor Graeme Taylor during the second mentor meeting.
+
 ### Content
 All code content was written by Simon Henleywillis unless otherwise specified above.
 
