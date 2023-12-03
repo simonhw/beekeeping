@@ -334,7 +334,7 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 - [shop.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-shop.PNG) - Passed. Trailing slashes in self-closing `<img/>` elements are flagged as having no effect.
 - [form.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-form.PNG) - Passed.
 - [thankyou.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-thank-you.PNG) - Passed.
-- [404.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-404.PNG) - Passed. The trailing slashe in the self-closing `<img/>` element is flagged as having no effect.
+- [404.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-404.PNG) - Passed. The trailing slash in the self-closing `<img/>` element is flagged as having no effect.
 - [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.PNG) - Passed with no errors and [two warnings](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css-warnings.PNG). The warnings are related to vendor extensions.
 
 ### Lighthouse
