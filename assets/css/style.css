@@ -302,6 +302,18 @@ input {
     height: 40px;
 }
 
+/* Thank You page */
+/* The below two styles are taken from 30secondsofcode.org. See README for more details */
+.small-page-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-page-footer {
+    margin-top: auto;
+}
+
 /* Footer Style */
 footer {
     background-color: rgba(0, 0, 0, 0.8);
