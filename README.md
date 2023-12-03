@@ -216,7 +216,7 @@ To deploy this project locally on your own device, follow the below steps:
 ### Full Testing
 The website was fully tested on a Windows 10 desktop with a 26" monitor and a One Plus 9 Pro. Other types of devices were tested using Chrome Developer Tools.
 
-The site was tested on Google Chrome and Edge on the desktop, and Google Chrome and DuckDuckGo on the One Plus 9 Pro.
+The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, and Google Chrome and DuckDuckGo on the One Plus 9 Pro.
 
 #### Index Page
 | Feature | Expected Outcome | Test Used | Result | Test Status |
@@ -304,7 +304,7 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 ### Known Bugs
 | # | Bug | Image | Plan to Solve |
 | --- | --- | --- | --- |
-| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, in some non-standard screen sizes only the fourth div wraps onto the second row and is shown much larger than the other three divs. This bug was encountered on the Edge browser when in viewed on a 26" monitor. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | Revisit the problem after learning Javascript and utilise logic to force the divs into a 2x2 grid for the desired screen sizes. |
+| 1 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, on some occasions only the fourth div wraps onto the second row and is shown much larger than the other three divs. This bug was encountered on the Edge and Firefox browsers when viewed on a 26" monitor. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | Revisit the problem after learning Javascript and utilise logic to force the divs into a 2x2 grid for the desired screen sizes. |
 
 ### Solved Bugs
 | # | Bug | Image | Solution |
@@ -312,6 +312,8 @@ The Lighthouse feature in Chrome Developer Tools was used to test the performace
 | 1 | While creating the navbar unordered list, there was an unspecified left padding of 40px discovered which was pushing the nav links visually off center. | ![Navbar padding bug](assets/images/readme/bugs/bug001-nav-padding.PNG) | The solution was to force all padding for the element to 0px in the CSS stylesheet. |
 |2|The first element in the header (the div containing the navbar) has a value of 5px for margin-top. This eemed to result in pushing the entire header down leaving an empty white space equal to 5px in height. | ![Navbar margin bug](assets/images/readme/bugs/bug002-nav-margin.PNG) | Adding the property `overflow:hidden` to the div resolved the problem. Solution found on [Stack Overflow](https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down) |
 | 3 | When tilting the mobile screen or using larger width displays, the H1 element was finding itself positioned outside the limits of the header. | ![Navbar H1 position bug](assets/images/readme/bugs/bug003-h1-overflow.PNG) | I set the parent div to `display: flex` to ensure it stayed positioned inside the header and also utilised `flex-grow: 2` to visually centre the H1 in the new flex layout. This also seemed to solve Bug #2 when removing the `overflow:hidden` property added above. |
+| 4 | When using Mozilla Firefox, the browser forced the first image on the homepage to shrink to ~ 0.25 times its intended size on screen sizes of 768px wide and greater. | [Mozilla Firefox Image](assets/images/readme/bugs/bug005-moz-image.PNG) [Mozilla Inspect Element Image](assets/images/readme/bugs/bug005-moz-inspect.PNG) | The existing CSS attributes of `width: 50%` and `width: 33%` for the images on tablet and desktop screen sizes respectively were changed to `min-width: 50%` and `min-width: 33%`. | 
+| 5 | On Mozilla Firefox, the four images in the Why Become a Beekeeper section did not display at the expected size on dekstop widths when compared to other browsers. | ![Mozilla Image Width Inconsistency](assets/images/readme/bugs/bug006-moz-cropped.PNG) | Using the Inspect tool on Mozilla Firefox, I added the attribute of `-moz-available` and the desired image sizes were achieved. I leared that the previous width attribute of `-webkit-fill-available` only work on Chrome-based browers. |
 
 ## Credits
 
