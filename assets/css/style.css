@@ -393,8 +393,10 @@ footer i {
     }
 
     .why-div {
-        /* Arrange reasons into a grid of four divs */
-        flex-basis: 350px;
+        /* This code was taken from the Code Institute Love Running Walkthrough project and adapted */
+        /* Using a vw size below prevents display issues on certain browers. See Bugs section in README 
+            for more detailed information */
+        flex-basis: 35vw;
         flex-grow: 1;
         justify-content: space-between;
     }
