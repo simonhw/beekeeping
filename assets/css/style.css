@@ -310,6 +310,14 @@ input {
     flex-direction: column;
 }
 
+.small-page-body p {
+    text-align: center;
+}
+
+.small-page-body h3 {
+    text-align: center;
+}
+
 .small-page-footer {
     margin-top: auto;
 }
