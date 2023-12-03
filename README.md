@@ -372,7 +372,7 @@ Mobile test were all satisfactory in the Accessibilty, Best Practices, and SEO c
 
 Index page:
 
-<details><summary>Initial Lighthouse Scores</summary>
+<details open><summary>Initial Lighthouse Scores</summary>
 
 ![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.PNG)
 
@@ -386,7 +386,7 @@ Index page:
 
 Courses page:
 
-<details><summary>Initial Lighthouse Scores</summary>
+<details open><summary>Initial Lighthouse Scores</summary>
 
 ![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile.PNG)
 
@@ -440,9 +440,9 @@ Code for the website footer was taken and adapted from the Code Institute Love R
 CSS code in the Why Become a Beekeeper section that makes the four divs arrange into a grid on smaller screen sizes was inspired by the Meetup Times section in the Code Institute Love Running Walkthrough Project.
 - [Code Institute - Meetup Times](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/5.3-meetup-times)
 
-Code in the Form page on line 11 was provided by CI Mentor Graeme Taylor during the second mentor meeting.
+Code in the Thank You page on line 11 was provided by CI Mentor Graeme Taylor during the second mentor meeting.
 
-Code used to push the footer to the bottom of the Thank You page was found on the website 30 Second of Code.
+Code used to push the footer to the bottom of the Thank You and 404 pages was found on the website 30 Second of Code.
 - [30secondsofcode.org - Footer at the Bottom](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/)
 
 ### Content
