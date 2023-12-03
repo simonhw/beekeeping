@@ -16,12 +16,27 @@ Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/b
 - [Design](#Design)
     - [Colour Scheme](#Colour-Scheme)
     - [Typography](#Typography)
+    - [Imagery](#Imagery)
+    - [Wireframes](#Wireframes)
     - [Features](#Features)
+    - [Accessibility](#Accessibility)
+- [Technologies Used](#Technologies-Used)
+  - [Languages](#Languages)
+  - [Frameworks, Libraries, and Programs](#Frameworks,-Libraries,-and-Programs)
 - [Deployment](#Deployment)
   - [Local Deployment](#Local-Deployment)
     - [Forking](#Forking)
     - [Cloning](#Cloning)
+- [Testing](#Testing)
+  - [Manual Testing](#Manual-Testing)
+  - [Full Testing](#Full-Testing)
+  - [Automated Testing](#Automated-Testing)
+  - [Lighthouse](#Lighthouse)
+- [Bugs](#Bugs)
 - [Credits](#Credits)
+  - [Code Used](#Code-Used)
+  - [Content](#Content)
+  - [Media](#Media)
 - [Acknowledgements](#Acknowledgements)
 
 ## User Experience
@@ -163,7 +178,11 @@ Google Fonts - For imported fonts used on the website.
 
 [Pexels.com](https://www.pexels.com/) and [Unsplash.com](https://unsplash.com/) - To source images used on the website.
 
-Adobe Photoshop 2020 - To crop and resize images.
+Adobe Photoshop 2020 - To crop images.
+
+[TinyPNG](https://tinypng.com/) - To compress images.
+
+Shutter Encoder  - To convert images to .webp format.
 
 Github Pages - To host the live version of the website.
 
