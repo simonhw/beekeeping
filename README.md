@@ -455,15 +455,15 @@ The results for each page are shown below.
 
 </details>
 
-- All pages passed with no errors save for the Thank You page which flagged the timed redirect as an error. Since this an intended feature of the page, this error was not regarded as a failing point for the page's Wave test. 
+All pages passed with no errors save for the Thank You page which flagged the timed redirect as an error. Since this an intended feature of the page, this error was not regarded as a failing point for the page's Wave test. 
 
 ![Thank-you.html Error](assets/images/readme/testing/wave-thank-you-error.PNG)
 
-- Some pages had alerts for justified paragraph text. The issues that can arise from this, namely varying word spacing and 'rivers of white', were not observed on the website. For this reason, I did not remove the justified style.
+Some pages had alerts for justified paragraph text. The issues that can arise from this, namely varying word spacing and 'rivers of white', were not observed on the website. For this reason, I did not remove the justified style.
 
 ![Justified Text Alert](assets/images/readme/testing/wave-justify.PNG)
 
-- The courses page had alerts for three redundant links. These are the links to the form page, 1 link in each of the two available beginner course boxes, 1 in the available intermediate course box, and 1 in the Call-to-Action button at the bottom of the page. As these duplicate links are part of the design of the page, they were not removed. With the use of Javascript in the future, the selection of the different links could also pre-select options in a future version of the form.
+The courses page had alerts for three redundant links. These are the links to the form page: 1 link in each of the two available beginner course boxes, 1 in the available intermediate course box, and 1 in the Call-to-Action button at the bottom of the page. As these duplicate links are part of the design of the page, they were not removed. With the use of Javascript in the future, the selection of the different links could also pre-select options in a future version of the form.
 
 ![Redundant Links Alert](assets/images/readme/testing/wave-redundant.PNG)
 
