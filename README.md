@@ -151,7 +151,7 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 #### Features To Be Implemented
 - Add mouse hover effect on laptop and dekstop screens: CSS styling will darken the two images at the bottom of index.html and display white text above the darkened area saying "*Learn more about courses*" and "*Browse our shop*" respectively for both images.
-- Upgrade the Courses page to allow direct booking of and payment for availble courses.
+- Upgrade the Courses page to allow direct booking of and payment for available courses.
 - Upgrade the Shop page to allow direct ordering and payment via the website.
 
 ### Accessibility
@@ -333,7 +333,7 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 - [courses.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-courses.PNG) - Passed. Trailing slashes in self-closing `<img/>` elements are flagged as having no effect.
 - [shop.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-shop.PNG) - Passed. Trailing slashes in self-closing `<img/>` elements are flagged as having no effect.
 - [form.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-form.PNG) - Passed.
-- [thankyou.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-thank-you.PNG) - Passed.
+- [thank-you.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-thank-you.PNG) - Passed.
 - [404.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-404.PNG) - Passed. The trailing slash in the self-closing `<img/>` element is flagged as having no effect.
 - [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.PNG) - Passed with no errors and [two warnings](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css-warnings.PNG). The warnings are related to vendor extensions.
 

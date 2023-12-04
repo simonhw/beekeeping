@@ -1,13 +1,12 @@
 /* Import Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Stick&display=swap');
 
-/* Wildcard styles */
+/* WILDCARD STYLE */
 * {
     margin: 0;
 }
 
-
-/* General Styles */
+/* GENERAL STYLES */
 body {
     margin: 0%;
     font-family: 'Alegreya Sans', sans-serif;
@@ -43,6 +42,7 @@ i {
 }
 
 .active {
+    /* Class to underline the nav link of the current page */
     text-decoration: underline;
 }
 
@@ -64,10 +64,12 @@ header a {
 }
 
 header nav {
+    /* Flex grow used to visually centre the H1 heading with respect to the nav bar, which has a flex grow of 1. */
     flex-grow: 1;
 }
 
 header h1 {
+    /* Flex grow used to visually centre the H1 heading with respect to the nav bar, which has a flex grow of 1. */
     flex-grow: 2;
 }
 
@@ -80,20 +82,19 @@ p {
     text-align: justify;
 }
 
-header {
-    position: fixed;
-}
-
-ul li {
-    list-style-type: none;
-
-}
-
 .larger-img {
+    /* Hides larger-sized images on mobile screens */
     display: none;
 }
 
-/* Index Page */
+.flex-column-centred {
+    /* Flex properties to arrange content into vertically centred columns */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* INDEX PAGE */
 #hero {
     position: relative;
     background: url("../images/beehive-fence-720-c.webp") no-repeat center center/cover;
@@ -113,9 +114,7 @@ main section {
 #about-us div,
 #about-bees div,
 .invite {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* Flex box attribute to display index.html content evenly in column direction on mobiles */
     justify-content: space-evenly;
 }
 
@@ -126,44 +125,38 @@ main section {
 }
 
 hr {
+    /* Set horizontal line legth to 90% for aesthetic reasons */
     width: 90%;
     margin: 10px auto;
 }
 
 .invite a {
+    /* Centre-align the link element and therefore the image elements in the .invite divs */
     text-align: center;
 }
 
 .invite p {
+    /* Set these paragraphs to be narrower than the rest of the page to denote they are in a single section */
     width: 75%;
 }
 
 .invitation-images {
+    /* Set the images to the same width as their associated paragraphs */
     width: 75%;
     border-radius: 2%;
 }
 
 .hr-75 {
+    /* Shortened horizontal line for use dividing divs in the same section */
     width: 75%;
 }
 
-.paragraph-images {
-    border-radius: 2%;
-    width: 100%;
-}
-
+/* Span class used to hide the word 'Click' on mobile devices */
 .desktop {
     display: none;
 }
 
-/*Courses Page */
-.structure,
-.course-boxes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/*COURSES PAGE */
 .structure li {
     margin-bottom: 5px;
 }
@@ -176,6 +169,11 @@ hr {
     padding: 5px 15px;
 }
 
+/* Removes list dots for course details boxes */
+ul li {
+    list-style-type: none;
+}
+
 .sold {
     color: crimson;
     font-weight: bold;
@@ -183,19 +181,13 @@ hr {
 
 li a {
     text-decoration: none;
-
 }
 
+/* Underline style used to denote the text is a link */
 .available {
     color: #076600;
     text-decoration: underline;
     font-weight: bold;
-}
-
-.why-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #sign-up-button {
@@ -204,41 +196,32 @@ li a {
 }
 
 #sign-up-button a {
+    /*Ensure button text displays correctly on very narrow width devices */
     display: block;
-    /*Ensure buttons displays correctly on very narrow width devices */
     text-align: center;
     text-decoration: none;
     color: black;
     font-weight: bold;
     background-color: rgba(225, 225, 0, .8);
     border: 1px solid black;
-    width: fit-content;
     /* Shrinks the border to the width of the text regardless of font-size */
+    width: fit-content;
     padding: 8px 15px;
     border-radius: 10px 10px;
-    margin: 10px auto;
     /* Centers the p inside the div in conjunction with the div's text-align property*/
+    margin: 10px auto;
 }
 
-/* Shop Page */
-#shop {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/* SHOP PAGE */
 #shop div {
     margin: 1rem 1rem;
 }
 
+/* Use flexbox to push images right down to the bottom of each div */
 .products {
     border: 1px solid black;
     max-width: 300px;
     border-radius: 10px;
-    /* Flexbox to push images right down to the bottom of each div */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .products ul {
@@ -260,92 +243,72 @@ li a {
     box-shadow: 0px -2px 6px black;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-.emphasise {
-    font-size: larger;
-}
-
-/* Form Page */
-#registration {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    margin: 0rem 2rem;
-}
-
+/* FORM PAGE */
+/* Keep the fieldsets visually pleasing on all screen sizes */
 .details-boxes {
     margin: 10px auto;
     width: 70vw;
     max-width: 330px;
 }
 
+/* Keep radio button and text on the same line as each other. */
 .courses-radio input {
     width: auto;
 }
 
-form div {
-    margin: auto;
-}
-
+/* Keep the input boxes visually pleasing on all screen sizes */
 input {
     width: 70vw;
     max-width: 300px;
     margin-bottom: 10px;
 }
 
+/* Margin values centrally align element with fieldsets above it. */
 #register-button {
-    margin: 20px 10px;
+    margin: 20px 29px;
     height: 40px;
 }
 
-/* Thank You page */
-/* The below two styles are taken from 30secondsofcode.org. See README for more details */
+/* THANK YOU PAGE */
+/* The code in the two classes below are taken from 30secondsofcode.org. See README for more details */
 .small-page-body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-.small-page-body p {
-    text-align: center;
-}
-
-.small-page-body h2 {
-    font-size: xx-large;
-}
-
-.small-page-body h3 {
-    text-align: center;
-}
-
 .small-page-footer {
     margin-top: auto;
 }
 
-/* 404 Page */
-#div-404 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.small-page-body p {
+    text-align: center;
 }
 
-#div-404 img {
-height: 35vh;
+/* Makes the heading bigger to stand out more on the mostly empty page. */
+.small-page-body h2 {
+    font-size: xx-large;
 }
 
-/* Footer Style */
+/* Keeps heading centred on small screens. */
+.small-page-body h3 {
+
+    text-align: center;
+}
+
+/* 404 PAGE */
+/* Sets the 404 image to an appropriate size for all screen sizes. */
+#img-404 {
+    height: 35vh;
+}
+
+/* FOOTER STYLE */
 footer {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* The footer code was inspired by the Love Running Walkthrough footer.
+   Flexbox used to align icons evenly along the bottom of the page. */
 footer>ul {
     font-size: 150%;
     display: flex;
@@ -361,19 +324,24 @@ footer i {
 /* Media query for tablets and larger: >= 768px */
 @media screen and (min-width: 768px) {
 
+    /* Scale up the size of the links' text for larger screens. */
     #navbar {
         font-size: 20px;
         margin: 10px;
     }
 
+    /* Index Page on Tablets */
+    /* Utilises the horizontal space better on wider screens for this section. */
     #about-us div {
         flex-direction: row;
     }
 
+    /* Hides the smaller images optimised for mobile screens. */
     .mobile-img {
         display: none;
     }
 
+    /* Shows the larger-sized higher-quality images. */
     .larger-img {
         display: unset;
     }
@@ -383,7 +351,7 @@ footer i {
         min-width: 50%;
     }
 
-    /*#about-bees img {*/
+    /* This class makes images more presentable when displayed in a wrapped flex box */
     .tablet-wide-crop {
         /* Two width attributes that ensure the correct image width for chrome-based browers and firefox */
         width: -webkit-fill-available;
@@ -395,24 +363,19 @@ footer i {
         border-radius: 15px 15px;
     }
 
-    .two {
-        width: 90vw;
-    }
-
+    /* Utilises the horizontal space better on wider screens by aligning the divs in this section side-by-side. */
     #short-descriptions {
         display: flex;
     }
 
+    /* Width and margin attributes make both divs appear closer in size to each other. */
     .invite {
-        align-items: center;
         width: 50vw;
         margin: 0px 15px;
     }
 
-    .invite>a {
-        text-align: center;
-    }
 
+    /* Hides a horizontal line when it disrupts the visual look of the page on larger screens */
     .hide-hr {
         display: none;
     }
@@ -423,76 +386,81 @@ footer i {
         border-radius: 10%;
     }
 
-    /* Courses Page */
+    /* Courses Page on Tablets */
+    /* Utilises the horizontal space better on wider screens by aligning the divs in this section side-by-side. */
     #courses>div {
         display: flex;
         justify-content: space-evenly;
         margin: auto 3rem;
     }
 
+    /* Keeps the courses boxes sized appropriately to their content. */
     #courses ul {
         width: 240px;
     }
 
-    #parent-why {
+    /* Flexbox utilised to wrap divs onto second row for larger screens */
+    .parent-why {
         display: flex;
         flex-wrap: wrap;
     }
 
+    /* This code was taken from the Code Institute Love Running Walkthrough project and adapted. */
     .why-div {
-        /* This code was taken from the Code Institute Love Running Walkthrough project and adapted */
-        /* Using a vw size below prevents display issues on certain browers. See Bugs section in README 
-            for more detailed information */
+        /* Using a vw size below for flex-basis prevents display issues on certain browers. See Bugs section in README for more detailed information */
         flex-basis: 35vw;
         flex-grow: 1;
         justify-content: space-between;
     }
 
-    /*Shop Page */
+    /* Shop Page on Tablets */
+    /* Arranges shop products into rows of maximum two divs */
     #products-div {
-        /* Arranges shop products into rows of maximum two divs */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    /* Form Page */
-    .details-boxes {
-        width: 50vw;
     }
 }
 
 /* Media query for Laptops and larger: >= 1200px */
 @media screen and (min-width: 1200px) {
+
+    /* Give each page a left-right margin so that content is not stretched too wide. */
     main {
         margin: auto 10vw;
     }
 
     #about-us .main-images {
-        /* Min-width used to here to ensure desired size achieved on all browsers tested. */
+        /* Min-width used to here to ensure desired size achieved on all browsers tested. See Solved Bugs section in README for more detailed information. */
         min-width: 33%;
     }
 
+    /* Set narrower width to show full content of image. */
     #about-bees .main-images {
         width: 50%;
     }
 
+    /* Increase previously set hr width to be more visually pleasing on these screen sizes. */
     hr {
         width: 95%;
     }
 
+    /* Resize the images to be consistent with the others on this page for large screen sizes. */
     .invitation-images {
         width: 60%;
     }
 
+    /* Span class used to hide the word 'Tap' on large screen devices. */
     .mobile {
         display: none;
     }
 
+    /* Span class used to show the word 'Click' on large screen devices. */
     .desktop {
         display: inline;
     }
 
+    /* Push footer icons closer to each other on wider screens for a more visally pleasing presentation. */
     footer>ul {
         padding: 1rem 10vw;
     }

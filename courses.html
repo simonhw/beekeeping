@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -40,12 +41,15 @@
 
     <!-- Main Content-->
     <main>
+        <!-- Section listing the structure of the beginner and intermediate level courses and the upcoming courses for which the user can register. -->
         <section id="courses">
+            <!-- Beginner Course Strucure -->
             <h2>Upcoming Beekeeping Courses</h2>
-            <p><span class='bold'>Beginner courses</span> run for six weeks on Saturdays from 12pm to 3pm. No previous
+            <p><strong>Beginner courses</strong> run for six weeks on Saturdays from 12pm to 3pm. No previous
                 experience is required and all equipment is provided.</p>
             <div>
-                <div class="structure">
+                <!-- Div used to utilise flex box for vertical centering of content -->
+                <div class="structure flex-column-centred">
                     <p>Our Beginner courses are structured as follows:</p>
                     <ol>
                         <li>Introduction to Beekeeping</li>
@@ -61,7 +65,8 @@
                         <li>Hands-On Practical Sessions</li>
                     </ol>
                 </div>
-                <div class="course-boxes">
+                <!-- Upcoming Beginner Courses -->
+                <div class="flex-column-centred">
                     <ul>
                         <li>Beginner Course - Six Weeks</li>
                         <li>Start Date: Saturday 21st October 2023</li>
@@ -83,12 +88,13 @@
                 </div>
             </div>
             <hr class="hr-75">
-            <p><span class='bold'>Intermediate courses</span> run for eight weeks in the summer months beginning in May
+            <!-- Intermediate Course Strucure -->
+            <p><strong>Intermediate courses</strong> run for eight weeks in the summer months beginning in May
                 and ending in September. You must have previously attended our beginners course or provide
                 evidence of your beekeeping experience with your own hives. All equipment is provided.
             </p>
             <div>
-                <div class="structure">
+                <div class="structure flex-column-centred">
                     <p>Our Intermediate courses are structured as follows:</p>
                     <ol>
                         <li>Advanced Hive Management</li>
@@ -106,7 +112,8 @@
                         <li>Case Studies and Problem-Solving</li>
                     </ol>
                 </div>
-                <div class="course-boxes">
+                <!-- Upcoming Intermediate Courses -->
+                <div class="flex-column-centred">
                     <ul>
                         <li>Intermediate Course - Ten Weeks</li>
                         <li>Start Date: Saturday 4th May 2024</li>
@@ -123,24 +130,29 @@
             </div>
         </section>
         <hr>
-        <section id="why">
+        <!-- Section listing four reasons to become a beekeeper. -->
+        <section>
             <h2>Why Become a Beekeeper?</h2>
             <p>Becoming a beekeeper can be a rewarding and fascinating endeavor. Here are some compelling reasons to
                 consider taking up beekeeping:</p>
-            <div id="parent-why">
-                <div class="why-div">
+            <div class="parent-why">
+                <!-- Reason One -->
+                <div class="why-div flex-column-centred">
                     <h3>1. Connection with Nature</h3>
                     <p>Beekeeping encourages a close connection with the natural world. It requires attentiveness to the
                         needs of your bees, an understanding of seasonal changes,
                         and an appreciation for the delicate balance of ecosystems. It can be a meditative and grounding
                         experience.</p>
+                    <!-- A set of two images with classes that either show or hide them on mobile screen and larger screens.
+                        These classes were utilised in an effort to improve the page's Lighthouse scores for mobile screens. -->
                     <img class="tablet-wide-crop main-images larger-img"
                         src="assets/images/smiling-beekeeper-720-c.webp"
                         alt="A smiling beekeeper standing in a sunny field." /><img
                         class="tablet-wide-crop main-images mobile-img" src="assets/images/smiling-beekeeper-360-c.webp"
                         alt="A smiling beekeeper standing in a sunny field." />
                 </div>
-                <div class="why-div">
+                <!-- Reason Two -->
+                <div class="why-div flex-column-centred">
                     <h3>2. Honey Production</h3>
                     <p>One of the most obvious benefits of beekeeping is the production of honey. Harvesting your own
                         honey is not only a delicious reward for your efforts but can
@@ -150,7 +162,8 @@
                         class="tablet-wide-crop main-images mobile-img" src="assets/images/honeycomb-360-c.webp"
                         alt="A closeup of honeycomb full of honey" />
                 </div>
-                <div class="why-div">
+                <!-- Reason Three -->
+                <div class="why-div flex-column-centred">
                     <h3>3. Positive Environmental Impact</h3>
                     <p>Bees play a crucial role in pollination, contributing to the growth of fruits, vegetables, and
                         flowers. By becoming a beekeeper, you actively participate in
@@ -161,7 +174,8 @@
                         class="tablet-wide-crop main-images mobile-img" src="assets/images/bees-lavender-360-c.webp"
                         alt="Two bees gathering pollen from purple flowers" />
                 </div>
-                <div class="why-div">
+                <!-- Reason Four -->
+                <div class="why-div flex-column-centred">
                     <h3>4. Relaxation and Stress Relief</h3>
                     <p>Many beekeepers find the process of working with bees to be therapeutic. The rhythmic hum of the
                         hive, the focused attention
@@ -172,12 +186,14 @@
                         alt="A beekeeper wearing protective clothing carefully examing their beehive" />
                 </div>
             </div>
+            <!-- Disclaimer to the user. -->
             <h3>But...</h3>
             <p>Remember that beekeeping does require time, effort, and a commitment to learning. It's important to
                 educate yourself about bee behavior, hive management, and
                 potential challenges; however, for those who are passionate about nature, sustainability, and learning,
                 beekeeping can be an incredibly fulfilling and enjoyable pursuit.</p>
         </section>
+        <!-- Call-to-Action Signup Button -->
         <div id="sign-up-button">
             <a href="form.html">Sign Up for a Beekeeping Course!</a>
         </div>

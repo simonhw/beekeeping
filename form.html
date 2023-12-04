@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="West Cork Beekeeping, a group based in the heart of West Cork offering beekeeping courses and products for sale.">
@@ -17,7 +18,7 @@
 
 </head>
 
-<body>
+<body class="small-page-body">
     <header id="hero">
         <div id="header-dark">
             <nav>
@@ -39,11 +40,13 @@
 
     <!-- Main Content-->
     <main>
-        <section id="registration">
+        <!-- Course Registration Form instructions. -->
+        <section class="flex-column-centred">
             <h2>Register for a Beekeeping Course</h2>
             <p>Enter your details below to register interest for an upcoming beekeeping course. You will receive an
                 acknowledgement email when your registration is processed.
                 Payment will be taken over the phone on the same or next working day.</p>
+            <!-- Form redirects the user to the Thank You page when submitted correctly. -->
             <form action="thank-you.html">
                 <fieldset class="details-boxes">
                     <legend>Your Details</legend>
@@ -53,21 +56,25 @@
                     </div>
                     <div>
                         <label for="email">Email: </label>
+                        <!-- Email input type to ensure a valid email address is entered by the user. -->
                         <input type="email" name="email" id="email" autocomplete='on' placeholder="*Required" required>
                     </div>
                     <div>
                         <label for="phone">Phone Number: </label>
-                        <!-- Add phone number pattern of 8, 9, or 10 digits to account for different types of Irish phone number formats. --> 
+                        <!-- Add phone number pattern of 8, 9, or 10 digits to account for the different types of Irish phone number formats. --> 
                         <input type="tel" name="phone" id="phone" autocomplete='on' placeholder="00000000" pattern="[0-9]{8}|[0-9]{9}|[0-9]{10}" required>
                     </div>
                     <div>
                         <label for="age">Date of Birth: </label>
+                        <!-- Date of birth field restricting only those 18 years and older on the specified date. -->
                         <input type="date" name="age" id="age" max="2005-12-07" required>
                     </div>
                 </fieldset>
+                <!-- Radio Buttons used for course choice as only only course can be completed at a given time. -->
                 <fieldset class="details-boxes courses-radio" id="course-details">
                     <legend>Beginner Courses</legend>
                     <div>
+                        <!-- Next available beginner course already checked to aid the first-time user. -->
                         <input type='radio' name="course-level" id="beginner240120" value="beginner240120" checked>
                         <label for="beginner240120">Saturday 20th Jan 2024</label>
                     </div>
@@ -91,7 +98,7 @@
     </main>
 
     <!-- Footer Content -->
-    <footer>
+    <footer class="small-page-footer">
         <ul>
             <li>
                 <a href="tel:021-12345678"

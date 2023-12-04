@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -21,11 +22,12 @@
 
 <body>
     <header id="hero">
-        <!-- Div to allow black gradient over background image -->
+        <!-- Div to allow black gradient over background image used for the header element -->
         <div id="header-dark">
             <nav>
                 <ul id="navbar">
                     <li>
+                        <!-- Active class underlines the link to denote the current page -->
                         <a class='active' href="index.html">Home</a>
                     </li>
                     <li>
@@ -42,9 +44,10 @@
 
     <!-- Main Content-->
     <main>
+        <!-- Welcome section that give the users an introduction to the website. -->
         <section id="about-us">
             <h2>Welcome to West Cork Beekeeping!</h2>
-            <div>
+            <div class="flex-column-centred">
                 <p>Nestled in the rolling hills of West Cork, our group of dedicated beekeepers have worked together
                     over the last two decades to establish a thriving beekeeping community.
                     Since 2002, we have been cultivating and caring for a large number of hives and working towards
@@ -52,6 +55,8 @@
                     committed to sharing our expertise through comprehensive beekeeping courses. Join us as we delve
                     into the intricate world of bees, appreciating the harmony they bring to our
                     environment and fostering a sustainable connection with nature.</p>
+                <!-- A set of two images with classes that either show or hide them on mobile screen and larger screens.
+                    These classes were utilised in an effort to improve the page's Lighthouse scores for mobile screens. -->
                 <img class="main-images mobile-img" src="assets/images/three-beekeepers-360-c.webp"
                     alt="Three smiling beekeepers standing amongst heehives in sunny woodland" />
                 <img class="main-images larger-img" src="assets/images/three-beekeepers-720-c.webp"
@@ -59,9 +64,10 @@
             </div>
         </section>
         <hr>
+        <!-- Section with some basic information about the Irish Honey Bee. -->
         <section id="about-bees">
             <h2>The Irish Honey Bee</h2>
-            <div>
+            <div class="flex-column-centred">
                 <p>While often referred to as such, the Irish honey bee is not unique to Ireland. In fact, the same
                     species of Apis Mellifera is found all throughout Europe. These small creatures play
                     a vital role in our ecosystem as pollinators for many species of flowers and plants, aiding in their
@@ -81,9 +87,13 @@
             </div>
         </section>
         <hr>
-        <section id="short-descriptions">
-            <div class="invite">
+        <!-- Section inviting the user to explore the two other main pages on the website -->
+        <section id="short-descriptions"> 
+            <!-- Invitation to explore the courses page -->
+            <div class="invite flex-column-centred"> 
                 <h3>Beekeeping Courses</h3>
+                <!-- As above, a set of two images with classes that either show or hide them on mobile screen and larger screens.
+                    These classes were utilised in an effort to improve the page's Lighthouse scores for mobile screens. -->
                 <a href="courses.html" aria-label="Go to our Beekeeping Courses page (opens in the same tab)"><img
                         src="assets/images/beekpeer-hive-rack-360-c.webp"
                         alt="A beekeeper holding a rack of honeycomb over a beehive."
@@ -95,8 +105,9 @@
                     the image above to learn more.
                 </p>
             </div>
-            <hr class="hide-hr hr-75">
-            <div class="invite">
+            <hr class="hide-hr hr-75"> 
+            <!-- Invitation to explore the shop page -->
+            <div class="invite flex-column-centred"> 
                 <h3>Local Honey</h3>
                 <a href="shop.html" aria-label="Go to our Shop page (opens in the same tab)"><img
                     src="assets/images/honey-jars-360-c.webp" alt="Shelves of golden honey in labelled jars."
@@ -110,6 +121,7 @@
                 </p>
             </div>
         </section>
+        <!-- Call-to-Action Signup Button -->
         <div id="sign-up-button">
             <a href="form.html">Sign Up for a Beekeeping Course!</a>
         </div>
