@@ -419,12 +419,41 @@ Thank You page:
 
 The results for each page are shown below. 
 
+<details><summary>Index.html Wave tests</summary>
+
 ![Index.html Wave tests](assets/images/readme/testing/wave-index.PNG)
+
+</details>
+
+<details><summary>Courses.html Wave tests</summary>
+
 ![Courses.html Wave tests](assets/images/readme/testing/wave-courses.PNG)
+
+</details>
+
+<details><summary>Shop.html Wave tests</summary>
+
 ![Shop.html Wave tests](assets/images/readme/testing/wave-shop.PNG)
+
+</details>
+
+<details><summary>Form.html Wave tests</summary>
+
 ![Form.html Wave tests](assets/images/readme/testing/wave-form.PNG)
+
+</details>
+
+<details><summary>Thank-you.html Wave tests</summary>
+
 ![Thank-you.html Wave tests](assets/images/readme/testing/wave-thank-you.PNG)
+
+</details>
+
+<details><summary>404.html Wave tests</summary>
+
 ![404.html Wave tests](assets/images/readme/testing/wave-404.PNG)
+
+</details>
 
 - All pages passed with no errors save for the Thank You page which flagged the timed redirect as an error. Since this an intended feature of the page, this error was not regarded as a failing point for the page's Wave test. 
 
