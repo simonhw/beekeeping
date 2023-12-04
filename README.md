@@ -414,6 +414,30 @@ Thank You page:
 
 ![Lighthouse Test - Mobile 404.hmtl](assets/images/readme/testing/lighthouse-404-mobile.PNG)
 
+### Accessibility Testing
+[Wave](https://wave.webaim.org/) was used to check for errors and issues related to accessibilty for all the pages on the site.
+
+The results for each page are shown below. 
+
+![Index.html Wave tests](assets/images/readme/testing/wave-index.PNG)
+![Courses.html Wave tests](assets/images/readme/testing/wave-courses.PNG)
+![Shop.html Wave tests](assets/images/readme/testing/wave-shop.PNG)
+![Form.html Wave tests](assets/images/readme/testing/wave-form.PNG)
+![Thank-you.html Wave tests](assets/images/readme/testing/wave-thank-you.PNG)
+![404.html Wave tests](assets/images/readme/testing/wave-404.PNG)
+
+- All pages passed with no errors save for the Thank You page which flagged the timed redirect as an error. Since this an intended feature of the page, this error was not regarded as a failing point for the page's Wave test. 
+
+![Thank-you.html Error](assets/images/readme/testing/wave-thank-you-error.PNG)
+
+- Some pages had alerts for justified paragraph text. The issues that can arise from this, namely varying word spacing and 'rivers of white', were not observed on the website. For this reason, I did not remove the justified style.
+
+![Justified Text Alert](assets/images/readme/testing/wave-justify.PNG)
+
+- The courses page had alerts for three redundant links. These are the links to the form page, 1 link in each of the two available beginner course boxes, 1 in the available intermediate course box, and 1 in the Call-to-Action button at the bottom of the page. As these duplicate links are part of the design of the page, they were not removed. With the use of Javascript in the future, the selection of the different links could also pre-select options in a future version of the form.
+
+![Redundant Links Alert](assets/images/readme/testing/wave-redundant.PNG)
+
 ## Bugs
 ### Known Bugs
 | # | Bug | Image | Plan to Solve |
