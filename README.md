@@ -31,7 +31,8 @@ Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/b
   - [Manual Testing](#Manual-Testing)
   - [Full Testing](#Full-Testing)
   - [Automated Testing](#Automated-Testing)
-  - [Lighthouse](#Lighthouse)
+  - [Lighthouse Testing](#Lighthouse-Testing)
+  - [Accessibility Testing](#Accessibility-Testing)
 - [Bugs](#Bugs)
 - [Credits](#Credits)
   - [Code Used](#Code-Used)
@@ -338,7 +339,7 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 - [404.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-404.PNG) - Passed. The trailing slash in the self-closing `<img/>` element is flagged as having no effect.
 - [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.PNG) - Passed with no errors and [two warnings](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css-warnings.PNG). The warnings are related to vendor extensions.
 
-### Lighthouse
+### Lighthouse Testing
 The Lighthouse feature in Chrome Developer Tools was used to test the performace, accessibility, best practices, and search engine optimisation of the website.
 
 #### Desktop Tests
