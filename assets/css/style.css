@@ -111,6 +111,13 @@ main section {
     margin: 0.5rem 1rem;
 }
 
+#about-us img,
+#about-bees img,
+#short-descriptions img {
+    width: 300px;
+    height: 200px;
+}
+
 /* Flex box attribute to display index.html content evenly in column direction on mobiles */
 #about-us div,
 #about-bees div,
@@ -297,9 +304,9 @@ input {
 }
 
 /* 404 PAGE */
-/* Sets the 404 image to an appropriate size for all screen sizes. */
+/* Sets the 404 image to an appropriate size and prevents side-scrolling. */
 #img-404 {
-    height: 35vh;
+    width: 70vw;
 }
 
 /* FOOTER STYLE */
@@ -419,6 +426,12 @@ footer i {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    /* 404 Page on tablets */
+    #img-404 {
+        width: 50vw;
+        max-width: 550px;
     }
 }
 
