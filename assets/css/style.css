@@ -41,8 +41,8 @@ i {
     font-size: 18px;
 }
 
+/* Class to underline the nav link of the current page */
 .active {
-    /* Class to underline the nav link of the current page */
     text-decoration: underline;
 }
 
@@ -63,13 +63,13 @@ header a {
     color: azure;
 }
 
+/* Flex grow used to visually centre the H1 heading with respect to the nav bar, which has a flex grow of 1. */
 header nav {
-    /* Flex grow used to visually centre the H1 heading with respect to the nav bar, which has a flex grow of 1. */
     flex-grow: 1;
 }
 
+/* Flex grow used to visually centre the H1 heading with respect to the nav bar, which has a flex grow of 1. */
 header h1 {
-    /* Flex grow used to visually centre the H1 heading with respect to the nav bar, which has a flex grow of 1. */
     flex-grow: 2;
 }
 
@@ -82,13 +82,13 @@ p {
     text-align: justify;
 }
 
+/* Hides larger-sized images on mobile screens */
 .larger-img {
-    /* Hides larger-sized images on mobile screens */
     display: none;
 }
 
+/* Flex properties to arrange content into vertically centred columns */
 .flex-column-centred {
-    /* Flex properties to arrange content into vertically centred columns */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,10 +111,10 @@ main section {
     margin: 0.5rem 1rem;
 }
 
+/* Flex box attribute to display index.html content evenly in column direction on mobiles */
 #about-us div,
 #about-bees div,
 .invite {
-    /* Flex box attribute to display index.html content evenly in column direction on mobiles */
     justify-content: space-evenly;
 }
 
@@ -124,30 +124,30 @@ main section {
     margin: 10px;
 }
 
+/* Set horizontal line legth to 90% for aesthetic reasons */
 hr {
-    /* Set horizontal line legth to 90% for aesthetic reasons */
     width: 90%;
     margin: 10px auto;
 }
 
+/* Centre-align the link element and therefore the image elements in the .invite divs */
 .invite a {
-    /* Centre-align the link element and therefore the image elements in the .invite divs */
     text-align: center;
 }
 
+/* Set these paragraphs to be narrower than the rest of the page to denote they are in a single section */
 .invite p {
-    /* Set these paragraphs to be narrower than the rest of the page to denote they are in a single section */
     width: 75%;
 }
 
+/* Set the images to the same width as their associated paragraphs */
 .invitation-images {
-    /* Set the images to the same width as their associated paragraphs */
     width: 75%;
     border-radius: 2%;
 }
 
+/* Shortened horizontal line for use dividing divs in the same section */
 .hr-75 {
-    /* Shortened horizontal line for use dividing divs in the same section */
     width: 75%;
 }
 
@@ -270,13 +270,14 @@ input {
 }
 
 /* THANK YOU PAGE */
-/* The code in the two classes below are taken from 30secondsofcode.org. See README for more details */
+/* The code in this class was taken from 30secondsofcode.org. See README for more details */
 .small-page-body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+/* The code in this class was taken from 30secondsofcode.org. See README for more details */
 .small-page-footer {
     margin-top: auto;
 }
@@ -292,7 +293,6 @@ input {
 
 /* Keeps heading centred on small screens. */
 .small-page-body h3 {
-
     text-align: center;
 }
 
@@ -406,8 +406,8 @@ footer i {
     }
 
     /* This code was taken from the Code Institute Love Running Walkthrough project and adapted. */
+    /* Using a vw size below for flex-basis prevents display issues on certain browers. See Bugs section in README for more detailed information */
     .why-div {
-        /* Using a vw size below for flex-basis prevents display issues on certain browers. See Bugs section in README for more detailed information */
         flex-basis: 35vw;
         flex-grow: 1;
         justify-content: space-between;
@@ -430,8 +430,8 @@ footer i {
         margin: auto 10vw;
     }
 
+    /* Min-width used to here to ensure desired size achieved on all browsers tested. See Solved Bugs section in README for more detailed information. */
     #about-us .main-images {
-        /* Min-width used to here to ensure desired size achieved on all browsers tested. See Solved Bugs section in README for more detailed information. */
         min-width: 33%;
     }
 
