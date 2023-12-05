@@ -457,7 +457,7 @@ The results for each page are shown below.
 
 </details>
 
-All pages passed with no errors save for the Thank You page which flagged the timed redirect as an error. Since this an intended feature of the page, this error was not regarded as a failing point for the page's Wave test. 
+All pages passed with no errors save for the Thank You page which flagged the timed redirect as an error. Since this an intended feature of the page, this error was not regarded as a failing point for the page's Wave test. The redirects adds to the user experience as the page does not contain any other relevant information for the user that would require them to spend any significant time browsing it.
 
 ![Thank-you.html Error](assets/images/readme/testing/wave-thank-you-error.PNG)
 
