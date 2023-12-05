@@ -370,11 +370,13 @@ Thank You page:
 ![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.PNG)
 
 #### Mobile Tests
-Mobile tests were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images on the index and courses pages to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance score for index.html only improved by 3 points, and the score for courses.html actually dropped by 6 points. It was deemed that improvements to achieve scores of 90 and higher were outside the scope of the project at this time.
+Mobile tests were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images on the index and courses pages to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance score for index.html only improved by 3 points, and the score for courses.html actually dropped by 6 points. 
+
+After discussing the issue with CI mentor in the third meeting, I improved the Performace score for index.html to 90 by using the smaller images and setting their widths and heights to fixed values for the different screen sizes tested; however, the quality of the image in the Irish Honey Bee section looked too pixelated on larger screen and overall this detracted from the user experience and quality of the webpage. This was a disappointing and frustrating result as I tried to achieve all green scores on Lighthouse for mobile. I decided that it was more important to deliver a good user experience, and kept the higher quality image of the honey bee as the final version. The final Performance score was 88.
 
 Index page:
 
-<details open><summary>Initial Lighthouse Scores</summary>
+<details><summary>Initial Lighthouse Scores</summary>
 
 ![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.PNG)
 
@@ -383,6 +385,18 @@ Index page:
 <details><summary>Lighthouse Scores after resizing images</summary>
 
 ![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-2.PNG)
+
+</details>
+
+<details><summary>Lighthouse Scores after setting fixed widths and heights and using all the smaller images</summary>
+
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-3.PNG)
+
+</details>
+
+<details><summary open>Final Lighthouse Scores after re-inserting the larger-sized image of the bee.</summary>
+
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-4.PNG)
 
 </details>
 
