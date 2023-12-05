@@ -127,8 +127,12 @@ main section {
 
 .main-images {
     border-radius: 2%;
-    width: 90%;
     margin: 10px;
+}
+
+.why-div .main-images {
+    width: 260px;
+    height: 172px;
 }
 
 /* Set horizontal line legth to 90% for aesthetic reasons */
@@ -416,6 +420,15 @@ footer i {
         justify-content: space-between;
     }
 
+    .why-div p {
+        width: 300px;
+    }
+
+    .why-div .main-images {
+        width: 300px;
+        height: 172px;
+    }
+
     /* Shop Page on Tablets */
     /* Arranges shop products into rows of maximum two divs */
     #products-div {
@@ -461,6 +474,15 @@ footer i {
     /* Span class used to show the word 'Click' on large screen devices. */
     .desktop {
         display: inline;
+    }
+
+    .why-div p {
+        width: 425px;
+    }
+    
+    .why-div .main-images {
+        width: 425px;
+        height: 225px;
     }
 
     /* Push footer icons closer to each other on wider screens for a more visally pleasing presentation. */
