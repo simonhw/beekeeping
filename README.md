@@ -73,17 +73,17 @@ An imported Google Font, Alegreya Sans, was used for this website. Font weights 
 ![Alegreya Sands font 700 weight](assets/images/readme/alegreya-sans-700.PNG)
 
 ### Imagery
-Imagery was chosen that showed beekeepers working with the types of equipment that users would expect to see if they enrol in a beekeeping course. It was difficult to find free-to-use images that showed environment reflecting the local climate of West Cork, so this was rated as a lower priority characteristic compared to finding images that showed people enjoying themselves and that were different enough from each other to not have to repeat any across the site.
+Imagery was chosen that showed beekeepers working with the types of equipment that users would expect to see if they enrol in a beekeeping course. It was difficult to find free-to-use images that showed environments reflecting the local climate of West Cork, so this was rated as a lower priority characteristic compared to finding images that showed people enjoying themselves and that were different enough from each other to not have to repeat any across the site.
 
 ### Wireframes
-Some basic wireframes were created for desktop and mobile for the the homepage. This gave a basic starting point from which the greater website then took shape. The original ideas were adapted and evolved as coding progressed thoughtout the project timeline. 
+Some basic wireframes were created for desktop and mobile for the homepage. This gave a basic starting point from which the greater website then took shape. The original ideas were adapted and evolved as coding progressed throughout the project timeline. 
 
 ![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-1.PNG)
 ![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-2.PNG)
 ![Balsamiq Wireframe for Mobile](assets/images/readme/mobile-wireframe.PNG)
 
 ### Features
-The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via the call to action button at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they complete the form itself. The sixth and final page is a 404 page.
+The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via call-to-action buttons at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they complete the form itself. The sixth and final page is a 404 page.
 
 #### All pages on the website have:
 - A favicon of a honey bee.
@@ -103,31 +103,31 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 ![About Us screenshot](assets/images/readme/section-about-us.PNG)
 
-- A section briefly describes the role honey bees play in the environment and the challenges currently faced by them. This section ends with a call-to-action of sorts and places at the front of the user's mind the idea that becoming a beekeeper is a noble and worthwhile pursuit. A closeup image of a bee collecting nectar from a flower is nestled between the two paragraphs of this section. Its bright colours and focus on the bee itself should evoke thoughts about the beauty and importance of the honey bee in nature while also making the user think about its fragility as a small creature worthy of our care.
+- A second section briefly describes the role honey bees play in the environment and the challenges currently faced by them. This section ends with a call-to-action of sorts and places at the front of the user's mind the idea that becoming a beekeeper is a noble and worthwhile pursuit. A closeup image of a bee collecting nectar from a flower is nestled between the two paragraphs of this section. Its bright colours and focus on the bee itself should evoke thoughts about the beauty and importance of the honey bee in nature while also making the user think about its fragility as a small creature worthy of our care.
 
 ![About Bees screenshot](assets/images/readme/section-about-bees.PNG)
 
-- A third and final section consists of two sets of short descriptive sentences and associated images and headings. These two sections invite the user to either navigate to the Courses page to learn more about the beekeeping courses, or to visit the Shop page to purchase honey. The images are the links, and when viewed on mobiles and tablets, the final sentence says "*Tap the image to learn more*", while on desktops it says "*Click the image the learn more*". This was achieved with the use of spans.
-- At the bottom of this page and the two other main pages, a call-to-action link takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there. The yellow colour was chosen to draw attention to the user that it is something distinct from other content on this page.
+- A third and final section consists of two sets of short descriptive sentences and associated images and headings. These two sections invite the user to either navigate to the Courses page to learn more about the beekeeping courses, or to visit the Shop page to purchase honey. The images are the links, and when viewed on mobiles and tablets, the final sentence says "*Tap the image to learn more*", while on desktops it says "*Click the image to learn more*". This was achieved with the use of spans.
+- At the bottom of this page and the two other main pages, a call-to-action link takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there. The yellow colour was chosen to draw attention to the user and signify that it is something distinct from other content on this page.
 
 ![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.PNG)
 
 #### The Courses page
-- The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. The most recent sold out courses at each level are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above. These sections will be updated as time goes on to keep user up to date with availibility.
+- The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. The most recent sold out courses at each level are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above. These sections will be updated as time goes on to keep users up to date with availibility.
 
 ![Upcoming Courses screenshot](assets/images/readme/section-courses.PNG)
 
-- A second section aims to convince the undecided user that they should register their interest in an upcoming course. Four reasons to become a beekeeper are listed with accompanying imagery chosen to invoke thoughts of fun, relaxation, peacefulness, and enjoyment.
+- A second section aims to convince the undecided user that they should register their interest in an upcoming course. Four reasons to become a beekeeper are listed with accompanying imagery chosen to evoke thoughts of fun, relaxation, peacefulness, and enjoyment.
 - A final paragraph reminds the user that becoming a beekeeper requires time and effort but reassures them that it is a worthwhile endeavour.
 
 ![Why Become a Beekeeper screenshot](assets/images/readme/section-why.PNG)
 
 #### The Shop page
-- An introductory paragraph informs the user of the payment process for products on this page as well as delivery terms and discounts for course graduates. A contact number and email are listed distinct from each other below the paragraph to offer the returning user quick access should they desire to contact the owners.
+- An introductory paragraph informs the user of the payment process for products on this page as well as delivery terms and discounts for course graduates. A contact number and email are listed, distinct from each other, below the paragraph to offer the returning user quick access should they desire to contact the owners.
 
 ![Shop screenshot](assets/images/readme/section-shop.PNG)
 
-- Boxes show the available products and short descriptions with accompanying imagery. These boxes will be displayed in single or multiple columns based on the screen width of the user.
+- Boxes show the available products with short descriptions and an accompanying image. These boxes will be displayed in single or multiple columns based on the screen width of the user.
 
 ![Products screenshot](assets/images/readme/section-products.PNG)
 
@@ -151,6 +151,7 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 #### Features To Be Implemented
 - Add mouse hover effect on laptop and dekstop screens: CSS styling will darken the two images at the bottom of index.html and display white text above the darkened area saying "*Learn more about courses*" and "*Browse our shop*" respectively for both images.
+- Update the form to allow more than one person to be registered in the same submission.
 - Upgrade the Courses page to allow direct booking of and payment for available courses.
 - Upgrade the Shop page to allow direct ordering and payment via the website.
 
@@ -159,7 +160,7 @@ When creating this website, I kept accessibility in mind by:
 - Using semantic html elements throughout the website.
 - Using colours with good contrast to the background.
 - Including clearly descriptive alt attributes for all images on the site.
-- Using aria labels to describe the actions that would be taken when interacting with links that contain no text. These can be found in the two image links at the bottom of index.html and in the footer icons link on every page.
+- Using aria labels to describe the actions that would be taken when interacting with links that contain no text. These can be found in the two image links at the bottom of index.html, in the phone number and email address links in courses.html, and in the footer icons links on every page.
 
 ## Technologies Used
 ### Languages
@@ -234,7 +235,7 @@ To deploy this project locally on your own device, follow the below steps:
 | To be able to easily locate information previously found. | Each page of the website has its content clearly separated into sections with headings. | |
 | To find up to date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | [Courses Image](assets/images/readme/section-courses.PNG) |
 | To find out where the website owners are based. | The footer contains a map icon link to show the location of the beekeeping group on Google Maps. | |
-| To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeper and large images draw the attention of the user to their item of interest. | [Products Image](assets/images/readme/section-products.PNG) |
+| To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeeper and large images draw the attention of the user to their item of interest. | [Products Image](assets/images/readme/section-products.PNG) |
 | **Frequent Visitors** | | |
 | To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page there is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | [Honey Link Image](assets/images/readme/invite-honey.PNG) |
 
@@ -368,7 +369,7 @@ Thank You page:
 ![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.PNG)
 
 #### Mobile Tests
-Mobile test were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images on the index and courses pages to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance score for index.html only improved by 3 points, and the score for courses.html actually dropped by 6 points. It was deemed that improvements to achieve scores of 90 and higher were outside the scope of this project at this time.
+Mobile tests were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images on the index and courses pages to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance score for index.html only improved by 3 points, and the score for courses.html actually dropped by 6 points. It was deemed that improvements to achieve scores of 90 and higher were outside the scope of the project at this time.
 
 Index page:
 
@@ -481,7 +482,7 @@ The courses page had alerts for three redundant links. These are the links to th
 |2|The first element in the header (the div containing the navbar) has a value of 5px for margin-top. This seemed to result in pushing the entire header down leaving an empty white space equal to 5px in height. | ![Navbar margin bug](assets/images/readme/bugs/bug002-nav-margin.PNG) | Adding the property `overflow:hidden` to the div resolved the problem. Solution found on [Stack Overflow](https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down) |
 | 3 | When tilting the mobile screen or using larger width displays, the H1 element was finding itself positioned outside the limits of the header. | ![Navbar H1 position bug](assets/images/readme/bugs/bug003-h1-overflow.PNG) | I set the parent div to `display: flex` to ensure it stayed positioned inside the header and also utilised `flex-grow: 2` to visually centre the H1 in the new flex layout. This also seemed to solve Bug #2 when removing the `overflow:hidden` property added above. |
 | 4 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, on some occasions only the fourth div wrapped onto the second row and was shown much larger than the other three divs. This bug was encountered on the Edge and Firefox browsers when viewed on a 26" monitor. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | The `flex-basis` value for the divs was changed from a fixed pixel width to a percentage of the viewport width. The bug could not be replicated in testing after making this change. |
-| 5 | When using Mozilla Firefox, the browser forced the first image on the homepage to shrink to ~ 0.25 times its intended size on screen sizes of 768px wide and greater. | [Mozilla Firefox Image](assets/images/readme/bugs/bug005-moz-image.PNG) [Mozilla Inspect Element Image](assets/images/readme/bugs/bug005-moz-inspect.PNG) | The existing CSS attributes of `width: 50%` and `width: 33%` for the images on tablet and desktop screen sizes respectively were changed to `min-width: 50%` and `min-width: 33%`. | 
+| 5 | When using Mozilla Firefox, the browser forced the first image on the homepage to shrink to ~ 0.25 times its intended size on screen sizes of 768px wide and greater. | [1. Mozilla Firefox Image](assets/images/readme/bugs/bug005-moz-image.PNG) [2. Mozilla Inspect Element Image](assets/images/readme/bugs/bug005-moz-inspect.PNG) | The existing CSS attributes of `width: 50%` and `width: 33%` for the images on tablet and desktop screen sizes respectively were changed to `min-width: 50%` and `min-width: 33%`. I found this solution by experimenting with the Developer Tools in-browser. | 
 | 6 | On Mozilla Firefox, the four images in the Why Become a Beekeeper section did not display at the expected size on desktop widths when compared to other browsers. | ![Mozilla Image Width Inconsistency](assets/images/readme/bugs/bug006-moz-cropped.PNG) | Using the Inspect tool on Mozilla Firefox, I added the attribute of `-moz-available` and the desired image sizes were achieved. I leared that the previous width attribute of `-webkit-fill-available` only works on Chrome-based browers. |
 
 ## Credits
@@ -493,9 +494,9 @@ Code for the website footer was taken and adapted from the Code Institute Love R
 CSS code in the Why Become a Beekeeper section that makes the four divs arrange into a grid on smaller screen sizes was inspired by the Meetup Times section in the Code Institute Love Running Walkthrough Project.
 - [Code Institute - Meetup Times](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/5.3-meetup-times)
 
-Code in the Thank You page on line 11 was provided by CI Mentor Graeme Taylor during the second mentor meeting.
+Code in the Thank You page on line 13 was provided by CI Mentor Graeme Taylor during the second mentor meeting.
 
-Code used to push the footer to the bottom of the Thank You and 404 pages was found on the website 30 Second of Code.
+Code used to push the footer to the bottom of the Thank You and 404 pages was found on the website 30 Seconds of Code.
 - [30secondsofcode.org - Footer at the Bottom](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/)
 
 ### Content
