@@ -113,9 +113,9 @@ main section {
 
 #about-us img,
 #about-bees img,
-#short-descriptions img {
-    width: 300px;
-    height: 200px;
+.invitation-images {
+    width: 264px;
+    height: 176px;
 }
 
 /* Flex box attribute to display index.html content evenly in column direction on mobiles */
@@ -144,12 +144,10 @@ hr {
 
 /* Set these paragraphs to be narrower than the rest of the page to denote they are in a single section */
 .invite p {
-    width: 75%;
+    width: 276px;
 }
 
-/* Set the images to the same width as their associated paragraphs */
 .invitation-images {
-    width: 75%;
     border-radius: 2%;
 }
 
@@ -343,19 +341,19 @@ footer i {
         flex-direction: row;
     }
 
-    /* Hides the smaller images optimised for mobile screens. */
-    .mobile-img {
-        display: none;
-    }
-
-    /* Shows the larger-sized higher-quality images. */
-    .larger-img {
-        display: unset;
-    }
-
-    .main-images {
+/*    .main-images {
         /* Min-width used to here to ensure desired size achieved on all browsers tested. */
-        min-width: 50%;
+/*        min-width: 50%;
+    }*/
+
+    #about-us .main-images {
+        width: 368px;
+        height: 245px;
+    }
+
+    #about-bees .main-images {
+        width: 700px;
+        height: 245px;
     }
 
     /* This class makes images more presentable when displayed in a wrapped flex box */
@@ -388,7 +386,6 @@ footer i {
     }
 
     .invitation-images {
-        width: 80%;
         padding: 0 15px;
         border-radius: 10%;
     }
@@ -443,24 +440,18 @@ footer i {
         margin: auto 10vw;
     }
 
-    /* Min-width used to here to ensure desired size achieved on all browsers tested. See Solved Bugs section in README for more detailed information. */
-    #about-us .main-images {
-        min-width: 33%;
+    .invitation-images {
+        width: 368px ;
+        height: 244px;
     }
 
-    /* Set narrower width to show full content of image. */
-    #about-bees .main-images {
-        width: 50%;
+    .invite p {
+        width: 368px;
     }
 
     /* Increase previously set hr width to be more visually pleasing on these screen sizes. */
     hr {
         width: 95%;
-    }
-
-    /* Resize the images to be consistent with the others on this page for large screen sizes. */
-    .invitation-images {
-        width: 60%;
     }
 
     /* Span class used to hide the word 'Tap' on large screen devices. */
