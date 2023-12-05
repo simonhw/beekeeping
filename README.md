@@ -394,7 +394,7 @@ Index page:
 
 </details>
 
-<details><summary open>Final Lighthouse Scores after re-inserting the larger-sized image of the bee.</summary>
+<details open><summary>Final Lighthouse Scores after re-inserting the larger-sized image of the bee.</summary>
 
 ![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-4.PNG)
 
