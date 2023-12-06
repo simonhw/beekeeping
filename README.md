@@ -4,9 +4,9 @@ This website is designed to be responsive for users visiting on different-sized 
 
 ![Amiresponsive Screenshot](assets/images/readme/wcb-amiresponsive.png)
 
-Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/beekeeping/index)
+Live website on GitHub Pages: [West Cork Beekeeping](https://simonhw.github.io/beekeeping/index)
 
-![Github last commit](https://img.shields.io/github/last-commit/simonhw/beekeeping) 
+![GitHub last commit](https://img.shields.io/github/last-commit/simonhw/beekeeping) 
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fsimonhw.github.io%2Fbeekeeping%2Findex)
 
 ## Contents
@@ -54,7 +54,7 @@ West Cork Beekeeping is a site that promotes interest in beekeeping in the West 
 
 #### Returning Visitor Goals
 * To be able to easily locate information previously found.
-* To find up to date information on beekeeping courses.
+* To find up-to-date information on beekeeping courses.
 * To find out where the website owners are based.
 * To be able to purchase beekeeping equipment I need.
 
@@ -63,7 +63,7 @@ West Cork Beekeeping is a site that promotes interest in beekeeping in the West 
 
 ## Design
 ### Colour Scheme
-The website uses a palette of simple colours inkeeping with its minimalist design, loosely inspired by the colours found on the body of the honey bee.
+The website uses a palette of simple colours in keeping with its minimalist design, loosely inspired by the colours found on the body of the honey bee.
 
 ![Coolors Palette](assets/images/readme/wbc-coolors-palette.png)
 
@@ -141,7 +141,7 @@ The website is comprised of six pages. Three are accessible from the main naviga
 ![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.png)
 
 #### The Courses page
-- The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. The most recent sold out courses at each level are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above. These sections will be updated as time goes on to keep users up to date with availibility.
+- The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. The most recent sold out courses at each level are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above. These sections will be updated as time goes on to keep users up-to-date with availability.
 
 ![Upcoming Courses screenshot](assets/images/readme/section-courses.png)
 
@@ -175,21 +175,21 @@ The website is comprised of six pages. Three are accessible from the main naviga
 ![Thank You page screenshot](assets/images/readme/thank-you-page.png)
 
 #### The 404 page
-- The customised 404 page is included in the root folder for fun. The cartoon beehive was edited in Adobe Photoshop to include two 4's in the Alegreya Sans font. This gives the effect of '404' when combined with the hole in the beehive.
+- The customised 404 page is included in the root folder for fun. The cartoon beehive was edited in Adobe Photoshop to include two 4s in the Alegreya Sans font. This gives the effect of '404' when combined with the hole in the beehive.
 
 ![404 Page Screenshot](assets/images/readme/404-page.png)
 
 #### Features To Be Implemented
-- Add mouse hover effect on laptop and dekstop screens: CSS styling will darken the two images at the bottom of index.html and display white text above the darkened area saying "*Learn more about courses*" and "*Browse our shop*" respectively for both images.
+- Add mouse hover effect on laptop and desktop screens: CSS styling will darken the two images at the bottom of index.html and display white text above the darkened area saying "*Learn more about courses*" and "*Browse our shop*" respectively for both images.
 - Update the form to allow more than one person to be registered in the same submission.
 - Upgrade the Courses page to allow direct booking of and payment for available courses.
 - Upgrade the Shop page to allow direct ordering and payment via the website.
 
 ### Accessibility
 When creating this website, I kept accessibility in mind by:
-- Using semantic html elements throughout the website.
+- Using semantic HTML elements throughout the website.
 - Using colours with good contrast to the background.
-- Including clearly descriptive alt attributes for all images on the site.
+- Including clear and descriptive alt attributes for all images on the site.
 - Using aria labels to describe the actions that would be taken when interacting with links that contain no text. These can be found in the two image links at the bottom of index.html, in the phone number and email address links in courses.html, and in the footer icons links on every page.
 
 ## Technologies Used
@@ -205,7 +205,7 @@ Chrome Developer Tools - To visualise and test changes to the code and styling.
 
 Git - For version control.
 
-Github - To save and store files online.
+GitHub - To save and store files online.
 
 Google Fonts - For imported fonts used on the website.
 
@@ -221,7 +221,7 @@ Adobe Photoshop 2020 - To crop and resize images.
 
 Shutter Encoder  - To convert images to .webp format.
 
-Github Pages - To host the live version of the website.
+GitHub Pages - To host the live version of the website.
 
 [Am I Responsive?](https://ui.dev/amiresponsive) - To showcase the website on different screen sizes for this README.
 
@@ -231,22 +231,22 @@ Github Pages - To host the live version of the website.
 
 ## Deployment
 
-Github Pages was used to deploy the live version of the website. The steps followed to do this were as follows:
-  1. Log in or sign up to Github.
+GitHub Pages was used to deploy the live version of the website. The steps followed to do this were as follows:
+  1. Log in or sign up to GitHub.
   2. Navigate to the repository for [West Cork Beekeeping](https://github.com/simonhw/beekeeping).
   3. Click the Settings link near the top of the page.
   4. Click on the Pages link on the left-hand side under Code and Automation.
   5. Under Build and Deployment click the dropdown menu for Branches and select 'main'. For the Folder dropdown menu, select 'root'.
-  6. Click Save to deploy the website on Github Pages.
+  6. Click Save to deploy the website on GitHub Pages.
 
 ### Local Deployment
-To deploy this project locally on your own device, follow the below steps:
+To deploy this project locally on your device, follow the below steps:
 #### Forking 
-1. Log in or sign up to Github.
+1. Log in or sign up to GitHub.
 2. Navigate to the repository for [West Cork Beekeeping](https://github.com/simonhw/beekeeping).
 3. Click the Fork button located in the top right part of the webpage.
 #### Cloning
-1. Log in or sign up to Github.
+1. Log in or sign up to GitHub.
 2. Navigate to the repository for [West Cork Beekeeping](https://github.com/simonhw/beekeeping).
 3. Click on the green Code button and select your preferred option of HTTPS, SSH, or GitHub CLI and copy the relevant link.
 4. Open the terminal in your IDE and navigate to your directory of choice for this new clone.
@@ -263,11 +263,11 @@ To deploy this project locally on your own device, follow the below steps:
 | To be able to contact the owners of the website for more information. | The footer offers the user the option to ring or email the owners at the tap of a button. This footer is present on each page. The phone number and email are listed on the Shop page and these links open in a phone app and email app respectively when clicked. | [Footer Icons Image](assets/images/readme/footer.png) |
 | **Returning Visitors** | | |
 | To be able to easily locate information previously found. | Each page of the website has its content clearly separated into sections with headings. | |
-| To find up to date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | [Courses Image](assets/images/readme/section-courses.png) |
+| To find up-to-date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | [Courses Image](assets/images/readme/section-courses.png) |
 | To find out where the website owners are based. | The footer contains a map icon link to show the location of the beekeeping group on Google Maps. | |
 | To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeeper and large images draw the attention of the user to their item of interest. | [Products Image](assets/images/readme/section-products.png) |
 | **Frequent Visitors** | | |
-| To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page there is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | [Honey Link Image](assets/images/readme/invite-honey.png) |
+| To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | [Honey Link Image](assets/images/readme/invite-honey.png) |
 
 ### Full Testing
 The website was fully tested on a Windows 10 desktop with a 26" monitor and a One Plus 9 Pro. Other types of devices were tested using Chrome Developer Tools.
@@ -332,7 +332,7 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 | Email Input Field | If the user attempts to submit the form with no text before the @ symbol, the user is prompted to add text before the @ symbol before continuing. | Submit button clicked with no text present before the @ symbol in the input field. | Form does not submit and an alert reminds the user to add text *after* the @ symbol in the input field. | Soft Pass |
 | Date of Birth Input Field | When no date is entered by the user, the form will not submit and a reminder to fill in the field will display. | No date entered by user and submit button clicked. | Form does not submit and reminder message displays | Pass |
 | Date of Birth Input Field | When an invalid date is entered by the user, the form will not submit and a reminder to enter a date earlier than 07/12/2005 will display. | A date later than 07/12/2005 was entered by user and submit button clicked. | Form does not submit and reminder message displays. | Pass |
-| Courses Radio Buttons | When a given course is selected, the previously selected course in unselected | The user clicked each of the radio buttons in turn. | Only one course button was able to selected at any one time. | Pass |
+| Courses Radio Buttons | When a given course is selected, the previously selected course is unselected | The user clicked each of the radio buttons in turn. | Only one course button was able to be selected at any one time. | Pass |
 | Submit Button | When clicked, the user is redirected to the Thank You page. | Button clicked | Redirected to Thank You page | Pass |
 | Footer Phone icon | When clicked, the user is redirected to a phone app or program with the number autofilled | Icon clicked | Phone app opened with number autofilled | Pass |
 | Footer Email icon | When clicked, the user is redirected to an email app with the email address populated in the To: field | Icon clicked | Email app opened with email in To: field | Pass |
@@ -366,10 +366,10 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 - [form.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-form.png) - Passed.
 - [thank-you.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-thank-you.png) - Passed.
 - [404.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-404.png) - Passed. The trailing slash in the self-closing `<img/>` element is flagged as having no effect.
-- [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.png) - Passed with no errors and [two warnings](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css-warnings.png). The warnings are related to vendor extensions.
+- [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.png) - Passed with no errors and [two warnings](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css-warnings.png). The warnings are related to vendor extensions which are no longer called due to the addition of fixed width and height attributes discussed in [Mobile Tests](#Mobile-Tests) below. I have not removed them from the CSS code as they are related to a bug that was encountered and resolved which is discussed below in [Solved Bugs](#Solved-Bugs).
 
 ### Lighthouse Testing
-The Lighthouse feature in Chrome Developer Tools was used to test the performace, accessibility, best practices, and search engine optimisation of the website.
+The Lighthouse feature in Chrome Developer Tools was used to test the performance, accessibility, best practices, and search engine optimisation of the website.
 
 #### Desktop Tests
 All tests in desktop mode were satisfactory with scores between 92 and 100.
@@ -399,12 +399,12 @@ Thank You page:
 ![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.png)
 
 #### Mobile Tests
-Mobile tests were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images on the index and courses pages to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance score for index.html only improved by 3 points, and the score for courses.html actually dropped by 6 points. 
+Mobile tests were all satisfactory in the Accessibility, Best Practices, and SEO categories. The Performance scores for mobile were lower than desktop, initially ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images on the index and courses pages to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance score for index.html only improved by 3 points, and the score for courses.html actually dropped by 6 points. 
 
-After discussing the issue with CI mentor in the third meeting:
-- I improved the Performance score for index.html to 90 by using the smaller images and setting their widths and heights to different fixed values in media queries for different screen sizes; however, the quality of the image in the Irish Honey Bee section looked too pixelated on larger screen and overall this detracted from the user experience and quality of the webpage. This was a disappointing and frustrating result as I tried to achieve all green scores on Lighthouse for mobile. I decided that it was more important to deliver a good user experience, and kept the higher quality image of the honey bee as the final version. The final Performance score for index.html was 88.
-- I similarly added new media query CSS style for the courses page and resized its four images to 425px wide, their maximum size for the largest screens. The best performance score achievable was 83.
-- New fixed dimensions were set for the shop images and they were resized to 222px square. The new final Performace score was 91.
+After discussing the issue with my CI mentor in the third meeting:
+- I improved the Performance score for index.html to 90 by only using the smaller images and setting their widths and heights to different fixed values in media queries for different screen sizes; however, the quality of the image in the Irish Honey Bee section looked too pixelated on larger screens and overall this detracted from the user experience and quality of the webpage. This was a disappointing and frustrating result as I tried to achieve all green scores on Lighthouse for mobile. I decided that it was more important to deliver a good user experience, and kept the higher quality image of the honey bee as the final version. The final Performance score for index.html was 88.
+- I similarly added new media query CSS styles for the courses page and resized its four images to 425px wide, their maximum size for the largest screens. The best performance score achievable was 83.
+- New fixed dimensions were set for the shop images and they were resized to 222px square. The new final Performance score was 91.
 
 Index page:
 
@@ -479,7 +479,7 @@ Thank You page:
 ![Lighthouse Test - Mobile 404.hmtl](assets/images/readme/testing/lighthouse-404-mobile.png)
 
 ### Accessibility Testing
-[Wave](https://wave.webaim.org/) was used to check for errors and issues related to accessibilty for all the pages on the site.
+[Wave](https://wave.webaim.org/) was used to check for errors and issues related to accessibility for all the pages on the site.
 
 The results for each page are shown below. 
 
@@ -519,15 +519,15 @@ The results for each page are shown below.
 
 </details>
 
-All pages passed with no errors save for the Thank You page which flagged the timed redirect as an error. Since this an intended feature of the page, this error was not regarded as a failing point for the page's Wave test. The redirects adds to the user experience as the page does not contain any other relevant information for the user that would require them to spend any significant time browsing it.
+All pages passed with no errors save for the Thank You page which flagged the timed redirect as an error. Since this is an intended feature of the page, this error was not regarded as a failing point for the page's Wave test. The redirect adds to the user experience as the page does not contain any other relevant information for the user that would require them to spend any significant time browsing it.
 
 ![Thank-you.html Error](assets/images/readme/testing/wave-thank-you-error.png)
 
-Some pages had alerts for justified paragraph text. The issues that can arise from this, namely varying word spacing and 'rivers of white', were not observed on the website. For this reason, I did not remove the justified style.
+Some pages had alerts for justified paragraph text. The issues that can arise from this, namely varying word spacing and 'rivers of white', were not observed on the website. For this reason and the fact that the paragraphs look most presentable this way, I did not remove the justified style.
 
 ![Justified Text Alert](assets/images/readme/testing/wave-justify.png)
 
-The courses page had alerts for three redundant links. These are the links to the form page: 1 link in each of the two available beginner course boxes, 1 in the available intermediate course box, and 1 in the Call-to-Action button at the bottom of the page. As these duplicate links are part of the design of the page, they were not removed. With the use of Javascript in the future, the selection of the different links could also pre-select options in a future version of the form.
+The courses page had alerts for three redundant links. These are the links to the form page: 1 link in each of the two available beginner course boxes, 1 in the available intermediate course box, and 1 in the Call-to-Action button at the bottom of the page. As these duplicate links are part of the design of the page and are each present in a different context, they were not removed. With the use of Javascript in the future, the selection of the different links could also pre-select options in a future version of the form.
 
 ![Redundant Links Alert](assets/images/readme/testing/wave-redundant.PNG)
 
@@ -546,9 +546,9 @@ The courses page had alerts for three redundant links. These are the links to th
 | 3 | When tilting the mobile screen or using larger width displays, the H1 element was finding itself positioned outside the limits of the header. | ![Navbar H1 position bug](assets/images/readme/bugs/bug003-h1-overflow.png) | I set the parent div to `display: flex` to ensure it stayed positioned inside the header and also utilised `flex-grow: 2` to visually centre the H1 in the new flex layout. This also seemed to solve Bug #2 when removing the `overflow:hidden` property added above. |
 | 4 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, on some occasions only the fourth div wrapped onto the second row and was shown much larger than the other three divs. This bug was encountered on the Edge and Firefox browsers when viewed on a 26" monitor. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.png) | The `flex-basis` value for the divs was changed from a fixed pixel width to a percentage of the viewport width. The bug could not be replicated in testing after making this change. |
 | 5 | When using Mozilla Firefox, the browser forced the first image on the homepage to shrink to ~ 0.25 times its intended size on screen sizes of 768px wide and greater. | [1. Mozilla Firefox Image](assets/images/readme/bugs/bug005-moz-image.png) [2. Mozilla Inspect Element Image](assets/images/readme/bugs/bug005-moz-inspect.png) | The existing CSS attributes of `width: 50%` and `width: 33%` for the images on tablet and desktop screen sizes respectively were changed to `min-width: 50%` and `min-width: 33%`. I found this solution by experimenting with the Developer Tools in-browser. | 
-| 6 | On Mozilla Firefox, the four images in the Why Become a Beekeeper section did not display at the expected size on desktop widths when compared to other browsers. | ![Mozilla Image Width Inconsistency](assets/images/readme/bugs/bug006-moz-cropped.png) | Using the Inspect tool on Mozilla Firefox, I added the attribute of `-moz-available` and the desired image sizes were achieved. I leared that the previous width attribute of `-webkit-fill-available` only works on Chrome-based browers. |
+| 6 | On Mozilla Firefox, the four images in the Why Become a Beekeeper section did not display at the expected size on desktop widths when compared to other browsers. | ![Mozilla Image Width Inconsistency](assets/images/readme/bugs/bug006-moz-cropped.png) | Using the Inspect tool on Mozilla Firefox, I added the attribute of `-moz-available` and the desired image sizes were achieved. I learned that the previous width attribute of `-webkit-fill-available` only works on Chrome-based browsers. |
 
-Note: After efforts to improve the lighthouse scores were made, as explaned in the above section, the code that initially casued bugs #4 #5 and #6 was removed or superceded in the final version of the website. 
+Note: After efforts to improve the lighthouse scores were made, as explained in the above section, the code that initially caused bugs #4 #5 and #6 was either removed or superseded by new code in the final version of the website. 
 
 ## Credits
 
@@ -581,7 +581,7 @@ All images were found on [Pexels](https://www.pexels.com/), [Unsplash](https://u
 - 404 Page: [Cartoon Beehive](https://www.flaticon.com/free-icon/beehive_9421227)
 
 ## Acknowledgements
-I would like to Acknowledge the following people for their help and support during the completion of my first portfolio project.
+I would like to acknowledge the following people for their help and support during the completion of my first portfolio project.
 - My Code Institute mentor [Graeme Taylor](https://github.com/G-Taylor) who gave great encouragement and advice throughout. 
 - [Creating Your First README - Kera Cudmore](https://github.com/kera-cudmore/readme-examples)
 - Robin Hublard for his moral support and friendship.
