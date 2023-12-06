@@ -18,6 +18,7 @@ Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/b
     - [Typography](#Typography)
     - [Imagery](#Imagery)
     - [Wireframes](#Wireframes)
+      -[Responsiveness](#Responsiveness)
     - [Features](#Features)
     - [Accessibility](#Accessibility)
 - [Technologies Used](#Technologies-Used)
@@ -82,6 +83,33 @@ Some basic wireframes were created for desktop and mobile for the homepage. This
 ![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-1.PNG)
 ![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-2.PNG)
 ![Balsamiq Wireframe for Mobile](assets/images/readme/mobile-wireframe.PNG)
+
+#### Responsiveness
+Based on the wireframes, I decided that where on mobile the elements should be arranged in a column direction, on larger screens, the content would align in rows where appropriate to utilise the white space available. Some comparison images are shown below.
+
+<details><summary>Index Page - Section 1</summary>
+
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/responsive-1.PNG)
+
+</details>
+
+<details><summary>Index Page - Section 3</summary>
+
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/responsive-2.PNG)
+
+</details>
+
+<details><summary>Courses Page - Beginner Course</summary>
+
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/responsive-2.PNG)
+
+</details>
+
+<details><summary>Shop Page - Beginner Course</summary>
+
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/responsive-4.PNG)
+
+</details>
 
 ### Features
 The website is comprised of six pages. Three are accessible from the main navigation bar: the Home page, Courses page, and Shop Page. The fourth is the Form page, accessible via call-to-action buttons at the bottom of each of the above three pages, and also via links in the list of available courses. The Fifth page is the Thank You page which the user sees once they complete the form itself. The sixth and final page is a 404 page.
@@ -518,6 +546,8 @@ The courses page had alerts for three redundant links. These are the links to th
 | 4 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, on some occasions only the fourth div wrapped onto the second row and was shown much larger than the other three divs. This bug was encountered on the Edge and Firefox browsers when viewed on a 26" monitor. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | The `flex-basis` value for the divs was changed from a fixed pixel width to a percentage of the viewport width. The bug could not be replicated in testing after making this change. |
 | 5 | When using Mozilla Firefox, the browser forced the first image on the homepage to shrink to ~ 0.25 times its intended size on screen sizes of 768px wide and greater. | [1. Mozilla Firefox Image](assets/images/readme/bugs/bug005-moz-image.PNG) [2. Mozilla Inspect Element Image](assets/images/readme/bugs/bug005-moz-inspect.PNG) | The existing CSS attributes of `width: 50%` and `width: 33%` for the images on tablet and desktop screen sizes respectively were changed to `min-width: 50%` and `min-width: 33%`. I found this solution by experimenting with the Developer Tools in-browser. | 
 | 6 | On Mozilla Firefox, the four images in the Why Become a Beekeeper section did not display at the expected size on desktop widths when compared to other browsers. | ![Mozilla Image Width Inconsistency](assets/images/readme/bugs/bug006-moz-cropped.PNG) | Using the Inspect tool on Mozilla Firefox, I added the attribute of `-moz-available` and the desired image sizes were achieved. I leared that the previous width attribute of `-webkit-fill-available` only works on Chrome-based browers. |
+
+Note: After efforts to improve the lighthouse scores were made, as explaned in the above section, the code that initially casued bugs #4 #5 and #6 was removed in the final version of the website. 
 
 ## Credits
 
