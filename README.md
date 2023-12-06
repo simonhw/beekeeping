@@ -2,7 +2,7 @@
 
 This website is designed to be responsive for users visiting on different-sized devices. It enables users to learn about bees and beekeeping and encourages visitors to register for beekeeping courses.
 
-![Amiresponsive Screenshot](assets/images/readme/wcb-amiresponsive.PNG)
+![Amiresponsive Screenshot](assets/images/readme/wcb-amiresponsive.png)
 
 Live website on Github Pages: [West Cork Beekeeping](https://simonhw.github.io/beekeeping/index)
 
@@ -70,8 +70,8 @@ The website uses a palette of simple colours inkeeping with its minimalist desig
 ### Typography
 An imported Google Font, Alegreya Sans, was used for this website. Font weights of 400 and 700 were chosen for standard and bold text options. This particular font was chosen as it evoked feelings of a friendly and welcoming nature. 
 
-![Alegreya Sands font 400 weight](assets/images/readme/alegreya-sans-400.PNG)
-![Alegreya Sands font 700 weight](assets/images/readme/alegreya-sans-700.PNG)
+![Alegreya Sands font 400 weight](assets/images/readme/alegreya-sans-400.png)
+![Alegreya Sands font 700 weight](assets/images/readme/alegreya-sans-700.png)
 
 ### Imagery
 Imagery was chosen that showed beekeepers working with the types of equipment that users would expect to see if they enrol in a beekeeping course. It was difficult to find free-to-use images that showed environments reflecting the local climate of West Cork, so this was rated as a lower priority characteristic compared to finding images that showed people enjoying themselves and that were different enough from each other to not have to repeat any across the site.
@@ -79,9 +79,9 @@ Imagery was chosen that showed beekeepers working with the types of equipment th
 ### Wireframes
 Some basic wireframes were created for desktop and mobile for the homepage. This gave a basic starting point from which the greater website then took shape. The original ideas were adapted and evolved as coding progressed throughout the project timeline. 
 
-![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-1.PNG)
-![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-2.PNG)
-![Balsamiq Wireframe for Mobile](assets/images/readme/mobile-wireframe.PNG)
+![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-1.png)
+![Balsamiq Wireframe for Desktop](assets/images/readme/desktop-wireframe-2.png)
+![Balsamiq Wireframe for Mobile](assets/images/readme/mobile-wireframe.png)
 
 #### Responsiveness
 Based on the wireframes, I decided that where on mobile the elements should be arranged in a column direction, on larger screens, the content would align in rows where appropriate to utilise the white space available. Some comparison images are shown below.
@@ -116,48 +116,48 @@ The website is comprised of six pages. Three are accessible from the main naviga
 #### All pages on the website have:
 - A favicon of a honey bee.
 
-![Honey Bee Favicon](assets/images/readme/favicons.PNG)
+![Honey Bee Favicon](assets/images/readme/favicons.png)
 
 - A navigation bar at the top allowing the user to move between the three main pages. As there are only three pages, the same format is used for the navigation bar on mobile screens. It was decided that the use of a dropdown menu by clicking a burger icon detracted from the aesthetic look of the header with its background image and centred heading.
 
-![Navigation Bar screenshot](assets/images/readme/navigation-bar.PNG)
+![Navigation Bar screenshot](assets/images/readme/navigation-bar.png)
 
 - A footer at the bottom of the page containing three icon links to a phone number, email, and Google Maps location. This was determined to be more beneficial to the user than social media links and tied in well with the goals of the website to encourage users to get in touch and register for beekeeping courses.
 
-![Footer screenshot](assets/images/readme/footer.PNG)
+![Footer screenshot](assets/images/readme/footer.png)
 
 #### The Home page
 - A heading welcomes the user to the site followed by a summary of the motivation and intentions of the website owners. This immediately gives the user an idea of what to expect from the rest of the website. A picture of three beekeepers posing in their suits conveys a sense of fun and camaraderie to the user.
 
-![About Us screenshot](assets/images/readme/section-about-us.PNG)
+![About Us screenshot](assets/images/readme/section-about-us.png)
 
 - A second section briefly describes the role honey bees play in the environment and the challenges currently faced by them. This section ends with a call-to-action of sorts and places at the front of the user's mind the idea that becoming a beekeeper is a noble and worthwhile pursuit. A closeup image of a bee collecting nectar from a flower is nestled between the two paragraphs of this section. Its bright colours and focus on the bee itself should evoke thoughts about the beauty and importance of the honey bee in nature while also making the user think about its fragility as a small creature worthy of our care.
 
-![About Bees screenshot](assets/images/readme/section-about-bees.PNG)
+![About Bees screenshot](assets/images/readme/section-about-bees.png)
 
 - A third and final section consists of two sets of short descriptive sentences and associated images and headings. These two sections invite the user to either navigate to the Courses page to learn more about the beekeeping courses, or to visit the Shop page to purchase honey. The images are the links, and when viewed on mobiles and tablets, the final sentence says "*Tap the image to learn more*", while on desktops it says "*Click the image to learn more*". This was achieved with the use of spans.
 - At the bottom of this page and the two other main pages, a call-to-action link takes the user directly to the Form page to register for a beekeeping course. This link allows a returning user to navigate directly to the registration form without having to click other links to get there. The yellow colour was chosen to draw attention to the user and signify that it is something distinct from other content on this page.
 
-![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.PNG)
+![Short Descriptions screenshot](assets/images/readme/section-short-descriptions-call-to-action.png)
 
 #### The Courses page
 - The first section lists the two different levels of courses offered. Beginner courses are listed first with information on the duration and times the courses start. An overview of the structure of the courses follows with distinct boxes listing upcoming courses. The most recent sold out courses at each level are still shown on this page to convey to the user that there is already interest and that they should not delay in booking their place. The Intermediate course information is presented next with the same structure as described above. These sections will be updated as time goes on to keep users up to date with availibility.
 
-![Upcoming Courses screenshot](assets/images/readme/section-courses.PNG)
+![Upcoming Courses screenshot](assets/images/readme/section-courses.png)
 
 - A second section aims to convince the undecided user that they should register their interest in an upcoming course. Four reasons to become a beekeeper are listed with accompanying imagery chosen to evoke thoughts of fun, relaxation, peacefulness, and enjoyment.
 - A final paragraph reminds the user that becoming a beekeeper requires time and effort but reassures them that it is a worthwhile endeavour.
 
-![Why Become a Beekeeper screenshot](assets/images/readme/section-why.PNG)
+![Why Become a Beekeeper screenshot](assets/images/readme/section-why.png)
 
 #### The Shop page
 - An introductory paragraph informs the user of the payment process for products on this page as well as delivery terms and discounts for course graduates. A contact number and email are listed, distinct from each other, below the paragraph to offer the returning user quick access should they desire to contact the owners.
 
-![Shop screenshot](assets/images/readme/section-shop.PNG)
+![Shop screenshot](assets/images/readme/section-shop.png)
 
 - Boxes show the available products with short descriptions and an accompanying image. These boxes will be displayed in single or multiple columns based on the screen width of the user.
 
-![Products screenshot](assets/images/readme/section-products.PNG)
+![Products screenshot](assets/images/readme/section-products.png)
 
 #### The Form page
 - A simple layout seeks only the minimum necessary information from the user. This style of layout is intended to make the user experience straightforward and quick, as very few people want to spend time filling out multiple form fields.
@@ -165,17 +165,17 @@ The website is comprised of six pages. Three are accessible from the main naviga
 - Radio buttons limit the user to only registering for one available course at a time. The next available beginner course is selected by default.
 - A button underneath the fieldset submits the user's details when clicked; however, it will only allow the user to do so if they have completed all the input fields correctly. If any information is missing or the format is incorrect, the website will direct the user to the problem area.
 
-![Form screenshot](assets/images/readme/section-registration.PNG)
+![Form screenshot](assets/images/readme/section-registration.png)
 
 #### The Thank You page
 - The Thank You page is intended to confirm to the user that their information has been received and informs them of an acknowledgement email they will receive. This page will automatically redirect to the homepage after 10 seconds and the user is informed of this. Should this redirect fail for any reason, the user is instructed to use the nav bar links to get back to the main website.
 
-![Thank You page screenshot](assets/images/readme/thank-you-page.PNG)
+![Thank You page screenshot](assets/images/readme/thank-you-page.png)
 
 #### The 404 page
 - The customised 404 page is included in the root folder for fun. The cartoon beehive was edited in Adobe Photoshop to include two 4's in the Alegreya Sans font. This gives the effect of '404' when combined with the hole in the beehive.
 
-![404 Page Screenshot](assets/images/readme/404-page.PNG)
+![404 Page Screenshot](assets/images/readme/404-page.png)
 
 #### Features To Be Implemented
 - Add mouse hover effect on laptop and dekstop screens: CSS styling will darken the two images at the bottom of index.html and display white text above the darkened area saying "*Learn more about courses*" and "*Browse our shop*" respectively for both images.
@@ -256,16 +256,16 @@ To deploy this project locally on your own device, follow the below steps:
 | User Stories | Achieved by: | Supporting Images |
 | --- | --- | --- |
 | **First-time Visitors** | | |
-| To understand what the purpose of the website is. | The main heading of "West Cork Beekeeping" communicates the location and activity presented by the website without any ambiguity. The nav bar contains links for "Courses" and "Shop" which immediately communicate to the user that the website offers services. The final section on the home page invites the user to either enrol in a course or browse the shop. | [Navbar and Heading Image](assets/images/readme/navigation-bar.PNG)|
+| To understand what the purpose of the website is. | The main heading of "West Cork Beekeeping" communicates the location and activity presented by the website without any ambiguity. The nav bar contains links for "Courses" and "Shop" which immediately communicate to the user that the website offers services. The final section on the home page invites the user to either enrol in a course or browse the shop. | [Navbar and Heading Image](assets/images/readme/navigation-bar.png)|
 | To easily navigate between the pages and find what I'm looking for. | The nav bar is present on each page and does not change in style. The links are succinctly named "Home", "Courses", and "Shop". | |
-| To be able to contact the owners of the website for more information. | The footer offers the user the option to ring or email the owners at the tap of a button. This footer is present on each page. The phone number and email are listed on the Shop page and these links open in a phone app and email app respectively when clicked. | [Footer Icons Image](assets/images/readme/footer.PNG) |
+| To be able to contact the owners of the website for more information. | The footer offers the user the option to ring or email the owners at the tap of a button. This footer is present on each page. The phone number and email are listed on the Shop page and these links open in a phone app and email app respectively when clicked. | [Footer Icons Image](assets/images/readme/footer.png) |
 | **Returning Visitors** | | |
 | To be able to easily locate information previously found. | Each page of the website has its content clearly separated into sections with headings. | |
-| To find up to date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | [Courses Image](assets/images/readme/section-courses.PNG) |
+| To find up to date information on beekeeping courses. | The course page lists the upcoming courses clearly and is updated as the courses become booked out. | [Courses Image](assets/images/readme/section-courses.png) |
 | To find out where the website owners are based. | The footer contains a map icon link to show the location of the beekeeping group on Google Maps. | |
-| To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeeper and large images draw the attention of the user to their item of interest. | [Products Image](assets/images/readme/section-products.PNG) |
+| To be able to purchase beekeeping equipment I need. | The Shop page shows relevant products for the prospective beekeeper and large images draw the attention of the user to their item of interest. | [Products Image](assets/images/readme/section-products.png) |
 | **Frequent Visitors** | | |
-| To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page there is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | [Honey Link Image](assets/images/readme/invite-honey.PNG) |
+| To be able to purchase honey when I need to. | The Shop link is immediately available to the user in the nav bar. At the bottom of the home page there is an image of honey jars on shelves which when clicked brings the user to the Shop page. The first product listed is the honey. | [Honey Link Image](assets/images/readme/invite-honey.png) |
 
 ### Full Testing
 The website was fully tested on a Windows 10 desktop with a 26" monitor and a One Plus 9 Pro. Other types of devices were tested using Chrome Developer Tools.
@@ -358,13 +358,13 @@ The site was tested on Google Chrome, Edge, and Mozilla Firefox on the desktop, 
 
 ### Automated Testing
 [W3C](https://validator.w3.org/) was used to validate the HTML on all website pages and the CSS stylesheet.
-- [index.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-index.PNG) - Passed. Trailing slashes in self-closing `<img/>` elements are flagged as having no effect.
-- [courses.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-courses.PNG) - Passed. Trailing slashes in self-closing `<img/>` elements are flagged as having no effect.
-- [shop.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-shop.PNG) - Passed. Trailing slashes in self-closing `<img/>` elements are flagged as having no effect.
-- [form.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-form.PNG) - Passed.
-- [thank-you.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-thank-you.PNG) - Passed.
-- [404.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-404.PNG) - Passed. The trailing slash in the self-closing `<img/>` element is flagged as having no effect.
-- [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.PNG) - Passed with no errors and [two warnings](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css-warnings.PNG). The warnings are related to vendor extensions.
+- [index.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-index.png) - Passed. Trailing slashes in self-closing `<img/>` elements are flagged as having no effect.
+- [courses.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-courses.png) - Passed. Trailing slashes in self-closing `<img/>` elements are flagged as having no effect.
+- [shop.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-shop.png) - Passed. Trailing slashes in self-closing `<img/>` elements are flagged as having no effect.
+- [form.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-form.png) - Passed.
+- [thank-you.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-thank-you.png) - Passed.
+- [404.html](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-404.png) - Passed. The trailing slash in the self-closing `<img/>` element is flagged as having no effect.
+- [style.css](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css.png) - Passed with no errors and [two warnings](https://github.com/simonhw/beekeeping/blob/main/assets/images/readme/testing/w3c-css-warnings.png). The warnings are related to vendor extensions.
 
 ### Lighthouse Testing
 The Lighthouse feature in Chrome Developer Tools was used to test the performace, accessibility, best practices, and search engine optimisation of the website.
@@ -374,27 +374,27 @@ All tests in desktop mode were satisfactory with scores between 92 and 100.
 
 Index page:
 
-![Lighthouse Test - Desktop index.hmtl](assets/images/readme/testing/lighthouse-index-desktop.PNG)
+![Lighthouse Test - Desktop index.hmtl](assets/images/readme/testing/lighthouse-index-desktop.png)
 
 Courses page:
 
-![Lighthouse Test - Desktop courses.hmtl](assets/images/readme/testing/lighthouse-courses-desktop.PNG)
+![Lighthouse Test - Desktop courses.hmtl](assets/images/readme/testing/lighthouse-courses-desktop.png)
 
 Shop page:
 
-![Lighthouse Test - Desktop shop.hmtl](assets/images/readme/testing/lighthouse-shop-desktop.PNG)
+![Lighthouse Test - Desktop shop.hmtl](assets/images/readme/testing/lighthouse-shop-desktop.png)
 
 Form page:
 
-![Lighthouse Test - Desktop form.hmtl](assets/images/readme/testing/lighthouse-form-desktop.PNG)
+![Lighthouse Test - Desktop form.hmtl](assets/images/readme/testing/lighthouse-form-desktop.png)
 
 Thank You page:
 
-![Lighthouse Test - Desktop thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-desktop.PNG)
+![Lighthouse Test - Desktop thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-desktop.png)
 
 404 page:
 
-![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.PNG)
+![Lighthouse Test - Desktop 404.hmtl](assets/images/readme/testing/lighthouse-404-desktop.png)
 
 #### Mobile Tests
 Mobile tests were all satisfactory in the Accessibilty, Best Practices, and SEO categories. The Performace scores for mobile were lower than desktop, ranging from 77 to 93. Lighthouse suggested improving this score by sizing images more appropriately.  I resized images on the index and courses pages to a maximum of 360px wide and added media queries to use these smaller images on mobile screens. The Lighthouse Performance score for index.html only improved by 3 points, and the score for courses.html actually dropped by 6 points. 
@@ -408,25 +408,25 @@ Index page:
 
 <details><summary>Initial Lighthouse Scores</summary>
 
-![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.PNG)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile.png)
 
 </details>
 
 <details><summary>Lighthouse Scores after resizing images</summary>
 
-![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-2.PNG)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-2.png)
 
 </details>
 
 <details><summary>Lighthouse Scores after setting fixed dimensions and using all the smaller images</summary>
 
-![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-3.PNG)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-3.png)
 
 </details>
 
 <details open><summary>Final Lighthouse Scores after re-inserting the larger-sized image of the bee.</summary>
 
-![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-4.PNG)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/lighthouse-index-mobile-4.png)
 
 </details>
 
@@ -434,19 +434,19 @@ Courses page:
 
 <details><summary>Initial Lighthouse Scores</summary>
 
-![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile.PNG)
+![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile.png)
 
 </details>
 
 <details><summary>Lighthouse Scores after resizing images</summary>
 
-![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile-2.PNG)
+![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile-2.png)
 
 </details>
 
 <details open><summary>Final Lighthouse Scores after setting fixed dimensions and replacing images with smaller files.</summary>
 
-![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile-3.PNG)
+![Lighthouse Test - Mobile courses.hmtl](assets/images/readme/testing/lighthouse-courses-mobile-3.png)
 
 </details>
 
@@ -454,27 +454,27 @@ Shop page:
 
 <details><summary>Initial Lighthouse Scores</summary>
 
-![Lighthouse Test - Mobile shop.hmtl](assets/images/readme/testing/lighthouse-shop-mobile.PNG)
+![Lighthouse Test - Mobile shop.hmtl](assets/images/readme/testing/lighthouse-shop-mobile.png)
 
 </details>
 
 <details open><summary>Final Lighthouse Scores</summary>
 
-![Lighthouse Test - Mobile shop.hmtl](assets/images/readme/testing/lighthouse-shop-mobile-2.PNG)
+![Lighthouse Test - Mobile shop.hmtl](assets/images/readme/testing/lighthouse-shop-mobile-2.png)
 
 </details>
 
 Form page:
 
-![Lighthouse Test - Mobile form.hmtl](assets/images/readme/testing/lighthouse-form-mobile.PNG)
+![Lighthouse Test - Mobile form.hmtl](assets/images/readme/testing/lighthouse-form-mobile.png)
 
 Thank You page:
 
-![Lighthouse Test - Mobile thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-mobile.PNG)
+![Lighthouse Test - Mobile thank-you.hmtl](assets/images/readme/testing/lighthouse-thankyou-mobile.png)
 
 404 page:
 
-![Lighthouse Test - Mobile 404.hmtl](assets/images/readme/testing/lighthouse-404-mobile.PNG)
+![Lighthouse Test - Mobile 404.hmtl](assets/images/readme/testing/lighthouse-404-mobile.png)
 
 ### Accessibility Testing
 [Wave](https://wave.webaim.org/) was used to check for errors and issues related to accessibilty for all the pages on the site.
@@ -483,47 +483,47 @@ The results for each page are shown below.
 
 <details><summary>Index.html Wave tests</summary>
 
-![Index.html Wave tests](assets/images/readme/testing/wave-index.PNG)
+![Index.html Wave tests](assets/images/readme/testing/wave-index.png)
 
 </details>
 
 <details><summary>Courses.html Wave tests</summary>
 
-![Courses.html Wave tests](assets/images/readme/testing/wave-courses.PNG)
+![Courses.html Wave tests](assets/images/readme/testing/wave-courses.png)
 
 </details>
 
 <details><summary>Shop.html Wave tests</summary>
 
-![Shop.html Wave tests](assets/images/readme/testing/wave-shop.PNG)
+![Shop.html Wave tests](assets/images/readme/testing/wave-shop.png)
 
 </details>
 
 <details><summary>Form.html Wave tests</summary>
 
-![Form.html Wave tests](assets/images/readme/testing/wave-form.PNG)
+![Form.html Wave tests](assets/images/readme/testing/wave-form.png)
 
 </details>
 
 <details><summary>Thank-you.html Wave tests</summary>
 
-![Thank-you.html Wave tests](assets/images/readme/testing/wave-thank-you.PNG)
+![Thank-you.html Wave tests](assets/images/readme/testing/wave-thank-you.png)
 
 </details>
 
 <details><summary>404.html Wave tests</summary>
 
-![404.html Wave tests](assets/images/readme/testing/wave-404.PNG)
+![404.html Wave tests](assets/images/readme/testing/wave-404.png)
 
 </details>
 
 All pages passed with no errors save for the Thank You page which flagged the timed redirect as an error. Since this an intended feature of the page, this error was not regarded as a failing point for the page's Wave test. The redirects adds to the user experience as the page does not contain any other relevant information for the user that would require them to spend any significant time browsing it.
 
-![Thank-you.html Error](assets/images/readme/testing/wave-thank-you-error.PNG)
+![Thank-you.html Error](assets/images/readme/testing/wave-thank-you-error.png)
 
 Some pages had alerts for justified paragraph text. The issues that can arise from this, namely varying word spacing and 'rivers of white', were not observed on the website. For this reason, I did not remove the justified style.
 
-![Justified Text Alert](assets/images/readme/testing/wave-justify.PNG)
+![Justified Text Alert](assets/images/readme/testing/wave-justify.png)
 
 The courses page had alerts for three redundant links. These are the links to the form page: 1 link in each of the two available beginner course boxes, 1 in the available intermediate course box, and 1 in the Call-to-Action button at the bottom of the page. As these duplicate links are part of the design of the page, they were not removed. With the use of Javascript in the future, the selection of the different links could also pre-select options in a future version of the form.
 
@@ -540,13 +540,13 @@ The courses page had alerts for three redundant links. These are the links to th
 | # | Bug | Image | Solution |
 | --- | --- | --- | --- |
 | 1 | While creating the navbar unordered list, there was an unspecified left padding of 40px discovered which was pushing the nav links visually off center. | ![Navbar padding bug](assets/images/readme/bugs/bug001-nav-padding.PNG) | The solution was to force all padding for the element to 0px in the CSS stylesheet. |
-|2|The first element in the header (the div containing the navbar) has a value of 5px for margin-top. This seemed to result in pushing the entire header down leaving an empty white space equal to 5px in height. | ![Navbar margin bug](assets/images/readme/bugs/bug002-nav-margin.PNG) | Adding the property `overflow:hidden` to the div resolved the problem. Solution found on [Stack Overflow](https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down) |
-| 3 | When tilting the mobile screen or using larger width displays, the H1 element was finding itself positioned outside the limits of the header. | ![Navbar H1 position bug](assets/images/readme/bugs/bug003-h1-overflow.PNG) | I set the parent div to `display: flex` to ensure it stayed positioned inside the header and also utilised `flex-grow: 2` to visually centre the H1 in the new flex layout. This also seemed to solve Bug #2 when removing the `overflow:hidden` property added above. |
-| 4 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, on some occasions only the fourth div wrapped onto the second row and was shown much larger than the other three divs. This bug was encountered on the Edge and Firefox browsers when viewed on a 26" monitor. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.PNG) | The `flex-basis` value for the divs was changed from a fixed pixel width to a percentage of the viewport width. The bug could not be replicated in testing after making this change. |
-| 5 | When using Mozilla Firefox, the browser forced the first image on the homepage to shrink to ~ 0.25 times its intended size on screen sizes of 768px wide and greater. | [1. Mozilla Firefox Image](assets/images/readme/bugs/bug005-moz-image.PNG) [2. Mozilla Inspect Element Image](assets/images/readme/bugs/bug005-moz-inspect.PNG) | The existing CSS attributes of `width: 50%` and `width: 33%` for the images on tablet and desktop screen sizes respectively were changed to `min-width: 50%` and `min-width: 33%`. I found this solution by experimenting with the Developer Tools in-browser. | 
-| 6 | On Mozilla Firefox, the four images in the Why Become a Beekeeper section did not display at the expected size on desktop widths when compared to other browsers. | ![Mozilla Image Width Inconsistency](assets/images/readme/bugs/bug006-moz-cropped.PNG) | Using the Inspect tool on Mozilla Firefox, I added the attribute of `-moz-available` and the desired image sizes were achieved. I leared that the previous width attribute of `-webkit-fill-available` only works on Chrome-based browers. |
+|2|The first element in the header (the div containing the navbar) has a value of 5px for margin-top. This seemed to result in pushing the entire header down leaving an empty white space equal to 5px in height. | ![Navbar margin bug](assets/images/readme/bugs/bug002-nav-margin.png) | Adding the property `overflow:hidden` to the div resolved the problem. Solution found on [Stack Overflow](https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down) |
+| 3 | When tilting the mobile screen or using larger width displays, the H1 element was finding itself positioned outside the limits of the header. | ![Navbar H1 position bug](assets/images/readme/bugs/bug003-h1-overflow.png) | I set the parent div to `display: flex` to ensure it stayed positioned inside the header and also utilised `flex-grow: 2` to visually centre the H1 in the new flex layout. This also seemed to solve Bug #2 when removing the `overflow:hidden` property added above. |
+| 4 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, on some occasions only the fourth div wrapped onto the second row and was shown much larger than the other three divs. This bug was encountered on the Edge and Firefox browsers when viewed on a 26" monitor. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.png) | The `flex-basis` value for the divs was changed from a fixed pixel width to a percentage of the viewport width. The bug could not be replicated in testing after making this change. |
+| 5 | When using Mozilla Firefox, the browser forced the first image on the homepage to shrink to ~ 0.25 times its intended size on screen sizes of 768px wide and greater. | [1. Mozilla Firefox Image](assets/images/readme/bugs/bug005-moz-image.png) [2. Mozilla Inspect Element Image](assets/images/readme/bugs/bug005-moz-inspect.png) | The existing CSS attributes of `width: 50%` and `width: 33%` for the images on tablet and desktop screen sizes respectively were changed to `min-width: 50%` and `min-width: 33%`. I found this solution by experimenting with the Developer Tools in-browser. | 
+| 6 | On Mozilla Firefox, the four images in the Why Become a Beekeeper section did not display at the expected size on desktop widths when compared to other browsers. | ![Mozilla Image Width Inconsistency](assets/images/readme/bugs/bug006-moz-cropped.png) | Using the Inspect tool on Mozilla Firefox, I added the attribute of `-moz-available` and the desired image sizes were achieved. I leared that the previous width attribute of `-webkit-fill-available` only works on Chrome-based browers. |
 
-Note: After efforts to improve the lighthouse scores were made, as explaned in the above section, the code that initially casued bugs #4 #5 and #6 was removed in the final version of the website. 
+Note: After efforts to improve the lighthouse scores were made, as explaned in the above section, the code that initially casued bugs #4 #5 and #6 was removed or superceded in the final version of the website. 
 
 ## Credits
 
