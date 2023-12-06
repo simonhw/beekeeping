@@ -161,6 +161,8 @@ The website is comprised of six pages. Three are accessible from the main naviga
 
 #### The Form page
 - A simple layout seeks only the minimum necessary information from the user. This style of layout is intended to make the user experience straightforward and quick, as very few people want to spend time filling out multiple form fields.
+- All fields have placeholder text denoting that input is required.
+- The phone number field's placeholder text shows the user the expected format of their phone number: All numbers with no spaces or hyphens, and a maximum of ten digits.
 - The input fields only accept the expected type of input; the date of birth field does not allow a user under the age of 18 to register.
 - Radio buttons limit the user to only registering for one available course at a time. The next available beginner course is selected by default.
 - A button underneath the fieldset submits the user's details when clicked; however, it will only allow the user to do so if they have completed all the input fields correctly. If any information is missing or the format is incorrect, the website will direct the user to the problem area.
