@@ -100,11 +100,11 @@ Based on the wireframes, I decided that where on mobile the elements should be a
 
 <details><summary>Courses Page - Beginner Course</summary>
 
-![Lighthouse Test - Mobile index.hmtl](assets/images/readme/responsive-2.png)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/responsive-3.png)
 
 </details>
 
-<details><summary>Shop Page - Beginner Course</summary>
+<details><summary>Shop Page</summary>
 
 ![Lighthouse Test - Mobile index.hmtl](assets/images/readme/responsive-4.png)
 
