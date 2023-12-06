@@ -529,7 +529,7 @@ Some pages had alerts for justified paragraph text. The issues that can arise fr
 
 The courses page had alerts for three redundant links. These are the links to the form page: 1 link in each of the two available beginner course boxes, 1 in the available intermediate course box, and 1 in the Call-to-Action button at the bottom of the page. As these duplicate links are part of the design of the page and are each present in a different context, they were not removed. With the use of Javascript in the future, the selection of the different links could also pre-select options in a future version of the form.
 
-![Redundant Links Alert](assets/images/readme/testing/wave-redundant.PNG)
+![Redundant Links Alert](assets/images/readme/testing/wave-redundant.png)
 
 ## Bugs
 ### Known Bugs
@@ -541,7 +541,7 @@ The courses page had alerts for three redundant links. These are the links to th
 ### Solved Bugs
 | # | Bug | Image | Solution |
 | --- | --- | --- | --- |
-| 1 | While creating the navbar unordered list, there was an unspecified left padding of 40px discovered which was pushing the nav links visually off center. | ![Navbar padding bug](assets/images/readme/bugs/bug001-nav-padding.PNG) | The solution was to force all padding for the element to 0px in the CSS stylesheet. |
+| 1 | While creating the navbar unordered list, there was an unspecified left padding of 40px discovered which was pushing the nav links visually off center. | ![Navbar padding bug](assets/images/readme/bugs/bug001-nav-padding.png) | The solution was to force all padding for the element to 0px in the CSS stylesheet. |
 |2|The first element in the header (the div containing the navbar) has a value of 5px for margin-top. This seemed to result in pushing the entire header down leaving an empty white space equal to 5px in height. | ![Navbar margin bug](assets/images/readme/bugs/bug002-nav-margin.png) | Adding the property `overflow:hidden` to the div resolved the problem. Solution found on [Stack Overflow](https://stackoverflow.com/questions/2680478/margin-top-push-outer-div-down) |
 | 3 | When tilting the mobile screen or using larger width displays, the H1 element was finding itself positioned outside the limits of the header. | ![Navbar H1 position bug](assets/images/readme/bugs/bug003-h1-overflow.png) | I set the parent div to `display: flex` to ensure it stayed positioned inside the header and also utilised `flex-grow: 2` to visually centre the H1 in the new flex layout. This also seemed to solve Bug #2 when removing the `overflow:hidden` property added above. |
 | 4 | The four divs in the Why Become a Beekeeper section arrange themselves in a 2x2 grid for screen widths of 768px and greater; however, on some occasions only the fourth div wrapped onto the second row and was shown much larger than the other three divs. This bug was encountered on the Edge and Firefox browsers when viewed on a 26" monitor. | ![Navbar padding bug](assets/images/readme/bugs/bug004-why-divs.png) | The `flex-basis` value for the divs was changed from a fixed pixel width to a percentage of the viewport width. The bug could not be replicated in testing after making this change. |
