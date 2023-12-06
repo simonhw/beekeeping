@@ -404,7 +404,7 @@ Mobile tests were all satisfactory in the Accessibility, Best Practices, and SEO
 After discussing the issue with my CI mentor in the third meeting:
 - I improved the Performance score for index.html to 90 by only using the smaller images and setting their widths and heights to different fixed values in media queries for different screen sizes; however, the quality of the image in the Irish Honey Bee section looked too pixelated on larger screens and overall this detracted from the user experience and quality of the webpage. This was a disappointing and frustrating result as I tried to achieve all green scores on Lighthouse for mobile. I decided that it was more important to deliver a good user experience, and kept the higher quality image of the honey bee as the final version. The final Performance score for index.html was 88.
 - I similarly added new media query CSS styles for the courses page and resized its four images to 425px wide, their maximum size for the largest screens. The best performance score achievable was 83.
-- New fixed dimensions were set for the shop images and they were resized to 222px square and the new Performance score was 91. The image of the beekeeper suit however looked a little pixellated and in my option detracted from the user experience. I re-inserted the higher-resolution image and the final Performace score for shop.html was 88.
+- New fixed dimensions were set for the shop images and they were resized to 222px square. This resulted in an improved Performance score of 91; however, the image of the beekeeper suit looked a little pixellated and in my option detracted from the user experience. I re-inserted the higher-resolution image and the final Performace score for shop.html was 84.
 
 Index page:
 
