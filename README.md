@@ -88,25 +88,25 @@ Based on the wireframes, I decided that where on mobile the elements should be a
 
 <details><summary>Index Page - Section 1</summary>
 
-![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/responsive-1.png)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/responsive-1.png)
 
 </details>
 
 <details><summary>Index Page - Section 3</summary>
 
-![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/responsive-2.png)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/responsive-2.png)
 
 </details>
 
 <details><summary>Courses Page - Beginner Course</summary>
 
-![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/responsive-2.png)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/responsive-2.png)
 
 </details>
 
 <details><summary>Shop Page - Beginner Course</summary>
 
-![Lighthouse Test - Mobile index.hmtl](assets/images/readme/testing/responsive-4.png)
+![Lighthouse Test - Mobile index.hmtl](assets/images/readme/responsive-4.png)
 
 </details>
 
